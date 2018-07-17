@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="HotelSelector.ascx.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Control.Selectors.HotelSelector" %>
+<asp:Label runat="server" ID="LblTitle"></asp:Label><asp:DropDownList ID="DdlHotel" runat="server"></asp:DropDownList>

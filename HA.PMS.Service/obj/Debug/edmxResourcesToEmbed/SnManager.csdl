@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Sys_SndatabaseModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Sys_SndatabaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Table_SnManager" EntityType="Sys_SndatabaseModel.Table_SnManager" />
+  </EntityContainer>
+  <EntityType Name="Table_SnManager">
+    <Key>
+      <PropertyRef Name="SnID" />
+    </Key>
+    <Property Type="Int32" Name="SnID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Sn" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CpuID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DiskID" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="false" Precision="0" />
+    <Property Type="DateTime" Name="CreateTime" Nullable="false" Precision="3" />
+    <Property Type="Int32" Name="CreateEmpLoyee" />
+    <Property Type="String" Name="EmpLoyeeUpdate" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SHA1" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MD5" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IsClose" />
+    <Property Type="Boolean" Name="FirstCreate" Nullable="false" />
+    <Property Type="String" Name="Customer" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="OverDate" Precision="3" />
+    <Property Type="String" Name="Word1" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Word2" MaxLength="8" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

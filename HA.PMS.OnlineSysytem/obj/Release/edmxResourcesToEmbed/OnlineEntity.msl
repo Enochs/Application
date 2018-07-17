@@ -1,0 +1,2169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PMS_WeddingModelStoreContainer" CdmEntityContainer="PMS_WeddingEntities">
+    <EntitySetMapping Name="FL_Cost">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Cost">
+        <MappingFragment StoreEntitySet="FL_Cost">
+          <ScalarProperty Name="IsLock" ColumnName="IsLock" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="ProfitMargin" ColumnName="ProfitMargin" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CostKey" ColumnName="CostKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_FinishTargetSum">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_FinishTargetSum">
+        <MappingFragment StoreEntitySet="FL_FinishTargetSum">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Unite" ColumnName="Unite" />
+          <ScalarProperty Name="PlanSum" ColumnName="PlanSum" />
+          <ScalarProperty Name="MonthFinish12" ColumnName="MonthFinish12" />
+          <ScalarProperty Name="MonthPlan12" ColumnName="MonthPlan12" />
+          <ScalarProperty Name="MonthFinish11" ColumnName="MonthFinish11" />
+          <ScalarProperty Name="MonthPlan11" ColumnName="MonthPlan11" />
+          <ScalarProperty Name="MonthFinish10" ColumnName="MonthFinish10" />
+          <ScalarProperty Name="MonthPlan10" ColumnName="MonthPlan10" />
+          <ScalarProperty Name="MonthFinish9" ColumnName="MonthFinish9" />
+          <ScalarProperty Name="MonthPlan9" ColumnName="MonthPlan9" />
+          <ScalarProperty Name="MonthFinish8" ColumnName="MonthFinish8" />
+          <ScalarProperty Name="MonthPlan8" ColumnName="MonthPlan8" />
+          <ScalarProperty Name="MonthFinish7" ColumnName="MonthFinish7" />
+          <ScalarProperty Name="MonthPlan7" ColumnName="MonthPlan7" />
+          <ScalarProperty Name="MonthFinish6" ColumnName="MonthFinish6" />
+          <ScalarProperty Name="MonthPlan6" ColumnName="MonthPlan6" />
+          <ScalarProperty Name="MonthFinish5" ColumnName="MonthFinish5" />
+          <ScalarProperty Name="MonthPlan5" ColumnName="MonthPlan5" />
+          <ScalarProperty Name="MonthFinish4" ColumnName="MonthFinish4" />
+          <ScalarProperty Name="MonthPlan4" ColumnName="MonthPlan4" />
+          <ScalarProperty Name="MonthFinish3" ColumnName="MonthFinish3" />
+          <ScalarProperty Name="MonthPlan3" ColumnName="MonthPlan3" />
+          <ScalarProperty Name="MonthFinish2" ColumnName="MonthFinish2" />
+          <ScalarProperty Name="MonthPlan2" ColumnName="MonthPlan2" />
+          <ScalarProperty Name="MonthFinsh1" ColumnName="MonthFinsh1" />
+          <ScalarProperty Name="MonthPlan1" ColumnName="MonthPlan1" />
+          <ScalarProperty Name="OverYearFinishSum" ColumnName="OverYearFinishSum" />
+          <ScalarProperty Name="LastYearFinishSum" ColumnName="LastYearFinishSum" />
+          <ScalarProperty Name="FinishSum" ColumnName="FinishSum" />
+          <ScalarProperty Name="OveryearRate" ColumnName="OveryearRate" />
+          <ScalarProperty Name="LastYearCompletionrate" ColumnName="LastYearCompletionrate" />
+          <ScalarProperty Name="Completionrate" ColumnName="Completionrate" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="CreateEmployeeID" ColumnName="CreateEmployeeID" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="TargetTitle" ColumnName="TargetTitle" />
+          <ScalarProperty Name="TargetID" ColumnName="TargetID" />
+          <ScalarProperty Name="FinishKey" ColumnName="FinishKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_DepartmentTarget">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_DepartmentTarget">
+        <MappingFragment StoreEntitySet="View_DepartmentTarget">
+          <ScalarProperty Name="MonthFinish12" ColumnName="MonthFinish12" />
+          <ScalarProperty Name="MonthPlan12" ColumnName="MonthPlan12" />
+          <ScalarProperty Name="MonthFinish11" ColumnName="MonthFinish11" />
+          <ScalarProperty Name="MonthPlan11" ColumnName="MonthPlan11" />
+          <ScalarProperty Name="MonthFinish10" ColumnName="MonthFinish10" />
+          <ScalarProperty Name="MonthPlan10" ColumnName="MonthPlan10" />
+          <ScalarProperty Name="MonthFinish9" ColumnName="MonthFinish9" />
+          <ScalarProperty Name="MonthPlan9" ColumnName="MonthPlan9" />
+          <ScalarProperty Name="MonthFinish8" ColumnName="MonthFinish8" />
+          <ScalarProperty Name="MonthPlan8" ColumnName="MonthPlan8" />
+          <ScalarProperty Name="MonthFinish7" ColumnName="MonthFinish7" />
+          <ScalarProperty Name="MonthPlan7" ColumnName="MonthPlan7" />
+          <ScalarProperty Name="MonthFinish6" ColumnName="MonthFinish6" />
+          <ScalarProperty Name="MonthPlan6" ColumnName="MonthPlan6" />
+          <ScalarProperty Name="MonthFinish5" ColumnName="MonthFinish5" />
+          <ScalarProperty Name="MonthPlan5" ColumnName="MonthPlan5" />
+          <ScalarProperty Name="MonthFinish4" ColumnName="MonthFinish4" />
+          <ScalarProperty Name="MonthPlan4" ColumnName="MonthPlan4" />
+          <ScalarProperty Name="MonthFinish3" ColumnName="MonthFinish3" />
+          <ScalarProperty Name="MonthPlan3" ColumnName="MonthPlan3" />
+          <ScalarProperty Name="MonthFinish2" ColumnName="MonthFinish2" />
+          <ScalarProperty Name="MonthPlan2" ColumnName="MonthPlan2" />
+          <ScalarProperty Name="MonthFinsh1" ColumnName="MonthFinsh1" />
+          <ScalarProperty Name="MonthPlan1" ColumnName="MonthPlan1" />
+          <ScalarProperty Name="TargetTitle" ColumnName="TargetTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_DispatchingDegreeOfSatisfaction">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_DispatchingDegreeOfSatisfaction">
+        <MappingFragment StoreEntitySet="View_DispatchingDegreeOfSatisfaction">
+          <ScalarProperty Name="BlindDateSite" ColumnName="BlindDateSite" />
+          <ScalarProperty Name="Eldersrequirements" ColumnName="Eldersrequirements" />
+          <ScalarProperty Name="HowKonw" ColumnName="HowKonw" />
+          <ScalarProperty Name="KonwSite" ColumnName="KonwSite" />
+          <ScalarProperty Name="Turning" ColumnName="Turning" />
+          <ScalarProperty Name="IntentStyle" ColumnName="IntentStyle" />
+          <ScalarProperty Name="GroomHobby" ColumnName="GroomHobby" />
+          <ScalarProperty Name="BrideHobby" ColumnName="BrideHobby" />
+          <ScalarProperty Name="ParentDispatchingID" ColumnName="ParentDispatchingID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="IsCost" ColumnName="IsCost" />
+          <ScalarProperty Name="IsAppraise" ColumnName="IsAppraise" />
+          <ScalarProperty Name="Isover" ColumnName="Isover" />
+          <ScalarProperty Name="IsBegin" ColumnName="IsBegin" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CelebrationID" ColumnName="CelebrationID" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+          <ScalarProperty Name="DegreeResult" ColumnName="DegreeResult" />
+          <ScalarProperty Name="DofDate" ColumnName="DofDate" />
+          <ScalarProperty Name="DofContent" ColumnName="DofContent" />
+          <ScalarProperty Name="SumDof" ColumnName="SumDof" />
+          <ScalarProperty Name="DofKey" ColumnName="DofKey" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_EmployeeTarget">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_EmployeeTarget">
+        <MappingFragment StoreEntitySet="View_EmployeeTarget">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Unite" ColumnName="Unite" />
+          <ScalarProperty Name="PlanSum" ColumnName="PlanSum" />
+          <ScalarProperty Name="MonthFinish12" ColumnName="MonthFinish12" />
+          <ScalarProperty Name="MonthPlan12" ColumnName="MonthPlan12" />
+          <ScalarProperty Name="MonthFinish11" ColumnName="MonthFinish11" />
+          <ScalarProperty Name="MonthPlan11" ColumnName="MonthPlan11" />
+          <ScalarProperty Name="MonthFinish10" ColumnName="MonthFinish10" />
+          <ScalarProperty Name="MonthPlan10" ColumnName="MonthPlan10" />
+          <ScalarProperty Name="MonthFinish9" ColumnName="MonthFinish9" />
+          <ScalarProperty Name="MonthPlan9" ColumnName="MonthPlan9" />
+          <ScalarProperty Name="MonthFinish8" ColumnName="MonthFinish8" />
+          <ScalarProperty Name="MonthPlan8" ColumnName="MonthPlan8" />
+          <ScalarProperty Name="MonthFinish7" ColumnName="MonthFinish7" />
+          <ScalarProperty Name="MonthPlan7" ColumnName="MonthPlan7" />
+          <ScalarProperty Name="MonthFinish6" ColumnName="MonthFinish6" />
+          <ScalarProperty Name="MonthPlan6" ColumnName="MonthPlan6" />
+          <ScalarProperty Name="MonthFinish5" ColumnName="MonthFinish5" />
+          <ScalarProperty Name="MonthPlan5" ColumnName="MonthPlan5" />
+          <ScalarProperty Name="MonthFinish4" ColumnName="MonthFinish4" />
+          <ScalarProperty Name="MonthPlan4" ColumnName="MonthPlan4" />
+          <ScalarProperty Name="MonthFinish3" ColumnName="MonthFinish3" />
+          <ScalarProperty Name="MonthPlan3" ColumnName="MonthPlan3" />
+          <ScalarProperty Name="MonthFinish2" ColumnName="MonthFinish2" />
+          <ScalarProperty Name="MonthPlan2" ColumnName="MonthPlan2" />
+          <ScalarProperty Name="MonthFinsh1" ColumnName="MonthFinsh1" />
+          <ScalarProperty Name="MonthPlan1" ColumnName="MonthPlan1" />
+          <ScalarProperty Name="OverYearFinishSum" ColumnName="OverYearFinishSum" />
+          <ScalarProperty Name="LastYearFinishSum" ColumnName="LastYearFinishSum" />
+          <ScalarProperty Name="FinishSum" ColumnName="FinishSum" />
+          <ScalarProperty Name="OveryearRate" ColumnName="OveryearRate" />
+          <ScalarProperty Name="LastYearCompletionrate" ColumnName="LastYearCompletionrate" />
+          <ScalarProperty Name="Completionrate" ColumnName="Completionrate" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="CreateEmployeeID" ColumnName="CreateEmployeeID" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="TargetTitle" ColumnName="TargetTitle" />
+          <ScalarProperty Name="TargetID" ColumnName="TargetID" />
+          <ScalarProperty Name="FinishKey" ColumnName="FinishKey" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetCost">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetCost">
+        <MappingFragment StoreEntitySet="View_GetCost">
+          <ScalarProperty Name="IsLock" ColumnName="IsLock" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="ProfitMargin" ColumnName="ProfitMargin" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetCostItem">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetCostItem">
+        <MappingFragment StoreEntitySet="View_GetCostItem">
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ProfitMargin" ColumnName="ProfitMargin" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="KindType" ColumnName="KindType" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="ActualWorkload" ColumnName="ActualWorkload" />
+          <ScalarProperty Name="CostKey" ColumnName="CostKey" />
+          <ScalarProperty Name="InsideRemark" ColumnName="InsideRemark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Expenseaccount" ColumnName="Expenseaccount" />
+          <ScalarProperty Name="ActualExpenditure" ColumnName="ActualExpenditure" />
+          <ScalarProperty Name="PlannedExpenditure" ColumnName="PlannedExpenditure" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="KindID" ColumnName="KindID" />
+          <ScalarProperty Name="CostID" ColumnName="CostID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetDefrreSatisaction">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetDefrreSatisaction">
+        <MappingFragment StoreEntitySet="View_GetDefrreSatisaction">
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="DofKey" ColumnName="DofKey" />
+          <ScalarProperty Name="PlanDate" ColumnName="PlanDate" />
+          <ScalarProperty Name="UpdateEmployeeID" ColumnName="UpdateEmployeeID" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CdState" ColumnName="CdState" />
+          <ScalarProperty Name="DegreeResult" ColumnName="DegreeResult" />
+          <ScalarProperty Name="CdDelete" ColumnName="CdDelete" />
+          <ScalarProperty Name="DofDate" ColumnName="DofDate" />
+          <ScalarProperty Name="DofContent" ColumnName="DofContent" />
+          <ScalarProperty Name="SumDof" ColumnName="SumDof" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetDegreeOfSatisfaction">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetDegreeOfSatisfaction">
+        <MappingFragment StoreEntitySet="View_GetDegreeOfSatisfaction">
+          <ScalarProperty Name="DofKey" ColumnName="DofKey" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="PlanDate" ColumnName="PlanDate" />
+          <ScalarProperty Name="UpdateEmployeeID" ColumnName="UpdateEmployeeID" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="DegreeResult" ColumnName="DegreeResult" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="DofDate" ColumnName="DofDate" />
+          <ScalarProperty Name="DofContent" ColumnName="DofContent" />
+          <ScalarProperty Name="SumDof" ColumnName="SumDof" />
+          <ScalarProperty Name="AssessId" ColumnName="AssessId" />
+          <ScalarProperty Name="TypeKey" ColumnName="TypeKey" />
+          <ScalarProperty Name="ItemKey" ColumnName="ItemKey" />
+          <ScalarProperty Name="StationContent" ColumnName="StationContent" />
+          <ScalarProperty Name="AssessName" ColumnName="AssessName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetInviteCompletetoEnd">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetInviteCompletetoEnd">
+        <MappingFragment StoreEntitySet="View_GetInviteCompletetoEnd">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="FinishAmount" ColumnName="FinishAmount" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetMember">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetMember">
+        <MappingFragment StoreEntitySet="View_GetMember">
+          <ScalarProperty Name="BlindDateSite" ColumnName="BlindDateSite" />
+          <ScalarProperty Name="Eldersrequirements" ColumnName="Eldersrequirements" />
+          <ScalarProperty Name="HowKonw" ColumnName="HowKonw" />
+          <ScalarProperty Name="KonwSite" ColumnName="KonwSite" />
+          <ScalarProperty Name="Turning" ColumnName="Turning" />
+          <ScalarProperty Name="IntentStyle" ColumnName="IntentStyle" />
+          <ScalarProperty Name="GroomHobby" ColumnName="GroomHobby" />
+          <ScalarProperty Name="BrideHobby" ColumnName="BrideHobby" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="ServiceType" ColumnName="ServiceType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetMissionSum">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetMissionSum">
+        <MappingFragment StoreEntitySet="View_GetMissionSum">
+          <ScalarProperty Name="NewSum" ColumnName="NewSum" />
+          <ScalarProperty Name="WaitDoingSum" ColumnName="WaitDoingSum" />
+          <ScalarProperty Name="DoingSum" ColumnName="DoingSum" />
+          <ScalarProperty Name="FinishRatio" ColumnName="FinishRatio" />
+          <ScalarProperty Name="FinishSUm" ColumnName="FinishSUm" />
+          <ScalarProperty Name="FlowSum" ColumnName="FlowSum" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetSupplierforCarrytask">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetSupplierforCarrytask">
+        <MappingFragment StoreEntitySet="View_GetSupplierforCarrytask">
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetSupplierProduct">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetSupplierProduct">
+        <MappingFragment StoreEntitySet="View_GetSupplierProduct">
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Explain" ColumnName="Explain" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="SalePrice" ColumnName="SalePrice" />
+          <ScalarProperty Name="PurchasePrice" ColumnName="PurchasePrice" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Specifications" ColumnName="Specifications" />
+          <ScalarProperty Name="ProjectCategory" ColumnName="ProjectCategory" />
+          <ScalarProperty Name="ProductCategory" ColumnName="ProductCategory" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="KindID" ColumnName="KindID" />
+          <ScalarProperty Name="Keys" ColumnName="Keys" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetWeddingPlanMission">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetWeddingPlanMission">
+        <MappingFragment StoreEntitySet="View_GetWeddingPlanMission">
+          <ScalarProperty Name="FinishState" ColumnName="FinishState" />
+          <ScalarProperty Name="ImageAddress" ColumnName="ImageAddress" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CategoryItem" ColumnName="CategoryItem" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="PlanDelete" ColumnName="PlanDelete" />
+          <ScalarProperty Name="Requirement" ColumnName="Requirement" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="PlanFinishDate" ColumnName="PlanFinishDate" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="ParentCategoryID" ColumnName="ParentCategoryID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="PlanningID" ColumnName="PlanningID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_MyGoalTargetType">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_MyGoalTargetType">
+        <MappingFragment StoreEntitySet="View_MyGoalTargetType">
+          <ScalarProperty Name="TargetType" ColumnName="TargetType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="Goal" ColumnName="Goal" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="TargetValue" ColumnName="TargetValue" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="TargetTypeId" ColumnName="TargetTypeId" />
+          <ScalarProperty Name="CreateEmployeeId" ColumnName="CreateEmployeeId" />
+          <ScalarProperty Name="GoalId" ColumnName="GoalId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_Employee">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_Employee">
+        <MappingFragment StoreEntitySet="Sys_Employee">
+          <ScalarProperty Name="CurrentLocation" ColumnName="CurrentLocation" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="IsLoading" ColumnName="IsLoading" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Look" ColumnName="Look" />
+          <ScalarProperty Name="Coach" ColumnName="Coach" />
+          <ScalarProperty Name="PlanChecks" ColumnName="PlanChecks" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="QQ" ColumnName="QQ" />
+          <ScalarProperty Name="TelPhone" ColumnName="TelPhone" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="Employeekey" ColumnName="Employeekey" />
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="BornDate" ColumnName="BornDate" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="LoginDay" ColumnName="LoginDay" />
+          <ScalarProperty Name="LoginMonth" ColumnName="LoginMonth" />
+          <ScalarProperty Name="LoginYear" ColumnName="LoginYear" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeTypeID" ColumnName="EmployeeTypeID" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_Department">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_Department">
+        <MappingFragment StoreEntitySet="Sys_Department">
+          <ScalarProperty Name="DataSource" ColumnName="DataSource" />
+          <ScalarProperty Name="ItemLevel" ColumnName="ItemLevel" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="DepartmentManager" ColumnName="DepartmentManager" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="createTime" ColumnName="createTime" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_UserJurisdiction">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_UserJurisdiction">
+        <MappingFragment StoreEntitySet="Sys_UserJurisdiction">
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="DataPowerMd5Key" ColumnName="DataPowerMd5Key" />
+          <ScalarProperty Name="DataPower" ColumnName="DataPower" />
+          <ScalarProperty Name="Dispatching" ColumnName="Dispatching" />
+          <ScalarProperty Name="ChecksEmployee" ColumnName="ChecksEmployee" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="JurisdictionID" ColumnName="JurisdictionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_CostforEmpLoyee">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_CostforEmpLoyee">
+        <MappingFragment StoreEntitySet="FL_CostforEmpLoyee">
+          <ScalarProperty Name="EmpLoyeeName" ColumnName="EmpLoyeeName" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CostKey" ColumnName="CostKey" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="AccountClass" ColumnName="AccountClass" />
+          <ScalarProperty Name="InsideRemark" ColumnName="InsideRemark" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="Costkeys" ColumnName="Costkeys" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_OrderfinalCost">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_OrderfinalCost">
+        <MappingFragment StoreEntitySet="FL_OrderfinalCost">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="KindType" ColumnName="KindType" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="ActualWorkload" ColumnName="ActualWorkload" />
+          <ScalarProperty Name="CostKey" ColumnName="CostKey" />
+          <ScalarProperty Name="InsideRemark" ColumnName="InsideRemark" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Expenseaccount" ColumnName="Expenseaccount" />
+          <ScalarProperty Name="ActualExpenditure" ColumnName="ActualExpenditure" />
+          <ScalarProperty Name="PlannedExpenditure" ColumnName="PlannedExpenditure" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="KindID" ColumnName="KindID" />
+          <ScalarProperty Name="CostID" ColumnName="CostID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MissionDetailed">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MissionDetailed">
+        <MappingFragment StoreEntitySet="FL_MissionDetailed">
+          <ScalarProperty Name="ReturnKey" ColumnName="ReturnKey" />
+          <ScalarProperty Name="MissionState" ColumnName="MissionState" />
+          <ScalarProperty Name="CreateEmployeeID" ColumnName="CreateEmployeeID" />
+          <ScalarProperty Name="IsLook" ColumnName="IsLook" />
+          <ScalarProperty Name="MissionType" ColumnName="MissionType" />
+          <ScalarProperty Name="AppraiseUrl" ColumnName="AppraiseUrl" />
+          <ScalarProperty Name="AppraiseImage" ColumnName="AppraiseImage" />
+          <ScalarProperty Name="AppraiseLevel" ColumnName="AppraiseLevel" />
+          <ScalarProperty Name="AppraiseContent" ColumnName="AppraiseContent" />
+          <ScalarProperty Name="IsOver" ColumnName="IsOver" />
+          <ScalarProperty Name="CreateEmployeeName" ColumnName="CreateEmployeeName" />
+          <ScalarProperty Name="FinishKey" ColumnName="FinishKey" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ChecksChangeNode" ColumnName="ChecksChangeNode" />
+          <ScalarProperty Name="ChangeNode" ColumnName="ChangeNode" />
+          <ScalarProperty Name="PlanDate" ColumnName="PlanDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="ChecksNode" ColumnName="ChecksNode" />
+          <ScalarProperty Name="ChecksDate" ColumnName="ChecksDate" />
+          <ScalarProperty Name="ChecksState" ColumnName="ChecksState" />
+          <ScalarProperty Name="StarDate" ColumnName="StarDate" />
+          <ScalarProperty Name="FinishFile" ColumnName="FinishFile" />
+          <ScalarProperty Name="FinishNode" ColumnName="FinishNode" />
+          <ScalarProperty Name="Attachment" ColumnName="Attachment" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="Emergency" ColumnName="Emergency" />
+          <ScalarProperty Name="Countdown" ColumnName="Countdown" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="ChecksEmployee" ColumnName="ChecksEmployee" />
+          <ScalarProperty Name="FinishStandard" ColumnName="FinishStandard" />
+          <ScalarProperty Name="WorkNode" ColumnName="WorkNode" />
+          <ScalarProperty Name="MissionName" ColumnName="MissionName" />
+          <ScalarProperty Name="MissionID" ColumnName="MissionID" />
+          <ScalarProperty Name="DetailedID" ColumnName="DetailedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MissionManager">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MissionManager">
+        <MappingFragment StoreEntitySet="FL_MissionManager">
+          <ScalarProperty Name="IsAppraise" ColumnName="IsAppraise" />
+          <ScalarProperty Name="IsOver" ColumnName="IsOver" />
+          <ScalarProperty Name="TimerEnd" ColumnName="TimerEnd" />
+          <ScalarProperty Name="TimerStar" ColumnName="TimerStar" />
+          <ScalarProperty Name="CheckState" ColumnName="CheckState" />
+          <ScalarProperty Name="CheckEmpLoyeeID" ColumnName="CheckEmpLoyeeID" />
+          <ScalarProperty Name="IsCheck" ColumnName="IsCheck" />
+          <ScalarProperty Name="CheckContent" ColumnName="CheckContent" />
+          <ScalarProperty Name="MissionType" ColumnName="MissionType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="MissionTitle" ColumnName="MissionTitle" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="MissionID" ColumnName="MissionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_CustomerReturnVisit">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_CustomerReturnVisit">
+        <MappingFragment StoreEntitySet="FL_CustomerReturnVisit">
+          <ScalarProperty Name="ReturnforDate" ColumnName="ReturnforDate" />
+          <ScalarProperty Name="ReturnforEmployee" ColumnName="ReturnforEmployee" />
+          <ScalarProperty Name="ReturnforFile" ColumnName="ReturnforFile" />
+          <ScalarProperty Name="NodeforEmployee" ColumnName="NodeforEmployee" />
+          <ScalarProperty Name="NodeforFile" ColumnName="NodeforFile" />
+          <ScalarProperty Name="NextComeDate" ColumnName="NextComeDate" />
+          <ScalarProperty Name="StateformEmployee" ColumnName="StateformEmployee" />
+          <ScalarProperty Name="StateforFile" ColumnName="StateforFile" />
+          <ScalarProperty Name="ReurnState" ColumnName="ReurnState" />
+          <ScalarProperty Name="Satisfaction" ColumnName="Satisfaction" />
+          <ScalarProperty Name="ReturnEmployee" ColumnName="ReturnEmployee" />
+          <ScalarProperty Name="ReturnRecoder" ColumnName="ReturnRecoder" />
+          <ScalarProperty Name="ReturnResult" ColumnName="ReturnResult" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ReturnId" ColumnName="ReturnId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_EmpLoyeeMissionSum">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_EmpLoyeeMissionSum">
+        <MappingFragment StoreEntitySet="FL_EmpLoyeeMissionSum">
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Updatetime" ColumnName="Updatetime" />
+          <ScalarProperty Name="NewSum" ColumnName="NewSum" />
+          <ScalarProperty Name="WaitDoingSum" ColumnName="WaitDoingSum" />
+          <ScalarProperty Name="DoingSum" ColumnName="DoingSum" />
+          <ScalarProperty Name="FinishRatio" ColumnName="FinishRatio" />
+          <ScalarProperty Name="FinishSUm" ColumnName="FinishSUm" />
+          <ScalarProperty Name="FlowSum" ColumnName="FlowSum" />
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="FSKey" ColumnName="FSKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MakeCollections">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MakeCollections">
+        <MappingFragment StoreEntitySet="FL_MakeCollections">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="MakeID" ColumnName="MakeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Message">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Message">
+        <MappingFragment StoreEntitySet="FL_Message">
+          <ScalarProperty Name="CreateEmployeename" ColumnName="CreateEmployeename" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsLook" ColumnName="IsLook" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="MissionID" ColumnName="MissionID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="MessAgeTitle" ColumnName="MessAgeTitle" />
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MessageBoard">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MessageBoard">
+        <MappingFragment StoreEntitySet="FL_MessageBoard">
+          <ScalarProperty Name="CreateEmpLoyeeName" ColumnName="CreateEmpLoyeeName" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="MessAgeContent" ColumnName="MessAgeContent" />
+          <ScalarProperty Name="MessageBoardID" ColumnName="MessageBoardID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MissionChange">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MissionChange">
+        <MappingFragment StoreEntitySet="FL_MissionChange">
+          <ScalarProperty Name="IsChangeMission" ColumnName="IsChangeMission" />
+          <ScalarProperty Name="MissionType" ColumnName="MissionType" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="KeyWords" ColumnName="KeyWords" />
+          <ScalarProperty Name="ChecksEmployee" ColumnName="ChecksEmployee" />
+          <ScalarProperty Name="MissionName" ColumnName="MissionName" />
+          <ScalarProperty Name="MissionID" ColumnName="MissionID" />
+          <ScalarProperty Name="DetailedID" ColumnName="DetailedID" />
+          <ScalarProperty Name="ChangeID" ColumnName="ChangeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_MissionSumup">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_MissionSumup">
+        <MappingFragment StoreEntitySet="FL_MissionSumup">
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Counselingadvice" ColumnName="Counselingadvice" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IsFinish" ColumnName="IsFinish" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="ImageType" ColumnName="ImageType" />
+          <ScalarProperty Name="SumUp" ColumnName="SumUp" />
+          <ScalarProperty Name="DetailedID" ColumnName="DetailedID" />
+          <ScalarProperty Name="MissionID" ColumnName="MissionID" />
+          <ScalarProperty Name="SumID" ColumnName="SumID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_OrderEarnestMoney">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_OrderEarnestMoney">
+        <MappingFragment StoreEntitySet="FL_OrderEarnestMoney">
+          <ScalarProperty Name="Isfinish" ColumnName="Isfinish" />
+          <ScalarProperty Name="FinishEmpLoyee" ColumnName="FinishEmpLoyee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="EarnestKey" ColumnName="EarnestKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_OrderMessage">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_OrderMessage">
+        <MappingFragment StoreEntitySet="FL_OrderMessage">
+          <ScalarProperty Name="CreateEmployeeID" ColumnName="CreateEmployeeID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="WorkMessAgeID" ColumnName="WorkMessAgeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_OrderProjectfileManager">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_OrderProjectfileManager">
+        <MappingFragment StoreEntitySet="FL_OrderProjectfileManager">
+          <ScalarProperty Name="CreateEmpLoyeeID" ColumnName="CreateEmpLoyeeID" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="FileURI" ColumnName="FileURI" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Target">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Target">
+        <MappingFragment StoreEntitySet="FL_Target">
+          <ScalarProperty Name="Unite" ColumnName="Unite" />
+          <ScalarProperty Name="ChannelName" ColumnName="ChannelName" />
+          <ScalarProperty Name="TargetType" ColumnName="TargetType" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="TargetTitle" ColumnName="TargetTitle" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="TargetID" ColumnName="TargetID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Telemarketing">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Telemarketing">
+        <MappingFragment StoreEntitySet="FL_Telemarketing">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="MarkeID" ColumnName="MarkeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_WarningMessage">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_WarningMessage">
+        <MappingFragment StoreEntitySet="FL_WarningMessage">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="FinishKey" ColumnName="FinishKey" />
+          <ScalarProperty Name="IsLook" ColumnName="IsLook" />
+          <ScalarProperty Name="managerEmployee" ColumnName="managerEmployee" />
+          <ScalarProperty Name="ResualtAddress" ColumnName="ResualtAddress" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="MessAgeTitle" ColumnName="MessAgeTitle" />
+          <ScalarProperty Name="WMID" ColumnName="WMID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_WeddingPlanFile">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_WeddingPlanFile">
+        <MappingFragment StoreEntitySet="FL_WeddingPlanFile">
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="FileAddress" ColumnName="FileAddress" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="PlanningID" ColumnName="PlanningID" />
+          <ScalarProperty Name="WFileid" ColumnName="WFileid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_WeddingPlanning">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_WeddingPlanning">
+        <MappingFragment StoreEntitySet="FL_WeddingPlanning">
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ImageAddress" ColumnName="ImageAddress" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CategoryItem" ColumnName="CategoryItem" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Requirement" ColumnName="Requirement" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="PlanFinishDate" ColumnName="PlanFinishDate" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="ParentCategoryID" ColumnName="ParentCategoryID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PlanningID" ColumnName="PlanningID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_Channel">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_Channel">
+        <MappingFragment StoreEntitySet="Sys_Channel">
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="OrderCode" ColumnName="OrderCode" />
+          <ScalarProperty Name="StyleSheethem" ColumnName="StyleSheethem" />
+          <ScalarProperty Name="ChannelGetType" ColumnName="ChannelGetType" />
+          <ScalarProperty Name="IsMenu" ColumnName="IsMenu" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ChannelAddress" ColumnName="ChannelAddress" />
+          <ScalarProperty Name="ChannelName" ColumnName="ChannelName" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_EmpLoyeeHigherups">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_EmpLoyeeHigherups">
+        <MappingFragment StoreEntitySet="Sys_EmpLoyeeHigherups">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="createTime" ColumnName="createTime" />
+          <ScalarProperty Name="FunctionCode" ColumnName="FunctionCode" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="UpKey" ColumnName="UpKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_EmployeeJob">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_EmployeeJob">
+        <MappingFragment StoreEntitySet="Sys_EmployeeJob">
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="createTime" ColumnName="createTime" />
+          <ScalarProperty Name="Jobname" ColumnName="Jobname" />
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_EmployeeType">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_EmployeeType">
+        <MappingFragment StoreEntitySet="Sys_EmployeeType">
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EmployeeTypeID" ColumnName="EmployeeTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_JurisdictionforButton">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_JurisdictionforButton">
+        <MappingFragment StoreEntitySet="Sys_JurisdictionforButton">
+          <ScalarProperty Name="IsClose" ColumnName="IsClose" />
+          <ScalarProperty Name="ChannelID" ColumnName="ChannelID" />
+          <ScalarProperty Name="ControlID" ColumnName="ControlID" />
+          <ScalarProperty Name="JurisdictionID" ColumnName="JurisdictionID" />
+          <ScalarProperty Name="ButtonKey" ColumnName="ButtonKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_TitleNode">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_TitleNode">
+        <MappingFragment StoreEntitySet="Sys_TitleNode">
+          <ScalarProperty Name="NodeButtom" ColumnName="NodeButtom" />
+          <ScalarProperty Name="NodeTop" ColumnName="NodeTop" />
+          <ScalarProperty Name="Keys" ColumnName="Keys" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_WeddingPlanning">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_WeddingPlanning">
+        <MappingFragment StoreEntitySet="Sys_WeddingPlanning">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="PlanningName" ColumnName="PlanningName" />
+          <ScalarProperty Name="PlanningID" ColumnName="PlanningID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_OrderReference">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_OrderReference">
+        <MappingFragment StoreEntitySet="FL_OrderReference">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="CreateEmployeeID" ColumnName="CreateEmployeeID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="StuContent" ColumnName="StuContent" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="NodeKeyID" ColumnName="NodeKeyID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_CostforOrder">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_CostforOrder">
+        <MappingFragment StoreEntitySet="FL_CostforOrder">
+          <ScalarProperty Name="LockEmployee" ColumnName="LockEmployee" />
+          <ScalarProperty Name="LockDate" ColumnName="LockDate" />
+          <ScalarProperty Name="Lock" ColumnName="Lock" />
+          <ScalarProperty Name="RowType" ColumnName="RowType" />
+          <ScalarProperty Name="FinishCost" ColumnName="FinishCost" />
+          <ScalarProperty Name="PlanCost" ColumnName="PlanCost" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Node" ColumnName="Node" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CostID" ColumnName="CostID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_CustomerQuoted">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_CustomerQuoted">
+        <MappingFragment StoreEntitySet="View_CustomerQuoted">
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+          <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+          <ScalarProperty Name="ContactType" ColumnName="ContactType" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="MissionManagerEmployee" ColumnName="MissionManagerEmployee" />
+          <ScalarProperty Name="LoseCheck" ColumnName="LoseCheck" />
+          <ScalarProperty Name="LoseNode" ColumnName="LoseNode" />
+          <ScalarProperty Name="Noneyremaining" ColumnName="Noneyremaining" />
+          <ScalarProperty Name="QuotedKind" ColumnName="QuotedKind" />
+          <ScalarProperty Name="LessenedAmount" ColumnName="LessenedAmount" />
+          <ScalarProperty Name="AddedAmount" ColumnName="AddedAmount" />
+          <ScalarProperty Name="QuotedTitle" ColumnName="QuotedTitle" />
+          <ScalarProperty Name="PakegTyper" ColumnName="PakegTyper" />
+          <ScalarProperty Name="PakegName" ColumnName="PakegName" />
+          <ScalarProperty Name="LoseCheckEmployee" ColumnName="LoseCheckEmployee" />
+          <ScalarProperty Name="BuyCheckEmployee" ColumnName="BuyCheckEmployee" />
+          <ScalarProperty Name="FlowerCheckEmployee" ColumnName="FlowerCheckEmployee" />
+          <ScalarProperty Name="MoneyCheckEmployee" ColumnName="MoneyCheckEmployee" />
+          <ScalarProperty Name="BuyCheck" ColumnName="BuyCheck" />
+          <ScalarProperty Name="MoneyCheck" ColumnName="MoneyCheck" />
+          <ScalarProperty Name="FlowerCheck" ColumnName="FlowerCheck" />
+          <ScalarProperty Name="SaleEmployee" ColumnName="SaleEmployee" />
+          <ScalarProperty Name="NextFlowDate" ColumnName="NextFlowDate" />
+          <ScalarProperty Name="FileCheck" ColumnName="FileCheck" />
+          <ScalarProperty Name="StarDispatching" ColumnName="StarDispatching" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="FinishAmount" ColumnName="FinishAmount" />
+          <ScalarProperty Name="HaveFile" ColumnName="HaveFile" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="QuotedType" ColumnName="QuotedType" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IsDispatching" ColumnName="IsDispatching" />
+          <ScalarProperty Name="ParentQuotedID" ColumnName="ParentQuotedID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="IsFirstCreate" ColumnName="IsFirstCreate" />
+          <ScalarProperty Name="RealAmount" ColumnName="RealAmount" />
+          <ScalarProperty Name="AggregateAmount" ColumnName="AggregateAmount" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+          <ScalarProperty Name="Dispatching" ColumnName="Dispatching" />
+          <ScalarProperty Name="ChecksEmployee" ColumnName="ChecksEmployee" />
+          <ScalarProperty Name="CheckState" ColumnName="CheckState" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="ChecksTitle" ColumnName="ChecksTitle" />
+          <ScalarProperty Name="ChecksContent" ColumnName="ChecksContent" />
+          <ScalarProperty Name="IsChecks" ColumnName="IsChecks" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_Dispatching">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_Dispatching">
+        <MappingFragment StoreEntitySet="View_Dispatching">
+          <ScalarProperty Name="AppraiseOver" ColumnName="AppraiseOver" />
+          <ScalarProperty Name="IsCost" ColumnName="IsCost" />
+          <ScalarProperty Name="IsAppraise" ColumnName="IsAppraise" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="FinishAmount" ColumnName="FinishAmount" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="AggregateAmount" ColumnName="AggregateAmount" />
+          <ScalarProperty Name="RealAmount" ColumnName="RealAmount" />
+          <ScalarProperty Name="QuotedEmpLoyee" ColumnName="QuotedEmpLoyee" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="ParentDispatchingID" ColumnName="ParentDispatchingID" />
+          <ScalarProperty Name="ParentCelebrationID" ColumnName="ParentCelebrationID" />
+          <ScalarProperty Name="Isover" ColumnName="Isover" />
+          <ScalarProperty Name="IsBegin" ColumnName="IsBegin" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Expr3" ColumnName="Expr3" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CelebrationID" ColumnName="CelebrationID" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="UseSate" ColumnName="UseSate" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetInviteCustomers">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetInviteCustomers">
+        <MappingFragment StoreEntitySet="View_GetInviteCustomers">
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+          <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+          <ScalarProperty Name="ContactType" ColumnName="ContactType" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="OrderEmpLoyeeID" ColumnName="OrderEmpLoyeeID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+          <ScalarProperty Name="ToEmpLoyee" ColumnName="ToEmpLoyee" />
+          <ScalarProperty Name="ToDepartMent" ColumnName="ToDepartMent" />
+          <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
+          <ScalarProperty Name="AgainDate" ColumnName="AgainDate" />
+          <ScalarProperty Name="FllowCount" ColumnName="FllowCount" />
+          <ScalarProperty Name="CreateEmployeeName" ColumnName="CreateEmployeeName" />
+          <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="InviteID" ColumnName="InviteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="View_GetOrderCustomers">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetOrderCustomers">
+        <MappingFragment StoreEntitySet="View_GetOrderCustomers">
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="FileCheck" ColumnName="FileCheck" />
+          <ScalarProperty Name="LoseDate" ColumnName="LoseDate" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EarnestFinish" ColumnName="EarnestFinish" />
+          <ScalarProperty Name="TransactionProba" ColumnName="TransactionProba" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="FlowCount" ColumnName="FlowCount" />
+          <ScalarProperty Name="ProjectDate" ColumnName="ProjectDate" />
+          <ScalarProperty Name="PlanComeDate" ColumnName="PlanComeDate" />
+          <ScalarProperty Name="ConteenID" ColumnName="ConteenID" />
+          <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
+          <ScalarProperty Name="Planner" ColumnName="Planner" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="NextFlowDate" ColumnName="NextFlowDate" />
+          <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
+          <ScalarProperty Name="FollowSum" ColumnName="FollowSum" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="OldC" ColumnName="OldC" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="OldB" ColumnName="OldB" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Invite">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Invite">
+        <MappingFragment StoreEntitySet="FL_Invite">
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="OrderEmpLoyeeID" ColumnName="OrderEmpLoyeeID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+          <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
+          <ScalarProperty Name="AgainDate" ColumnName="AgainDate" />
+          <ScalarProperty Name="FllowCount" ColumnName="FllowCount" />
+          <ScalarProperty Name="CreateEmployeeName" ColumnName="CreateEmployeeName" />
+          <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ToEmpLoyee" ColumnName="ToEmpLoyee" />
+          <ScalarProperty Name="ToDepartMent" ColumnName="ToDepartMent" />
+          <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InviteID" ColumnName="InviteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Order">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Order">
+        <MappingFragment StoreEntitySet="FL_Order">
+          <ScalarProperty Name="FileDate" ColumnName="FileDate" />
+          <ScalarProperty Name="FileCheck" ColumnName="FileCheck" />
+          <ScalarProperty Name="LoseDate" ColumnName="LoseDate" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="EarnestFinish" ColumnName="EarnestFinish" />
+          <ScalarProperty Name="TransactionProba" ColumnName="TransactionProba" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="FlowCount" ColumnName="FlowCount" />
+          <ScalarProperty Name="ProjectDate" ColumnName="ProjectDate" />
+          <ScalarProperty Name="PlanComeDate" ColumnName="PlanComeDate" />
+          <ScalarProperty Name="ConteenID" ColumnName="ConteenID" />
+          <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
+          <ScalarProperty Name="Planner" ColumnName="Planner" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="NextFlowDate" ColumnName="NextFlowDate" />
+          <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
+          <ScalarProperty Name="FollowSum" ColumnName="FollowSum" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Customers">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Customers">
+        <MappingFragment StoreEntitySet="FL_Customers">
+          <ScalarProperty Name="BlindDateSite" ColumnName="BlindDateSite" />
+          <ScalarProperty Name="Eldersrequirements" ColumnName="Eldersrequirements" />
+          <ScalarProperty Name="HowKonw" ColumnName="HowKonw" />
+          <ScalarProperty Name="KonwSite" ColumnName="KonwSite" />
+          <ScalarProperty Name="Turning" ColumnName="Turning" />
+          <ScalarProperty Name="IntentStyle" ColumnName="IntentStyle" />
+          <ScalarProperty Name="GroomHobby" ColumnName="GroomHobby" />
+          <ScalarProperty Name="BrideHobby" ColumnName="BrideHobby" />
+          <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+          <ScalarProperty Name="FirePoint" ColumnName="FirePoint" />
+          <ScalarProperty Name="Mostwanttogo" ColumnName="Mostwanttogo" />
+          <ScalarProperty Name="ReceptionStandards" ColumnName="ReceptionStandards" />
+          <ScalarProperty Name="FlowContent" ColumnName="FlowContent" />
+          <ScalarProperty Name="BanquetSalesPhone" ColumnName="BanquetSalesPhone" />
+          <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+          <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+          <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+          <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+          <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+          <ScalarProperty Name="Todate" ColumnName="Todate" />
+          <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+          <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+          <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+          <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+          <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+          <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+          <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+          <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+          <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+          <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+          <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+          <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+          <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+          <ScalarProperty Name="Experience" ColumnName="Experience" />
+          <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+          <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+          <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+          <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+          <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+          <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+          <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+          <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+          <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+          <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+          <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+          <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+          <ScalarProperty Name="Referee" ColumnName="Referee" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+          <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+          <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+          <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+          <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+          <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+          <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+          <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+          <ScalarProperty Name="OperatorTelPhone" ColumnName="OperatorTelPhone" />
+          <ScalarProperty Name="OperatorBrithday" ColumnName="OperatorBrithday" />
+          <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+          <ScalarProperty Name="OperatorCompany" ColumnName="OperatorCompany" />
+          <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+          <ScalarProperty Name="OperatorQQ" ColumnName="OperatorQQ" />
+          <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+          <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+          <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+          <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+          <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+          <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+          <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+          <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+          <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+          <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+          <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+          <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+          <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+          <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+          <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+          <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+          <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+          <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+          <ScalarProperty Name="Bride" ColumnName="Bride" />
+          <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+          <ScalarProperty Name="Groom" ColumnName="Groom" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_Dispatching">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_Dispatching">
+        <MappingFragment StoreEntitySet="FL_Dispatching">
+          <ScalarProperty Name="WorkReport" ColumnName="WorkReport" />
+          <ScalarProperty Name="AppraiseOver" ColumnName="AppraiseOver" />
+          <ScalarProperty Name="QuotedEmpLoyee" ColumnName="QuotedEmpLoyee" />
+          <ScalarProperty Name="ParentDispatchingID" ColumnName="ParentDispatchingID" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="IsCost" ColumnName="IsCost" />
+          <ScalarProperty Name="IsAppraise" ColumnName="IsAppraise" />
+          <ScalarProperty Name="Isover" ColumnName="Isover" />
+          <ScalarProperty Name="IsBegin" ColumnName="IsBegin" />
+          <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="CelebrationID" ColumnName="CelebrationID" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_ProductforDispatching">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_ProductforDispatching">
+        <MappingFragment StoreEntitySet="FL_ProductforDispatching">
+          <ScalarProperty Name="Classification" ColumnName="Classification" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+          <ScalarProperty Name="TaskEmpLoyee" ColumnName="TaskEmpLoyee" />
+          <ScalarProperty Name="IsGet" ColumnName="IsGet" />
+          <ScalarProperty Name="Updatetime" ColumnName="Updatetime" />
+          <ScalarProperty Name="Productproperty" ColumnName="Productproperty" />
+          <ScalarProperty Name="ItemSaleAmount" ColumnName="ItemSaleAmount" />
+          <ScalarProperty Name="ItemAmount" ColumnName="ItemAmount" />
+          <ScalarProperty Name="NewAdd" ColumnName="NewAdd" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ParentCategoryName" ColumnName="ParentCategoryName" />
+          <ScalarProperty Name="ParentDispatchingID" ColumnName="ParentDispatchingID" />
+          <ScalarProperty Name="ItemLevel" ColumnName="ItemLevel" />
+          <ScalarProperty Name="RowType" ColumnName="RowType" />
+          <ScalarProperty Name="Batch" ColumnName="Batch" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ChangeID" ColumnName="ChangeID" />
+          <ScalarProperty Name="IsSvae" ColumnName="IsSvae" />
+          <ScalarProperty Name="FinishDate" ColumnName="FinishDate" />
+          <ScalarProperty Name="PlannedCompletionTime" ColumnName="PlannedCompletionTime" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="DispatchingID" ColumnName="DispatchingID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ParentCategoryID" ColumnName="ParentCategoryID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="PurchasePrice" ColumnName="PurchasePrice" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="Requirement" ColumnName="Requirement" />
+          <ScalarProperty Name="ServiceContent" ColumnName="ServiceContent" />
+          <ScalarProperty Name="Specifications" ColumnName="Specifications" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="ProeuctKey" ColumnName="ProeuctKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sys_Workgroups">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.Sys_Workgroups">
+        <MappingFragment StoreEntitySet="Sys_Workgroups">
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_QuotedCollectionsPlan">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_QuotedCollectionsPlan">
+        <MappingFragment StoreEntitySet="FL_QuotedCollectionsPlan">
+          <ScalarProperty Name="MoneyType" ColumnName="MoneyType" />
+          <ScalarProperty Name="Node" ColumnName="Node" />
+          <ScalarProperty Name="RowLock" ColumnName="RowLock" />
+          <ScalarProperty Name="AmountEmployee" ColumnName="AmountEmployee" />
+          <ScalarProperty Name="FinancialEmployee" ColumnName="FinancialEmployee" />
+          <ScalarProperty Name="CreateEmpLoyee" ColumnName="CreateEmpLoyee" />
+          <ScalarProperty Name="RealityCollection" ColumnName="RealityCollection" />
+          <ScalarProperty Name="RealityAmount" ColumnName="RealityAmount" />
+          <ScalarProperty Name="Amountmoney" ColumnName="Amountmoney" />
+          <ScalarProperty Name="CollectionTime" ColumnName="CollectionTime" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PlanID" ColumnName="PlanID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FL_QuotedPrice">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.FL_QuotedPrice">
+        <MappingFragment StoreEntitySet="FL_QuotedPrice">
+          <ScalarProperty Name="MissionManagerEmployee" ColumnName="MissionManagerEmployee" />
+          <ScalarProperty Name="LoseCheck" ColumnName="LoseCheck" />
+          <ScalarProperty Name="LoseNode" ColumnName="LoseNode" />
+          <ScalarProperty Name="LoseCheckEmployee" ColumnName="LoseCheckEmployee" />
+          <ScalarProperty Name="BuyCheckEmployee" ColumnName="BuyCheckEmployee" />
+          <ScalarProperty Name="MoneyCheckEmployee" ColumnName="MoneyCheckEmployee" />
+          <ScalarProperty Name="FlowerCheckEmployee" ColumnName="FlowerCheckEmployee" />
+          <ScalarProperty Name="BuyCheck" ColumnName="BuyCheck" />
+          <ScalarProperty Name="MoneyCheck" ColumnName="MoneyCheck" />
+          <ScalarProperty Name="FlowerCheck" ColumnName="FlowerCheck" />
+          <ScalarProperty Name="SaleEmployee" ColumnName="SaleEmployee" />
+          <ScalarProperty Name="NextFlowDate" ColumnName="NextFlowDate" />
+          <ScalarProperty Name="PakegTyper" ColumnName="PakegTyper" />
+          <ScalarProperty Name="PakegName" ColumnName="PakegName" />
+          <ScalarProperty Name="FileCheck" ColumnName="FileCheck" />
+          <ScalarProperty Name="StarDispatching" ColumnName="StarDispatching" />
+          <ScalarProperty Name="LessenedAmount" ColumnName="LessenedAmount" />
+          <ScalarProperty Name="AddedAmount" ColumnName="AddedAmount" />
+          <ScalarProperty Name="QuotedTitle" ColumnName="QuotedTitle" />
+          <ScalarProperty Name="HaveFile" ColumnName="HaveFile" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="QuotedKind" ColumnName="QuotedKind" />
+          <ScalarProperty Name="QuotedType" ColumnName="QuotedType" />
+          <ScalarProperty Name="IsDispatching" ColumnName="IsDispatching" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="ParentQuotedID" ColumnName="ParentQuotedID" />
+          <ScalarProperty Name="IsFirstCreate" ColumnName="IsFirstCreate" />
+          <ScalarProperty Name="Noneyremaining" ColumnName="Noneyremaining" />
+          <ScalarProperty Name="FinishAmount" ColumnName="FinishAmount" />
+          <ScalarProperty Name="RealAmount" ColumnName="RealAmount" />
+          <ScalarProperty Name="AggregateAmount" ColumnName="AggregateAmount" />
+          <ScalarProperty Name="EarnestMoney" ColumnName="EarnestMoney" />
+          <ScalarProperty Name="Dispatching" ColumnName="Dispatching" />
+          <ScalarProperty Name="ChecksEmployee" ColumnName="ChecksEmployee" />
+          <ScalarProperty Name="CheckState" ColumnName="CheckState" />
+          <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+          <ScalarProperty Name="ChecksTitle" ColumnName="ChecksTitle" />
+          <ScalarProperty Name="ChecksContent" ColumnName="ChecksContent" />
+          <ScalarProperty Name="IsChecks" ColumnName="IsChecks" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="OrderCoder" ColumnName="OrderCoder" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SS_Report">
+      <EntityTypeMapping TypeName="PMS_WeddingModel.SS_Report">
+        <MappingFragment StoreEntitySet="SS_Report">
+          <ScalarProperty Name="GetCardDate" ColumnName="GetCardDate" />
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="CustomerKeyID" ColumnName="CustomerKeyID" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="ISeffective" ColumnName="ISeffective" />
+          <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+          <ScalarProperty Name="Channel" ColumnName="Channel" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="WorkEmployee" ColumnName="WorkEmployee" />
+          <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
+          <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+          <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
+          <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
+          <ScalarProperty Name="FirstMoney" ColumnName="FirstMoney" />
+          <ScalarProperty Name="Outstanding" ColumnName="Outstanding" />
+          <ScalarProperty Name="HasReceivables" ColumnName="HasReceivables" />
+          <ScalarProperty Name="QuotedMoney" ColumnName="QuotedMoney" />
+          <ScalarProperty Name="Emoney" ColumnName="Emoney" />
+          <ScalarProperty Name="Partydate" ColumnName="Partydate" />
+          <ScalarProperty Name="WorkCreateDate" ColumnName="WorkCreateDate" />
+          <ScalarProperty Name="QuotedDateSucessDate" ColumnName="QuotedDateSucessDate" />
+          <ScalarProperty Name="QuotedFileDate" ColumnName="QuotedFileDate" />
+          <ScalarProperty Name="QuotedCreateDate" ColumnName="QuotedCreateDate" />
+          <ScalarProperty Name="InviteLoseDate" ColumnName="InviteLoseDate" />
+          <ScalarProperty Name="InviteSucessDate" ColumnName="InviteSucessDate" />
+          <ScalarProperty Name="InviteCreateDate" ColumnName="InviteCreateDate" />
+          <ScalarProperty Name="OrderLoseDate" ColumnName="OrderLoseDate" />
+          <ScalarProperty Name="OrderSucessDate" ColumnName="OrderSucessDate" />
+          <ScalarProperty Name="OrderCreateDate" ColumnName="OrderCreateDate" />
+          <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+          <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+          <ScalarProperty Name="ContactType" ColumnName="ContactType" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="SSID" ColumnName="SSID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

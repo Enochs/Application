@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="867b25c9db754b58bde8da2d24e32763" Name="关系图1" ZoomLevel="80">
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Cost" Width="1.5" PointX="7.023995678417382" PointY="27.628185240378688" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_FinishTargetSum" Width="1.5" PointX="3.2870783467251239" PointY="29.9373881509236" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_DepartmentTarget" Width="1.5" PointX="6.2449178389482753" PointY="8.9101572227245924" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_DispatchingDegreeOfSatisfaction" Width="1.5" PointX="4.3358550576194439" PointY="2.3567640196330677" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_EmployeeTarget" Width="1.5" PointX="10.578655292549476" PointY="26.262725559185597" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetCost" Width="1.5" PointX="6.0136722447414286" PointY="28.902994094836988" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetCostItem" Width="1.5" PointX="3.6922087071892848" PointY="2.8428875221139229" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetDefrreSatisaction" Width="1.5" PointX="7.387385748041507" PointY="8.9327266257874332" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetDegreeOfSatisfaction" Width="1.5" PointX="11.321841297355405" PointY="22.561151023284136" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetInviteCompletetoEnd" Width="1.5" PointX="7.4302377362876371" PointY="23.8706092498594" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetMember" Width="1.5" PointX="2.7312302974663818" PointY="6.8974748285941194" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetMissionSum" Width="1.5" PointX="2.3542863774831808" PointY="17.401758157369567" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetSupplierforCarrytask" Width="1.5" PointX="9.67920212525837" PointY="7.6513203120098074" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetSupplierProduct" Width="1.5" PointX="9.0638318960852136" PointY="9.6689389989101038" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetWeddingPlanMission" Width="1.5" PointX="5.6834447112322994" PointY="0.43353834768456329" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_MyGoalTargetType" Width="1.5" PointX="3.1419916148958684" PointY="31.870761930882356" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_Employee" Width="1.5" PointX="4.9465366457340014" PointY="18.4371665802026" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_FinishTargetSum_Sys_Employee" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_Department" Width="1.5" PointX="11.579882897240985" PointY="12.060126146329626" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_UserJurisdiction" Width="1.5" PointX="10.152556209896019" PointY="24.0734346025034" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_Sys_Employee_Sys_Department" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_CostforEmpLoyee" Width="1.5" PointX="1.0438571763429125" PointY="26.403035220877751" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_OrderfinalCost" Width="1.5" PointX="5.19554598498882" PointY="5.4476489003038262" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_CostforEmpLoyee_FL_Cost" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_OrderfinalCost_FL_Cost" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MissionDetailed" Width="1.5" PointX="4.9635675498114749" PointY="6.0287990151107307" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MissionManager" Width="1.5" PointX="2.2071074499781744" PointY="29.653661458591774" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_MissionDetailed_FL_MissionManager" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_CustomerReturnVisit" Width="1.5" PointX="10.591179152294611" PointY="7.9294593669145641" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_EmpLoyeeMissionSum" Width="1.5" PointX="4.8826637104538566" PointY="29.201036362536733" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MakeCollections" Width="1.5" PointX="7.6265415957321139" PointY="28.075307963451049" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Message" Width="1.5" PointX="6.8681738352720512" PointY="17.176258571993682" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MessageBoard" Width="1.5" PointX="8.49237212189118" PointY="20.101112270774838" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MissionChange" Width="1.5" PointX="8.2453623079906038" PointY="31.945743843887815" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_MissionSumup" Width="1.5" PointX="5.1359608681574285" PointY="18.656212427958945" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_OrderEarnestMoney" Width="1.5" PointX="6.5405951508044247" PointY="10.10451588505158" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_OrderMessage" Width="1.5" PointX="11.707308333230815" PointY="28.318322343900018" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_OrderProjectfileManager" Width="1.5" PointX="11.672192221354782" PointY="13.76973280951834" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Target" Width="1.5" PointX="4.7319515816550481" PointY="10.232928370234058" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Telemarketing" Width="1.5" PointX="10.763907472958746" PointY="6.03331060988517" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_WarningMessage" Width="1.5" PointX="0.690958762863166" PointY="26.067919147232509" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_WeddingPlanFile" Width="1.5" PointX="7.83060876830975" PointY="25.66931047740826" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_WeddingPlanning" Width="1.5" PointX="7.2969893530462819" PointY="6.4549968570726906" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_Channel" Width="1.5" PointX="11.262517712666893" PointY="31.926162838901469" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_EmpLoyeeHigherups" Width="1.5" PointX="1.20332561675614" PointY="1.2629915034691763" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_EmployeeJob" Width="1.5" PointX="3.1480397838857206" PointY="2.2288158844359294" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_EmployeeType" Width="1.5" PointX="1.1992291068654644" PointY="29.593781768155182" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_JurisdictionforButton" Width="1.5" PointX="9.9476995849738366" PointY="6.4832135171085659" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_TitleNode" Width="1.5" PointX="8.5134088771945837" PointY="28.315408138705141" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_WeddingPlanning" Width="1.5" PointX="11.086746744386268" PointY="1.3093805468219242" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_FinishTargetSum_FL_Target" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_MissionSumup_FL_MissionManager" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_Sys_Employee_Sys_EmployeeJob" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_Sys_Employee_Sys_EmployeeType" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_Sys_EmpLoyeeHigherups_Sys_Employee" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_OrderReference" Width="1.5" PointX="7.2226532824442966" PointY="24.272516068198026" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_CostforOrder" Width="1.5" PointX="6.3985417515032648" PointY="13.335489949833365" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_CustomerQuoted" Width="1.5" PointX="5.7966774673185668" PointY="28.501898301999038" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_Dispatching" Width="1.5" PointX="7.7509018870773279" PointY="20.808130676303119" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetInviteCustomers" Width="1.5" PointX="0.01854578220217758" PointY="19.618278154925573" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetOrderCustomers" Width="1.5" PointX="1.1205706452580964" PointY="31.034420087483909" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Invite" Width="1.5" PointX="8.8908261567777149" PointY="15.186401910701022" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Order" Width="1.5" PointX="2.7598078599012492" PointY="6.0881335167624675" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_OrderEarnestMoney_FL_Order" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_OrderProjectfileManager_FL_Order" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Customers" Width="1.5" PointX="6.2501537177013944" PointY="1.5504437692232633" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_Invite_FL_Customers" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_Order_FL_Customers" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_Telemarketing_FL_Customers" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_Dispatching" Width="1.5" PointX="0.07709174979342695" PointY="25.632134315386477" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_ProductforDispatching" Width="1.5" PointX="11.808688385323011" PointY="11.442541276776485" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_ProductForDispatching_FL_Dispatching1" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.Sys_Workgroups" Width="1.5" PointX="8.1484164279645377" PointY="24.95865910917458" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_Sys_Employee_Sys_Workgroups" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_QuotedCollectionsPlan" Width="1.5" PointX="4.1708168816616835" PointY="7.3478318189027867" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_QuotedPrice" Width="1.5" PointX="4.8718680762089175" PointY="11.866165539187456" />
+        <AssociationConnector Association="PMS_WeddingModel.FK_FL_QuotedCollectionsPlan_FL_QuotedPrice" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.SS_Report" Width="1.5" PointX="4.6763712096383658" PointY="12.9140717149312" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

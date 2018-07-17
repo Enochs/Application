@@ -1,0 +1,5 @@
+D:\WuPeng\Applications\Application\HA.PMS.Model\bin\Debug\HA.PMS.Model.dll
+D:\WuPeng\Applications\Application\HA.PMS.Model\bin\Debug\HA.PMS.Model.pdb
+D:\WuPeng\Applications\Application\HA.PMS.Model\obj\Debug\HA.PMS.Model.dll
+D:\WuPeng\Applications\Application\HA.PMS.Model\obj\Debug\HA.PMS.Model.pdb
+D:\WuPeng\Applications\Application\HA.PMS.Model\obj\Debug\HA.PMS.Model.csprojResolveAssemblyReference.cache

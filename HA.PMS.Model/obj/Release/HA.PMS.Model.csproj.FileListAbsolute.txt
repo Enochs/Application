@@ -1,0 +1,4 @@
+D:\WuPeng\Applications\Application\HA.PMS.Model\bin\Release\HA.PMS.Model.dll
+D:\WuPeng\Applications\Application\HA.PMS.Model\bin\Release\HA.PMS.Model.pdb
+D:\WuPeng\Applications\Application\HA.PMS.Model\obj\Release\HA.PMS.Model.dll
+D:\WuPeng\Applications\Application\HA.PMS.Model\obj\Release\HA.PMS.Model.pdb

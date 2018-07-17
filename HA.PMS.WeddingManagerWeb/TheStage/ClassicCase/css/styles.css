@@ -1,0 +1,160 @@
+﻿/***********************************************************************
+******************* reset.css ******************************************
+************************************************************************/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate; border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+th {color:#757475;line-height:40px;min-height:40px;text-align:center;padding:10px;font-weight:bold;}
+blockquote:before, blockquote:after, q:before, q:after { content:""; }
+blockquote, q { quotes:"" ""; }
+a img {border:none;}
+.clearer {height:0px;overflow:hidden;margin:0px;clear:both;}
+.center {text-align:center;}                                       
+
+/* seld-clear floats */
+.group:after { content:"."; display:block; height:0; clear:both; visibility:hidden; font-size:0; line-height:0; } 
+/* ie.css */
+* html .group { /* IE6 */
+    height:1%;
+}
+*:first-child+html .group { /* IE7 */
+    min-height:1%;
+}                             
+h1,h2,h3,h4,h5,h6{text-rendering:optimizeLegibility;}
+html{-webkit-font-smoothing:antialiased;}
+/***********************************************************************/     
+
+
+html, body, div, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+  
+img { border:0 }
+
+/* Main Layout */
+
+html { min-height:100% }
+body { font-family:"Droid Sans", 'Trebuchet MS', Helvetica, sans-serif; font-size:12px; }
+
+/* typography */
+p, li, address, dd, blockquote { color:#545252; font-size:1em; line-height:1.81em } 
+h1, h2, h3, h4, h5, h6, p, dl, ul, ol, #content .logo { margin:0.8em 0 0.3em; }         
+a, a:hover { text-decoration:none }
+a { color:#D77002; }
+a:hover { color:#000; }
+h1, h2, h3, h4, h5, h6 { color:#232221; }
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+h2 { font-size:2.1em }
+h3 { font-size:1.9em }
+h4 { font-size:1.667em }
+h5 { font-size:1.333em }
+h6 { font-size:1em }
+
+#content ol {margin-left:40px; }
+i, em { font-style:italic; }
+strong { font-weight:bold; }
+#content blockquote { background:url('images/cite.png') no-repeat 45px 25px; padding:35px; clear:left; }
+dt { font-weight:bold; }
+
+.line { border-top:1px solid #cacaca }
+.space { height:45px }
+.border-line { height:1px; background:#ddd; width:100%; clear:both;}
+body .last, body .widget-last { margin-right:0; border-right:0; }
+ 
+ 
+.wrapper, .inner { margin:0 auto; }
+.responsive .wrapper { overflow:hidden; }
+
+/**************** MAIN WIDTH *********************/
+.inner 					{ max-width:960px; width:auto; }       
+.boxed-layout .wrapper 	{ max-width:1000px; width:auto; }
+@media screen and (max-width: 1040px) {
+    .responsive.boxed-layout .wrapper {width:100%;padding:0;} 
+    .responsive .inner {padding-left:10px !important;padding-right:10px !important;}  
+}
+/*************************************************/
+
+
+/* ====================== START MAIN STRUCTURE ====================== */
+.stretched-layout .wrapper { width:100%; }
+.inner { position:relative; } 
+
+/* ==== Widths, heights, floats and margins of all basic sections === */
+#header 	{  }
+#nav 		{ float:left;}
+#slogan 	{ max-width:800px; text-align:center; margin:1em auto 3em; }
+#slider 	{ height:338px; }
+#primary    { padding:40px 0 30px; }
+#content 	{ width:640px; }
+#sidebar 	{ width:280px; }
+#footer 	{ padding:30px 0; clear:both; }
+#copyright .inner 	{ padding:24px 0; }
+
+/* layouts */
+.layout-sidebar-left #sidebar, .layout-sidebar-right #content { float:left; }
+.layout-sidebar-right #sidebar, .layout-sidebar-left #content { float:right; }
+.layout-sidebar-no #content { float:left; width:100%; }
+/* ====================== END MAIN STRUCTURE ====================== */
+
+
+           
+/* ====================== START MAIN ELEMENTS ====================== */     
+.boxed-layout .wrapper 	{ background:url('images/bg/boxed-container-shadow.png') center repeat-y; padding:0 12px; }
+.bgWrapper 	{ background:#fff; }
+.bgLight 	{ background:url('images/bg/light.png') no-repeat center; position:relative; width:100%; }
+/* ====================== END MAIN ELEMENTS ====================== */
+
+/* CSS Document */
+*{margin:0;padding:0;}
+ul,ol{list-style:none outside;}
+img{border:0 none;vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}
+body{font:12px/1.5 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+a:link, a:visited{text-decoration:none;}
+a:hover, a:focus, a:active{text-decoration:underline;}
+a:focus, a:active{outline:none;}
+.lft{float:left;display:inline;}
+.rgt{float:right;display:inline;}
+.clearfix:after{visibility:hidden;display:block;font-size:1px;content:" ";clear:both;height:0;}
+*html .clearfix{zoom:1;} /* IE6 */
+*:first-child+html .clearfix{zoom:1;}
+.layout{padding:0 0 0 40px;}
+.layout  h2{margin:20px 0 20px 0;font-size:14px;}
+
+/*------ 图片左右滚动 ---------*/
+/* hot picture */
+.hotPic{margin:0 0 0 40px;}
+.hotPic .JQ-slide{position:relative;width:810px;height:150px;margin:0 0 15px 0;background:#f9f9f9;padding:10px 35px;}
+.hotPic .JQ-slide .wrap{width:810px;height:150px;overflow:hidden;position:relative; }
+.hotPic .JQ-slide-content{position:absolute;}/*必须要的元素*/
+.hotPic .imgList li{width:152px;margin:0 5px;}
+.hotPic .imgList img{width:140px;height:100px;}
+.hotPic .imgList .txt{height:30px;line-height:30px;}
+.hotPic .JQ-slide-nav a{display:block;z-index:99;width:48px;height:48px;overflow:hidden;text-indent:-999em;text-decoration:none;position:absolute;top:40px;background:url(images/arrow_pic.png) no-repeat;}
+.hotPic .JQ-slide-nav a.prev{left:-20px;background-position:0 0;}
+.hotPic .JQ-slide-nav a.prev:hover{background-position:-100px 0;}
+.hotPic .JQ-slide-nav a.next{right:-20px;background-position:-50px 0;}
+.hotPic .JQ-slide-nav a.next:hover{background-position:-150px 0;}
+/* imgList */
+.imgList{float:none;overflow:hidden;zoom:1}
+.imgList li{float:left;display:inline;overflow:hidden;}
+.imgList li a{display:block;}
+.imgList li .img{border:1px solid #d8d8d8;padding:5px;}
+.imgList li a.img:hover{border-color:#b70000;}
+.imgList li .txt{text-align:center;overflow:hidden;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\Default\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\Test\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\Test\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\Applications\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\项目\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+E:\最新项目\Application 04.17\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+E:\最新项目\Application 04.17\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+E:\wedding 2017-0617\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csprojResolveAssemblyReference.cache
+E:\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe.config
+E:\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.exe
+E:\Application\HA.PMS.SnManager\bin\Debug\HA.PMS.SnManager.pdb
+E:\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.dll
+E:\Application\HA.PMS.SnManager\bin\Debug\EntityFramework.xml
+E:\Application\HA.PMS.SnManager\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Login.resources
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.SnIndex.resources
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Properties.Resources.resources
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.Sn.resources
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.GenerateResource.Cache
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.csproj.CoreCompileInputs.cache
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.exe
+E:\Application\HA.PMS.SnManager\obj\Debug\HA.PMS.SnManager.pdb

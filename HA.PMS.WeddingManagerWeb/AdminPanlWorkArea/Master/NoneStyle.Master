@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NoneStyle.master.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Master.NoneStyle" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/jquery-ui-1.8.20.js"></script>
+    <script src="/Scripts/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("body").click(function () { resetlogincookie(); });
+        });
+        var tm = setInterval("checklogincookie()", 1000);
+        function resetlogincookie() {
+            var _date = new Date();
+            _date.setMinutes(_date.getMinutes() + 15);
+            $.cookie("LoginCookie", _date, { path: '/', expires: _date });
+        }
+        function checklogincookie() {
+            var _logincookie = $.cookie("LoginCookie");
+            if (_logincookie == null) {
+                self.opener = null;
+                self.close();
+                //window.parent.document.location = '/Account/LoginOut.aspx';
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onscroll="resetlogincookie();">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

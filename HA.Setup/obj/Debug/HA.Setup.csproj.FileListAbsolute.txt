@@ -1,0 +1,170 @@
+D:\Default\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\Default\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.exe
+D:\Default\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\Default\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\Default\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.exe
+D:\Default\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\Test\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\Test\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\Test\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\Test\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\Test\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\Test\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\WuPeng\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\WuPeng\Applications\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\Applications\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\Applications\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\Applications\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\Applications\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\Applications\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+C:\Users\Administrator\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+C:\Users\Administrator\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.exe
+C:\Users\Administrator\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+C:\Users\Administrator\Desktop\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+C:\Users\Administrator\Desktop\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.exe
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+C:\Users\Administrator\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\项目\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\项目\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\项目\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\项目\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\bin\Debug\HA.Setup.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+E:\最新项目\Application 04.17\HA.Setup\bin\Debug\HA.Setup.exe.config
+E:\最新项目\Application 04.17\HA.Setup\bin\Debug\HA.Setup.exe
+E:\最新项目\Application 04.17\HA.Setup\bin\Debug\HA.Setup.pdb
+E:\最新项目\Application 04.17\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+E:\最新项目\Application 04.17\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.exe
+E:\最新项目\Application 04.17\HA.Setup\obj\Debug\HA.Setup.pdb
+E:\wedding 2017-0617\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+E:\wedding 2017-0617\Application\HA.Setup\bin\Debug\HA.Setup.exe
+E:\wedding 2017-0617\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+E:\wedding 2017-0617\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+E:\wedding 2017-0617\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.exe
+E:\wedding 2017-0617\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+C:\Users\qjhang\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+C:\Users\qjhang\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.exe
+C:\Users\qjhang\Desktop\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+C:\Users\qjhang\Desktop\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+C:\Users\qjhang\Desktop\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.exe
+C:\Users\qjhang\Desktop\Application\HA.Setup\obj\Debug\HA.Setup.pdb
+E:\Application\HA.Setup\bin\Debug\HA.Setup.exe.config
+E:\Application\HA.Setup\bin\Debug\HA.Setup.exe
+E:\Application\HA.Setup\bin\Debug\HA.Setup.pdb
+E:\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.dll
+E:\Application\HA.Setup\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\Application\HA.Setup\obj\Debug\HA.Setup.csprojResolveAssemblyReference.cache
+E:\Application\HA.Setup\obj\Debug\HA.Setup.CreateDataBaseXml.resources
+E:\Application\HA.Setup\obj\Debug\HA.Setup.ExSite.resources
+E:\Application\HA.Setup\obj\Debug\HA.Setup.Setup.resources
+E:\Application\HA.Setup\obj\Debug\HA.Setup.Properties.Resources.resources
+E:\Application\HA.Setup\obj\Debug\HA.Setup.csproj.GenerateResource.Cache
+E:\Application\HA.Setup\obj\Debug\HA.Setup.csproj.CoreCompileInputs.cache
+E:\Application\HA.Setup\obj\Debug\HA.Setup.exe
+E:\Application\HA.Setup\obj\Debug\HA.Setup.pdb

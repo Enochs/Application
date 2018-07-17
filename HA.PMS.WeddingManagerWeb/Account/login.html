@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>WBMS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/lijianwei-login.css" />
+    <link rel="stylesheet" href="css/lijianwei-style.css" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            background-image: url(IMG/kissing3.jpg);
+            background-position: center center;
+        }
+    </style>
+    <script>
+        function PostLogin() {
+            $("#btnPostLogin").click();
+        }
+        if (getQueryString('error') == "true") {
+            alert("用户名或者密码错误");
+        }
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+    </script>
+</head>
+<body>
+    <div id="loginbox">
+        <div class="control-group normal_text">
+            <h3>
+                <img src="img/logo.png" alt="Logo" /></h3>
+        </div>
+    </div>
+    <div id="Div1">
+        <ul class="quick-actions">
+            <li class="bg_lb"><a href="/TheStage/CompanyIntroduction/CompanyDetails.aspx" target="_blank"><i class="icon-dashboard"></i>公司介绍 </a></li>
+            <li class="bg_lg"><a target="_blank" href="/TheStage/ClassicCase/ClassicCaseList.aspx"><i class="icon-shopping-cart"></i>经典案例</a> </li>
+            <li class="bg_ly"><a target="_blank" href="/TheStage/Foundation/CelebrationPackagePanel.aspx?jump=1"><i class=" icon-globe"></i>服务介绍 </a></li>
+            <li class="bg_lo"><a href="/TheStage/Hotel/HotelList.aspx" target="_blank"><i class="icon-group"></i>酒店介绍 </a></li>
+            <li class="bg_ls"><a target="_blank" href="/TheStage/PreparationForTheWedding/FD_CelebrationKnowBrowse.aspx"><i class="icon-signal"></i>婚礼筹备</a> </li>
+        </ul>
+    </div>
+    <div id="Div2">
+        <form id="loginform" class="form-vertical" action="/Account/Login.aspx">
+            <div class="control-group normal_text">
+                <h3>
+                    <img src="img/logo2.png" alt="Logo2" /></h3>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_lg"><i class="icon-user"></i></span>
+                        <input type="text" name="txtLoginName" placeholder="用户名" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_ly"><i class="icon-lock"></i></span>
+                        <input name="txtpassword" type="password" placeholder="Password" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions"><span class="pull-left">
+                           <input id="btnPostLogin" type="submit" value="submit" style="display: none;" />
+                <a href="#" style="display:none;" class="flip-link btn btn-info" id="to-recover">忘记了密码?</a></span> <span class="pull-right">
+                    <input id="Submit1" type="submit"  class="btn btn-success" onclick="PostLogin();"  value="立即登陆" />
+                </span> </div>
+        </form>
+       
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lijianwei.login.js"></script>
+</body>
+</html>

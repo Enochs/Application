@@ -1,0 +1,743 @@
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.xml
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\Test\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\Test\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\Test\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\Applications\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+E:\最新项目\Application 04.17\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+E:\wedding 2017-0617\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll.config
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll.config
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll.config
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll.config
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.WeddingManagerWeb.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Antlr3.Runtime.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\AspNetPager.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\CKEditor.NET.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\ICSharpCode.SharpZipLib.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OOXML.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXml4Net.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.OpenXmlFormats.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Optimization.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\System.Web.Providers.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\WebGrease.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLAssmblly.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.BLLInterface.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.ToolsLibrary.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.DataAssmblly.dll.config
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.EditoerLibrary.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.pdb
+E:\Application\HA.PMS.WeddingManagerWeb\bin\HA.PMS.Pages.dll.config
+E:\Application\HA.PMS.WeddingManagerWeb\bin\NPOI.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\EntityFramework.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.Core.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Org.Mentalis.Security.Cryptography.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\Mono.Math.xml
+E:\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\EntityFramework.resources.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\System.Web.Providers.resources.dll
+E:\Application\HA.PMS.WeddingManagerWeb\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csprojResolveAssemblyReference.cache
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\Interop.IWshRuntimeLibrary.dll
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.ResolveComReference.cache
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.csproj.CoreCompileInputs.cache
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.dll
+E:\Application\HA.PMS.WeddingManagerWeb\obj\Debug\HA.PMS.WeddingManagerWeb.pdb

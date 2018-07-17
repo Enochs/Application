@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3A8C546-5DAC-4C61-944F-2AE8AFF53413}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HA.PMS.BLLAssmblly</RootNamespace>
+    <AssemblyName>HA.PMS.BLLAssmblly</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assembly\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assembly\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="HA.PMS.BLLInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assembly\HA.PMS.BLLInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CA\Distrinct.cs" />
+    <Compile Include="CA\MyGoalTarget.cs" />
+    <Compile Include="CA\Notice.cs" />
+    <Compile Include="CA\SaleTarget.cs" />
+    <Compile Include="CA\TargetType.cs" />
+    <Compile Include="CA\TargetTypeRateValue.cs" />
+    <Compile Include="CS\CompanyFile.cs" />
+    <Compile Include="CS\CompanySystem.cs" />
+    <Compile Include="CS\Complain.cs" />
+    <Compile Include="CS\Credit.cs" />
+    <Compile Include="CS\CreditLog.cs" />
+    <Compile Include="CS\DegreeOfSatisfaction.cs" />
+    <Compile Include="CS\DegreeOfSatisfactionContent.cs" />
+    <Compile Include="CS\DegreeOfSatisfactionItem.cs" />
+    <Compile Include="CS\InvestigateState.cs" />
+    <Compile Include="CS\Member.cs" />
+    <Compile Include="CS\TakeDisk.cs" />
+    <Compile Include="CS\TakeDiskContent.cs" />
+    <Compile Include="CS\TakeState.cs" />
+    <Compile Include="CustomerSystem\PackageReserve.cs" />
+    <Compile Include="Emnus\CustomerState.cs" />
+    <Compile Include="Emnus\InviteSumTypes.cs" />
+    <Compile Include="Emnus\MissionChannel.cs" />
+    <Compile Include="Emnus\MissionType.cs" />
+    <Compile Include="Emnus\OrderSumTypes.cs" />
+    <Compile Include="FD\AllProducts.cs" />
+    <Compile Include="FD\BanquetHall.cs" />
+    <Compile Include="FD\BanquetHallImg.cs" />
+    <Compile Include="FD\CaseFile.cs" />
+    <Compile Include="FD\Category.cs" />
+    <Compile Include="FD\CelebrationKnowledge.cs" />
+    <Compile Include="FD\CelebrationPackageImage.cs" />
+    <Compile Include="FD\CelebrationPackageMakeQuotedPrice.cs" />
+    <Compile Include="FD\CelebrationPackagePriceSpan.cs" />
+    <Compile Include="FD\CelebrationPackageProduct.cs" />
+    <Compile Include="FD\CelebrationPackageStyle.cs" />
+    <Compile Include="FD\ChannelType.cs" />
+    <Compile Include="FD\CelebrationPackage.cs" />
+    <Compile Include="FD\DegreeAssessResult.cs" />
+    <Compile Include="FD\DeliverySchedule.cs" />
+    <Compile Include="FD\FourGuardian.cs" />
+    <Compile Include="FD\GuardianMovie.cs" />
+    <Compile Include="FD\GuardianType.cs" />
+    <Compile Include="FD\GuradianFile.cs" />
+    <Compile Include="FD\GuradianLeven.cs" />
+    <Compile Include="FD\Hotel.cs" />
+    <Compile Include="FD\HotelImg.cs" />
+    <Compile Include="FD\HotelLabel.cs" />
+    <Compile Include="FD\HotelLabelLog.cs" />
+    <Compile Include="FD\ImageType.cs" />
+    <Compile Include="FD\ImageWarehouse.cs" />
+    <Compile Include="FD\InviteReturnState.cs" />
+    <Compile Include="FD\LoseContent.cs" />
+    <Compile Include="FD\Material.cs" />
+    <Compile Include="FD\MemberServiceMethodResult.cs" />
+    <Compile Include="FD\MemberServiceTypeResult.cs" />
+    <Compile Include="FD\MoneyRateSpan.cs" />
+    <Compile Include="FD\OrderMoneySpan.cs" />
+    <Compile Include="FD\PayNeedRabate.cs" />
+    <Compile Include="FD\PPTWarehouse.cs" />
+    <Compile Include="FD\Productcs.cs" />
+    <Compile Include="FD\ProductOrderInuse.cs" />
+    <Compile Include="FD\ProductTobeDistributed.cs" />
+    <Compile Include="FD\QuotedCatgory.cs" />
+    <Compile Include="FD\QuotedProduct.cs" />
+    <Compile Include="FD\SaleSources.cs" />
+    <Compile Include="FD\Storehouse.cs" />
+    <Compile Include="FD\StorehouseScrapLog.cs" />
+    <Compile Include="FD\StorehouseSourceProduct.cs" />
+    <Compile Include="FD\StorehouseSupplierProductAll.cs" />
+    <Compile Include="FD\Supplier.cs" />
+    <Compile Include="FD\SupplierErrorLog.cs" />
+    <Compile Include="FD\SupplierType.cs" />
+    <Compile Include="FD\TheCase.cs" />
+    <Compile Include="FD\VisitState.cs" />
+    <Compile Include="FD\WeddingSceneEvaluationResult.cs" />
+    <Compile Include="Flow\StatementPayFor.cs" />
+    <Compile Include="Sys\BugFile.cs" />
+    <Compile Include="Sys\BugSystem.cs" />
+    <Compile Include="Sys\WorkReport.cs" />
+    <Compile Include="FinancialAffairsbll\OrderEarnestMoney.cs" />
+    <Compile Include="Flow\Celebration.cs" />
+    <Compile Include="Flow\CelebrationProductItem.cs" />
+    <Compile Include="Flow\Cost.cs" />
+    <Compile Include="Flow\CostforEmpLoyee.cs" />
+    <Compile Include="Flow\CostforOrder.cs" />
+    <Compile Include="Flow\CostSum.cs" />
+    <Compile Include="Flow\CustomerReturnVisit.cs" />
+    <Compile Include="Flow\Customers.cs" />
+    <Compile Include="Flow\Designclass.cs" />
+    <Compile Include="Flow\DesignThemes.cs" />
+    <Compile Include="Flow\DesignUpload.cs" />
+    <Compile Include="Flow\DetailsQuotedPrice.cs" />
+    <Compile Include="Flow\Dispatching.cs" />
+    <Compile Include="Flow\DispatchingEmployeeManager.cs" />
+    <Compile Include="Flow\DispatchingImage.cs" />
+    <Compile Include="Flow\DispatchingState.cs" />
+    <Compile Include="Flow\DispathingSatisfaction.cs" />
+    <Compile Include="Flow\EarlyDesigner.cs" />
+    <Compile Include="Flow\Evaulation.cs" />
+    <Compile Include="Flow\Flower.cs" />
+    <Compile Include="Flow\Planner.cs" />
+    <Compile Include="Flow\Invite.cs" />
+    <Compile Include="Flow\InvtieContent.cs" />
+    <Compile Include="Flow\Message.cs" />
+    <Compile Include="Flow\MessageBoard.cs" />
+    <Compile Include="Flow\MissionChange.cs" />
+    <Compile Include="Flow\MissionDetailed.cs" />
+    <Compile Include="Flow\MissionFile.cs" />
+    <Compile Include="Flow\MissionManager.cs" />
+    <Compile Include="Flow\MissionSumup.cs" />
+    <Compile Include="Flow\Order.cs" />
+    <Compile Include="Flow\OrderAppraise.cs" />
+    <Compile Include="Flow\OrderDetails.cs" />
+    <Compile Include="Flow\Orderfile.cs" />
+    <Compile Include="Flow\OrderfinalCost.cs" />
+    <Compile Include="Flow\OrderGuardian.cs" />
+    <Compile Include="Flow\OrderMessage.cs" />
+    <Compile Include="Flow\OrderProjectfileManager.cs" />
+    <Compile Include="Flow\OrderReference.cs" />
+    <Compile Include="Flow\PlannerType.cs" />
+    <Compile Include="Flow\ProductforDispatching.cs" />
+    <Compile Include="Flow\QuotedCollectionsPlan.cs" />
+    <Compile Include="Flow\QuotedContent.cs" />
+    <Compile Include="Flow\QuotedLoss.cs" />
+    <Compile Include="Flow\QuotedPriceForType.cs" />
+    <Compile Include="Flow\QuotedPrice.cs" />
+    <Compile Include="Flow\QuotedPriceItems.cs" />
+    <Compile Include="Flow\QuotedPriceSchedule.cs" />
+    <Compile Include="Flow\Statement.cs" />
+    <Compile Include="Flow\SucessInvite.cs" />
+    <Compile Include="Flow\Telemarketing.cs" />
+    <Compile Include="Flow\WarningMessage.cs" />
+    <Compile Include="Flow\WeddingPlanFile.cs" />
+    <Compile Include="Flow\WeddingPlanning.cs" />
+    <Compile Include="FD\GuardianImage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicTools\ConvertHelper.cs" />
+    <Compile Include="PublicTools\DBHelper.cs" />
+    <Compile Include="PublicTools\PageDataTools.cs" />
+    <Compile Include="PublicTools\PublicDataTools.cs" />
+    <Compile Include="Report\QuotedSourceItem.cs" />
+    <Compile Include="Report\Report.cs" />
+    <Compile Include="Report\QuotedItemChange.cs" />
+    <Compile Include="SysTarget\EmployeeTarget.cs" />
+    <Compile Include="SysTarget\FinishTargetSum.cs" />
+    <Compile Include="Sys\Channel.cs" />
+    <Compile Include="Sys\Controls.cs" />
+    <Compile Include="Sys\Department.cs" />
+    <Compile Include="Sys\Employee.cs" />
+    <Compile Include="Sys\EmployeeDataFile.cs" />
+    <Compile Include="Sys\EmpLoyeeHigherups.cs" />
+    <Compile Include="Sys\EmployeeJob.cs" />
+    <Compile Include="Sys\EmployeeType.cs" />
+    <Compile Include="Sys\FileCategory.cs" />
+    <Compile Include="Sys\FileDetails.cs" />
+    <Compile Include="Sys\HandleLog.cs" />
+    <Compile Include="Sys\HandleType.cs" />
+    <Compile Include="Sys\JurisdictionforButton.cs" />
+    <Compile Include="Sys\LoginLog.cs" />
+    <Compile Include="Sys\LookURL.cs" />
+    <Compile Include="Sys\SysConfig.cs" />
+    <Compile Include="Sys\TitleNode.cs" />
+    <Compile Include="Sys\UserJurisdiction.cs" />
+    <Compile Include="Sys\WeddingPlanning.cs" />
+    <Compile Include="Sys\Workgroups.cs" />
+    <Compile Include="SysTarget\Target.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HA.PMS.ControlLibrary\HA.PMS.ToolsLibrary.csproj">
+      <Project>{f7d67ab8-ecc4-40bd-9c92-1642d17519c5}</Project>
+      <Name>HA.PMS.ToolsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HA.PMS.DataAssmblly\HA.PMS.DataAssmblly.csproj">
+      <Project>{31cdc6e5-1f99-4b87-96a1-1e914033cb7a}</Project>
+      <Name>HA.PMS.DataAssmblly</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

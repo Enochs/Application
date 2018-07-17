@@ -1,0 +1,244 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Master.MainMaster" %>
+
+<%@ Register Src="~/AdminPanlWorkArea/Control/Targetfinish.ascx" TagPrefix="HA" TagName="Targetfinish" %>
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/Scripts/jquery.gritter" />
+    <link href="/Scripts/Function/jquery.fancybox.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+    <script src="/Scripts/Function/jquery.fancybox.pack.js"></script>
+    <script src="/Scripts/Function/masterFunction.js"></script>
+    <link href="/Scripts/UI/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet" />
+    <script src="/Scripts/UI/js/jquery-ui-1.10.2.custom.js"></script>
+    <%--<script src="/Scripts/UI/development-bundle/ui/i18n/jquery.ui.datepicker-zh-CN.js"></script>--%>
+    <script src="/Scripts/UI/development-bundle/ui/jquery.ui.tabs.js"></script>
+    <script src="/Scripts/jquery.cookie.js"></script>
+    <link href="/Scripts/UI/css/jquery-ui.css" rel="stylesheet" />
+    <script src="/Scripts/UI/jquery-ui.js"></script>
+
+    <script src="/Scripts/superValidator.js"></script>
+    <script src="/Scripts/Validator.js"></script>
+    <link href="/Scripts/Tooltip.css" rel="stylesheet" />
+
+    <script src="/Scripts/DatePicker/WdatePicker.js"></script>
+    <script src="/Scripts/DatePicker/calendar.js"></script>
+    <script src="/Scripts/DatePicker/config.js"></script>
+
+    <script type="text/javascript">
+
+        function ShowPopuWindow(URL, Width, Height) {
+
+            showPopuWindows(URL, Width, Height, "#ShowPopuLable");
+            $("#ShowPopuLable").click();
+
+        }
+
+
+        //$(function () {
+        //    $("body").click(function () { resetlogincookie(); });
+        //});
+        //var tm = setInterval("checklogincookie()", 1000);
+        //function resetlogincookie() {
+        //    var _date = new Date();
+        //    _date.setMinutes(_date.getMinutes() + 15);
+        //    $.cookie("LoginCookie", _date, { path: '/', expires: _date });
+        //}
+        //function checklogincookie() {
+        //    var _logincookie = $.cookie("LoginCookie");
+        //    if (_logincookie == null) {
+        //        self.opener = null;
+        //        self.close();
+        //        window.parent.document.location = '/Account/LoginOut.aspx';
+        //    }
+        //}
+
+        function ShowSerachCustomer(Control) {
+
+            var Url = "/AdminPanlWorkArea/ControlPage/searchCustomer.aspx?url=" + $("#hfUrl").val();
+            showPopuWindows(Url, 700, 700, "a#" + $(Control).attr("id"));
+        }
+
+        //公告查看
+        //详细
+        //
+        function ShowDetailsWindows(key, Control) {
+            var Url = "/AdminPanlWorkArea/Company/NoticeContent.aspx?NoticeKey=" + key;
+            $(Control).attr("id", "detailsShow" + key);
+            showPopuWindows(Url, 700, 1000, "a#" + $(Control).attr("id"));
+        }
+
+        $(document).ready(function () {
+            $(".RemoveClass").remove();
+            $(".btnSumbmit").hide();
+            var Keys = $("#hideSubmitKey").val();
+            $(".btnSaveSubmit" + Keys).show();
+            $(".DataTextEditoer").click(function () {
+                WdatePicker();
+            });
+
+            // 
+            $("#txtCustomer").change(function () {
+                $("#hfTxtValue").val($(this).val());
+            }).change();
+            $(".todo .clearfix").css({ "line-height": "29px" });
+
+            $("body #messageContent").css({ "fontSize": "12px" });
+            var s = "/AdminPanlWorkArea/ControlPage/searchCustomer.aspx?url=" + $("#hfUrl").val();
+            $(".SerachA").each(function (indexs, values) {
+                $(this).attr("href", s);
+            });
+
+
+            //$(".fancybox-overlay").appendTo($("#form1"));
+        });
+
+
+        $(document).ready(function () {
+            // $(".PopoForm").validate();
+            $(".btnSumbmit").hide();
+            var Keys = $("#hideSubmitKey").val();
+            $(".btnSaveSubmit" + Keys).show();
+
+            $(".RemoveClass").remove();
+        });
+        function HideNotice(Control) {
+            if ($(Control).attr("NoticeValue") == "Show") {
+                $(".NoticetDiv").hide();
+                $(Control).attr("NoticeValue", "Hide");
+
+            } else {
+                $(".NoticetDiv").show();
+                $(Control).attr("NoticeValue", "Show");
+            }
+        }
+    </script>
+    <style type="text/css">
+        BODY #messageContent {
+            font-size: 12px;
+        }
+
+        .trselected {
+            background-color: rgb(166, 178, 195);
+            color: white;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <p>
+        <br />
+    </p>
+    <form id="form1" runat="server">
+        <a href="#" id="ShowPopuLable" style="display: none;"></a>
+        <asp:HiddenField ID="hideSubmitKey" runat="server" ClientIDMode="Static" />
+        <asp:HiddenField ID="hideFormKey" runat="server" ClientIDMode="Static" />
+
+        <div id="content2">
+            <!--breadcrumbs-->
+            <div id="content-header">
+                <div id="breadcrumb"><a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i></a></div>
+            </div>
+            <div class="container-fluid">
+                <div class="quick-actions_homepage">
+                    <ul class="quick-actions">
+                        <li class="bg_lb">
+                            <a href="/AdminPanlWorkArea/Flows/Mission/FL_MessageforEmployeeShow.aspx" id="createMainCustomers"><i class="icon-pencil"></i>新消息</a>
+
+                        </li>
+                        <li class="bg_lg span3">
+                            <a href="/AdminPanlWorkArea/AdminFirstpanel.aspx" id="Donotinvite"><i class="icon-calendar"></i>我的任务</a>
+                        </li>
+                        <li class="bg_lo">
+
+                            <a href="#" id="searchShow" onclick="ShowSerachCustomer(this);"><i class="icon-fullscreen"></i>搜索新人</a>
+                            <asp:HiddenField ID="hfUrl" ClientIDMode="Static" runat="server" />
+                        </li>
+                        <li class="bg_ly"><a id="FL_CustomersCreate" href="/Account/AdminWorklogin.html" target="_blank"><i class="icon-signal"></i>进入展示 </a></li>
+
+                        <li class="bg_ls"><a runat="server" onserverclick="logoffsystem_ServerClick" id="logoffsystem" href="#"><i class="icon-signal"></i>退出系统 </a></li>
+                    </ul>
+                </div>
+                <!--End-Action boxes-->
+                <div class="row-fluid">
+                    <HA:Targetfinish runat="server" ID="Targetfinish" />
+                    <div class="span4">
+                        <div class="widget-box">
+                            <div class="widget-title" noticevalue="Show" onclick="HideNotice(this)" title="点击此处隐藏\显示目标" style="cursor: help;">
+                                <span class="icon"><i class="icon-file"></i></span>
+                                <h5>公司消息</h5>
+                            </div>
+                            <div class="widget-content NoticetDiv">
+                                <div class="todo">
+                                    <ul>
+                                        <asp:Repeater ID="rptNotice" OnItemDataBound="rptNotice_ItemDataBound" runat="server">
+                                            <ItemTemplate>
+                                                <li class="clearfix">
+                                                    <div class="txt" style="height: 9px;">
+                                                        <a href="#" onclick='ShowDetailsWindows(<%#Eval("NoticeKey") %>,this)'>
+                                                            <%#GetSubStr(Eval("Title")) %> 
+                                                        </a>
+                                                        <span class="by label">
+                                                            <%#GetTimeStrFormat(Eval("CreateDate")) %>
+                                                        </span>
+                                                        <asp:Literal ID="ltlNewState" runat="server"></asp:Literal>
+                                                    </div>
+
+                                                </li>
+                                            </ItemTemplate>
+                                        </asp:Repeater>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: none;">
+                    <span>今日去向</span>
+                    <asp:TextBox Style="width: 50em" MaxLength="50" ToolTip="限50个字符" ID="txtCurrentLocation" runat="server" />
+                    <asp:LinkButton ID="btnSaveLocation" OnClick="btnSaveLocation_Click" CssClass="btn btn-mini btn-success" Text="保存" runat="server" />
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div id="footer" class="span12">2013 &copy; Hold Love </div>
+        </div>
+        <asp:HiddenField ID="hfTxtValue" runat="server" />
+        <input type="hidden" runat="server" clientidmode="Static" id="hid_Flag" />
+        <a class="llb" href="" id="Eject"></a>
+        <input type="button" id="btn_Eject" style="display: none" onclick="showView()" />
+        <!--查询操作 start -->
+        <div id="searchCustomers" style="display: none; text-align: center;">
+            <div style="width: 350px; height: 272px;">
+
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"><i class="icon-ok"></i></span>
+                        <h5>查找新人</h5>
+                    </div>
+                    <div class="widget-content">
+                        姓名:<asp:TextBox ID="txtCustomer" runat="server" CssClass="centerTxt"></asp:TextBox><br />
+                        婚期:
+                        <asp:TextBox ID="txtPartyDate" onclick="WdatePicker();" CssClass="centerTxt" ClientIDMode="Static" runat="server"></asp:TextBox>
+                        <br />
+                        酒店:<asp:TextBox ID="txtWineShop" runat="server" CssClass="centerTxt"></asp:TextBox><br />
+                        &nbsp;&nbsp;&nbsp;电话:<asp:TextBox ID="txtCelPhone" runat="server" CssClass="{required:true,number:true,rangelength:[11,11],messages:{number:'你的电话未必不是数字?',required:'请输入电话号码',rangelength:'为了更准确的找到你的客户，你输入的手机号码必须是11位'}} centerTxt"></asp:TextBox><span style="color: red;">*</span>
+                        <br />
+                        <asp:Button ID="btnSearch" CssClass="btn btn-success" Text="查找" runat="server" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

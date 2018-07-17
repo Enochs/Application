@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{067BF435-5312-4916-B002-90646248F995}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HA.PMS.OnlineSysytem</RootNamespace>
+    <AssemblyName>HA.PMS.OnlineSysytem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\WebSite\数据库更新\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F3B63D3647F04E1EB4C9D0F1840D9BAE0F919107</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HA.PMS.OnlineSysytem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assembly\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBaseAutoUpdate\AutoCustomer.cs" />
+    <Compile Include="DataBase\DataManager.cs" />
+    <Compile Include="DataBase\MessAgeforEmpLoyee.cs" />
+    <Compile Include="DataBase\DataMission.cs" />
+    <Compile Include="DataBase\Mission.cs" />
+    <Compile Include="DataBase\OrderFinalCost.cs" />
+    <Compile Include="DataBase\TargetforEmployee.cs" />
+    <Compile Include="DataBase\WaringMessage.cs" />
+    <Compile Include="FL_Cost.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CostforEmpLoyee.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CostforOrder.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CustomerReturnVisit.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Customers.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Dispatching.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_EmpLoyeeMissionSum.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_FinishTargetSum.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Invite.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MakeCollections.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Message.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MessageBoard.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionChange.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionDetailed.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionManager.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionSumup.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Order.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderEarnestMoney.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderfinalCost.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderMessage.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderProjectfileManager.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderReference.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_ProductforDispatching.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedCollectionsPlan.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPrice.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Target.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Telemarketing.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WarningMessage.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WeddingPlanFile.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WeddingPlanning.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineEntity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OnlineEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OnlineEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serverice\AutoUpdate.cs" />
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_Report.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Channel.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Department.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Employee.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmpLoyeeHigherups.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmployeeJob.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmployeeType.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_JurisdictionforButton.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_TitleNode.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_UserJurisdiction.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_WeddingPlanning.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Workgroups.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CustomerQuoted.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DepartmentTarget.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Dispatching.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DispatchingDegreeOfSatisfaction.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_EmployeeTarget.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetCost.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetCostItem.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetDefrreSatisaction.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetDegreeOfSatisfaction.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetInviteCompletetoEnd.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetInviteCustomers.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetMember.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetMissionSum.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetOrderCustomers.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetSupplierforCarrytask.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetSupplierProduct.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetWeddingPlanMission.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_MyGoalTargetType.cs">
+      <DependentUpon>OnlineEntity.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="OnlineEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>OnlineEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="OnlineEntity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>OnlineEntity.edmx</DependentUpon>
+      <LastGenOutput>OnlineEntity.Context.cs</LastGenOutput>
+    </None>
+    <None Include="OnlineEntity.edmx.diagram">
+      <DependentUpon>OnlineEntity.edmx</DependentUpon>
+    </None>
+    <None Include="OnlineEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>OnlineEntity.edmx</DependentUpon>
+      <LastGenOutput>OnlineEntity.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Client\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

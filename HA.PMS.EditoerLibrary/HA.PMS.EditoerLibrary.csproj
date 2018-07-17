@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8B622EA-9414-4EBB-90BD-B290D7068668}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HA.PMS.EditoerLibrary</RootNamespace>
+    <AssemblyName>HA.PMS.EditoerLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assembly\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\Assembly\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\Assembly\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="HA.PMS.BLLInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assembly\HA.PMS.BLLInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="btnManager.cs" />
+    <Compile Include="btnReload.cs" />
+    <Compile Include="CategoryDropDownList.cs" />
+    <Compile Include="CategorySecond.cs" />
+    <Compile Include="ClickOnceButton.cs" />
+    <Compile Include="CssBtn\btndanger.cs" />
+    <Compile Include="CssBtn\btninfo.cs" />
+    <Compile Include="CssBtn\btnPrimary.cs" />
+    <Compile Include="CssBtn\btnSucessClass.cs" />
+    <Compile Include="DateEditTextBox.cs" />
+    <Compile Include="ddlApplyType.cs" />
+    <Compile Include="ddlArea.cs" />
+    <Compile Include="ddlEvaluationResult.cs" />
+    <Compile Include="ddlMoneyRateSpan.cs" />
+    <Compile Include="ddlChannelName.cs" />
+    <Compile Include="ddlChannelType.cs" />
+    <Compile Include="ddlCustomersState.cs" />
+    <Compile Include="ddlDegreeAssessResult.cs" />
+    <Compile Include="ddlEmployee.cs" />
+    <Compile Include="ddlHotel.cs" />
+    <Compile Include="ddlLoseContent.cs" />
+    <Compile Include="ddlMonth.cs" />
+    <Compile Include="ddlMyManagerDepartment.cs" />
+    <Compile Include="ddlMyManagerEmployee.cs" />
+    <Compile Include="ddlOrderEmployee.cs" />
+    <Compile Include="ddlOrderMoneySpan.cs" />
+    <Compile Include="ddlRangeYear.cs" />
+    <Compile Include="ddlReferee.cs" />
+    <Compile Include="ddlServiceMethod.cs" />
+    <Compile Include="ddlServiceType.cs" />
+    <Compile Include="ddlSysChannel.cs" />
+    <Compile Include="DepartmentDropdownList.cs" />
+    <Compile Include="lblMissionfortodaysum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TxtLoginEmployee.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HA.PMS.BLLAssmblly\HA.PMS.BLLAssmblly.csproj">
+      <Project>{d3a8c546-5dac-4c61-944f-2ae8aff53413}</Project>
+      <Name>HA.PMS.BLLAssmblly</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HA.PMS.DataAssmblly\HA.PMS.DataAssmblly.csproj">
+      <Project>{31cdc6e5-1f99-4b87-96a1-1e914033cb7a}</Project>
+      <Name>HA.PMS.DataAssmblly</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

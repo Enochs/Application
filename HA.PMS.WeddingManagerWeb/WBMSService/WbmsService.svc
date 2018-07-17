@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="HA.PMS.WeddingManagerWeb.WBMSService.WbmsService" CodeBehind="WbmsService.svc.cs" %>

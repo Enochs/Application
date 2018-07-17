@@ -1,0 +1,128 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PopuMaster.master.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Master.PopuMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.gritter.css" />
+    <link href="/Scripts/Function/jquery.fancybox.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-1.7.1.js"></script>
+    <script src="../../Scripts/jquery-ui-1.8.20.js"></script>
+
+    <script src="/Scripts/jquery.metadata.js"></script>
+
+    <script src="/Scripts/messages_cn.js"></script>
+
+    <script src="/Scripts/Function/jquery.fancybox.pack.js"></script>
+    <script src="/Scripts/Function/masterFunction.js"></script>
+
+    <link href="/Scripts/UI/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet" />
+    <script src="/Scripts/UI/js/jquery-ui-1.10.2.custom.js"></script>
+    <%--<script src="/Scripts/UI/development-bundle/ui/i18n/jquery.ui.datepicker-zh-CN.js"></script>--%>
+
+    <script src="/Scripts/superValidator.js"></script>
+    <script src="/Scripts/Validator.js"></script>
+    <link href="/Scripts/Tooltip.css" rel="stylesheet" />
+
+    <script src="/Scripts/DatePicker/WdatePicker.js"></script>
+    <script src="/Scripts/DatePicker/calendar.js"></script>
+    <script src="/Scripts/DatePicker/config.js"></script>
+    <script src="/Scripts/jquery.cookie.js"></script>
+
+    <script type="text/ecmascript">
+
+        $(document).ready(function () {
+            $(".DataTextEditoer").click(function () {
+           
+                WdatePicker();
+            });
+        });
+
+
+        $(function () {
+            $("body").click(function () { resetlogincookie(); });
+        });
+        var tm = setInterval("checklogincookie()", 1000);
+        function resetlogincookie() {
+            var _date = new Date();
+            _date.setMinutes(_date.getMinutes() + 15);
+            $.cookie("LoginCookie", _date, { path: '/', expires: _date });
+        }
+        function checklogincookie() {
+            var _logincookie = $.cookie("LoginCookie");
+            if (_logincookie == null) {
+                self.opener = null;
+                self.close();
+                //window.parent.document.location = '/Account/LoginOut.aspx';
+            }
+        }
+
+        function SetIframHeight() {
+            $("#Iframe1").attr("height", 2000);
+        }
+
+        function SetIframHeightValue(value) {
+            $("#Iframe1").attr("height", value);
+        }
+
+
+        function ShowParentWindown(URL, Width, Height) {
+
+            showPopuWindows(URL, Width, Height, "#ShowPopuLable");
+            $("#ShowPopuLable").click();
+
+        }
+
+        function ShowPopuWindow(URL, Width, Height) {
+
+            showPopuWindows(URL, Width, Height, "#ShowPopuLable");
+            $("#ShowPopuLable").click();
+
+        }
+    </script>
+
+    <style type="text/css">
+        label.error {
+            color: red;
+            margin-left: 10px;
+            width: auto;
+            display: inline;
+        }
+
+        .trselected {
+            background-color: rgb(166, 178, 195);
+            color: white;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".btnSumbmit").hide();
+            var Keys = $("#hideSubmitKey").val();
+            $(".btnSaveSubmit" + Keys).show();
+
+            $(".RemoveClass").remove();
+        });
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onscroll="resetlogincookie();" style="margin: 5px">
+    <form id="form1" runat="server">
+             <a href="#" id="ShowPopuLable" style="display: none;"></a>
+        <div id="content2">
+            <asp:HiddenField ID="hideSubmitKey" runat="server" ClientIDMode="Static" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <input type="hidden" runat="server" clientidmode="Static" id="hid_Flag" />
+        <a class="llb" href="" id="Eject"></a>
+        <input type="button" id="btn_Eject" style="display: none" onclick="showView()" />
+    </form>
+</body>
+</html>

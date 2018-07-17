@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DepartmentEmployeeSelector.ascx.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Control.DepartmentEmployeeSelector" %>
+<div><asp:Label ID="lblDepartmentTitle" Text="部门：" runat="server"></asp:Label><asp:DropDownList ID="ddlDepartment" OnSelectedIndexChanged="ddlDepartment_SelectedIndexChanged" ToolTip="部门" runat="server" /><asp:Label ID="lblEmployeeTitle" Text="责任人：" runat="server"></asp:Label><asp:DropDownList ID="ddlEmployee" ToolTip="责任人" runat="server" /></div>

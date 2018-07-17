@@ -1,0 +1,144 @@
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\Default\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\DefaultApplication\HA.CompanyManagerWeb\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\Test\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\Test\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\Test\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\Test\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\Test\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\Test\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\Applications\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+C:\Users\Administrator\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\签约直接派工\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+D:\WuPeng\项目\签约直接派工\Application 12.13\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+E:\最新项目\Application 04.17\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+E:\wedding 2017-0617\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+C:\Users\qjhang\Desktop\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb
+E:\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe.config
+E:\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.exe
+E:\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.DeskProject.pdb
+E:\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.dll
+E:\Application\HA.PMS.DeskProject\bin\Debug\HA.PMS.BLLInterface.pdb
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csprojResolveAssemblyReference.cache
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.Properties.Resources.resources
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.WindowsIndex.resources
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.GenerateResource.Cache
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.csproj.CoreCompileInputs.cache
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.exe
+E:\Application\HA.PMS.DeskProject\obj\Debug\HA.PMS.DeskProject.pdb

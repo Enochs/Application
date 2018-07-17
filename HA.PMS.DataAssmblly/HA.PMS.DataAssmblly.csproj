@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31CDC6E5-1F99-4B87-96A1-1E914033CB7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HA.PMS.DataAssmblly</RootNamespace>
+    <AssemblyName>HA.PMS.DataAssmblly</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Assembly\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assembly\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended, Version=5.0.0.0, Culture=neutral, PublicKeyToken=05b7e29bdd433584, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.Extended.5.0.0.66\lib\net45\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseService.cs" />
+    <Compile Include="Base\IBase.cs" />
+    <Compile Include="CA_CompanyFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_CompanySystem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_Distrinct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_MyGoalTarget.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_Notice.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_SaleTarget.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TargetType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_TargetTypeRateValue.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CA_WeddingSceneEvaluationResult.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CC_PackageReserve.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CommonModel\ExportAttr.cs" />
+    <Compile Include="CommonModel\Extension.cs" />
+    <Compile Include="CommonModel\UserEmployee.cs" />
+    <Compile Include="ComplainCustomer.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CostSumDesign.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CostSumTs.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_Complain.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_ComplainCustomersOrderEmployee.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_Credit.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_CreditLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_DegreeAssessResult.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_DegreeOfSatisfaction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_DegreeOfSatisfactionContent.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_DegreeOfSatisfactionItem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_InvestigateState.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_Member.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_MemberServiceMethodResult.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_MemberServiceTypeResult.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_TakeDisk.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CS_TakeDiskContent.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_AllProducts.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ApplyType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_BanquetHall.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_BanquetHallImg.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CaseFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Category.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationKnowledge.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackageImage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackageMakeQuotedPrice.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackagePriceSpan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackageProduct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_CelebrationPackageStyle.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ChannelType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_DeliverySchedule.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_FourGuardian.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuardianImage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuardianMovie.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuardianType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuardianTypeLeven.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuradianFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_GuradianLeven.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Hotel.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_HotelImg.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_HotelLabel.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_HotelLabelLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ImageType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ImageWarehouse.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_InvestigateItem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_InviteReturnState.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_LoseContent.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Material.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_PayNeedRabate.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_PayNeedSales.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_PPTWarehouse.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_PPTWarehouseFDImageType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Product.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ProductCategorySupplier.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ProductOrderInuse.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_ProductTobeDistributed.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_QuotedCatgory.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_QuotedProduct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SaleSources.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Storehouse.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_StorehouseScrapLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_StorehouseSourceProduct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_StorehouseSupplierProductAll.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_Supplier.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SupplierDispatchCustomer.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SupplierErrorLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SupplierProductCount.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SupplierProductQuery.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_SupplierType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_TheCase.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FD_VisitState.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CategoryforDispatching.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CategoryForQuotedPrice.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Celebration.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CelebrationProductItem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Cost.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CostforEmpLoyee.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CostforOrder.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CostSum.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_CustomerReturnVisit.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Customers.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Designclass.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DesignThemes.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DesignUpload.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DetailsQuotedPrice.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispatchAllProducts.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Dispatching.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispatchingEmployeeManager.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispatchingImage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispatchingState.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispatchingTeamEmployee.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_DispathingSatisfaction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_EarlyDesigner.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_EmpLoyeeMissionSum.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Evaulation.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_FinishTargetSum.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_FlowerCost.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Invite.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_InvtieContent.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MakeCollections.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Message.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MessageBoard.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionChange.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionDetailed.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionManager.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MissionSumup.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_MoneyRateSpan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Order.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderAppraise.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderDetails.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderEarnestMoney.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Orderfile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderfinalCost.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderGuardian.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderMessage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderMoneySpan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderProjectfileManager.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_OrderReference.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Planner.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_PlannerType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_ProductforDispatching.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedCollectionsPlan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedContent.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedImage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedLoss.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPrice.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPricefileManager.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPriceForType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPriceItems.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_QuotedPriceSchedule.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Statement.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_StatementPayFor.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_SucessInvite.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Target.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_Telemarketing.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WarningMessage.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WeddingPlanFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FL_WeddingPlanning.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDepartmentTarget1_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetDesignCostProc_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetFinishTargetByID_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetMissionDetailsCount_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetMissionSumByWhere_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetStatemetProc_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSuppliersById_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetTakeDisks_Result.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HA.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HA.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HA.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HA.Wedding.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HA.Wedding.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SS_QuotedItemChange.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_QuotedSourceItem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_Report.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_BugFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_BugSystem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Channel.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_ClientManager.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Config.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Controls.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Department.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Employee.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_EmployeeDataFile.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmpLoyeeHigherups.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmployeeJob.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_EmployeeType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_FileCategory.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_FileDetails.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_HandleLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_HandleType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_JurisdictionforButton.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_LoginLog.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_LookURL.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_TitleNode.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_UserJurisdiction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_WeddingPlanning.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sys_Workgroups.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sys_WorkReport.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CostSum.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CostSumEvaluation.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CSDispatching.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CustomerEvaulation.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CustomerQuoted.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_CustomerQuotedSchedule.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="view_CustomerStatement.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DepartmentTarget.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DesignerCustomer.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Dispatching.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DispatchingCustomers.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DispatchingDegreeOfSatisfaction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DispatchingEvaluation.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_DispatchingOrder.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_EmpLoyeeChannel.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_EmployeeTakeDisk.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_EmployeeTarget.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetCost.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetCostItem.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetCostPlan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetDefrreSatisaction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetDegreeOfSatisfaction.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetInviteCompletetoEnd.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetInviteCustomers.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetMember.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetMinDateCollectionPlan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetMissionSum.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetOrderCustomers.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetOtherMember.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetQuotedCostPlan.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetSupplierforCarrytask.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetSupplierProduct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetTakeDisk.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetTelmarketingCustomers.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_GetWeddingPlanMission.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_Hotels.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_MyGoalTargetType.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_PackageProduct.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_SSCustomer.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_StorehouseStatistics.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View_WorkReport.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="HA.Wedding.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>HA.Wedding.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="HA.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HA.Wedding.edmx</DependentUpon>
+      <LastGenOutput>HA.Context.cs</LastGenOutput>
+    </None>
+    <None Include="HA.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>HA.Wedding.edmx</DependentUpon>
+      <LastGenOutput>HA.cs</LastGenOutput>
+    </None>
+    <None Include="HA.Wedding.edmx.diagram">
+      <DependentUpon>HA.Wedding.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

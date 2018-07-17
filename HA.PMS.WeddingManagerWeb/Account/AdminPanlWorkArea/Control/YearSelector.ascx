@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="YearSelector.ascx.cs" Inherits="HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Control.YearSelector" %>
+<asp:Label Text="" ID="lblTitle" runat="server" /><asp:TextBox ID="txtYear" style="text-align:center;width:50px;margin:0;" MaxLength="5" runat="server" Text="" onclick='WdatePicker({ychanged:function(e){if(e.cal.getDateStr()!=e.cal.getNewDateStr()){$(this).val(e.cal.getNewDateStr());$("#btnRefresh").click();}},dateFmt:"yyyy",isShowClear:false,isShowToday:false,isShowOK:false})'/>
