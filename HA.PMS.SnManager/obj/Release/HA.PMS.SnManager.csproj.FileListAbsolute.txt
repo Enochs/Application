@@ -61,7 +61,6 @@ F:\git\Application\HA.PMS.SnManager\bin\Release\HA.PMS.SnManager.pdb
 F:\git\Application\HA.PMS.SnManager\bin\Release\EntityFramework.dll
 F:\git\Application\HA.PMS.SnManager\bin\Release\EntityFramework.xml
 F:\git\Application\HA.PMS.SnManager\bin\Release\zh-Hans\EntityFramework.resources.dll
-F:\git\Application\HA.PMS.SnManager\obj\Release\HA.PMS.SnManager.csprojAssemblyReference.cache
 F:\git\Application\HA.PMS.SnManager\obj\Release\HA.PMS.SnManager.Login.resources
 F:\git\Application\HA.PMS.SnManager\obj\Release\HA.PMS.SnManager.SnIndex.resources
 F:\git\Application\HA.PMS.SnManager\obj\Release\HA.PMS.SnManager.Properties.Resources.resources

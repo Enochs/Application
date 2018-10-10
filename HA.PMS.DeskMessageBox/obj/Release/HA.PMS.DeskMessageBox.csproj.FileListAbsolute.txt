@@ -66,3 +66,4 @@ F:\git\Application\HA.PMS.DeskMessageBox\obj\Release\HA.PMS.DeskMessageBox.cspro
 F:\git\Application\HA.PMS.DeskMessageBox\obj\Release\HA.PMS.DeskMessageBox.csproj.CoreCompileInputs.cache
 F:\git\Application\HA.PMS.DeskMessageBox\obj\Release\HA.PMS.DeskMessageBox.exe
 F:\git\Application\HA.PMS.DeskMessageBox\obj\Release\HA.PMS.DeskMessageBox.pdb
+F:\git\Application\HA.PMS.DeskMessageBox\obj\Release\HA.PMS.DeskMessageBox.csprojAssemblyReference.cache

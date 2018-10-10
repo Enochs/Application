@@ -57,3 +57,4 @@ F:\git\Application\HA.PMS.DeskProject\obj\Release\HA.PMS.DeskProject.csproj.Core
 F:\git\Application\HA.PMS.DeskProject\obj\Release\HA.PMS.DeskProject.csproj.CopyComplete
 F:\git\Application\HA.PMS.DeskProject\obj\Release\HA.PMS.DeskProject.exe
 F:\git\Application\HA.PMS.DeskProject\obj\Release\HA.PMS.DeskProject.pdb
+F:\git\Application\HA.PMS.DeskProject\obj\Release\HA.PMS.DeskProject.csprojAssemblyReference.cache

@@ -275,7 +275,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.CS
         {
 
             //添加满意度调查
-            var DataList = ObjCustomerBLL.GetByAll().Where(C => C.State == 2016 || C.State == 208 || C.State == 24);
+            var DataList = ObjCustomerBLL.GetByAll().Where(C => C.State == 206 || C.State == 208 || C.State == 24);
             foreach (var item in DataList)
             {
                 var ObjDegreeModel = objDegreeOfSatisfactionBLL.GetByCustomersID(item.CustomerID);

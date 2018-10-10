@@ -121,8 +121,8 @@ F:\git\Application\HA.PMS.DataAssmblly\bin\Release\EntityFramework.Extended.dll
 F:\git\Application\HA.PMS.DataAssmblly\bin\Release\EntityFramework.xml
 F:\git\Application\HA.PMS.DataAssmblly\bin\Release\EntityFramework.Extended.xml
 F:\git\Application\HA.PMS.DataAssmblly\bin\Release\zh-Hans\EntityFramework.resources.dll
-F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.csprojAssemblyReference.cache
 F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.csproj.CoreCompileInputs.cache
 F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.csproj.CopyComplete
 F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.dll
 F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.pdb
+F:\git\Application\HA.PMS.DataAssmblly\obj\Release\HA.PMS.DataAssmblly.csprojAssemblyReference.cache

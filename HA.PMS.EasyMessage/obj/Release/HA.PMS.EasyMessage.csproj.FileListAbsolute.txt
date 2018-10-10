@@ -55,7 +55,6 @@ F:\git\Application\HA.PMS.EasyMessage\bin\Release\HA.PMS.EasyMessage.exe
 F:\git\Application\HA.PMS.EasyMessage\bin\Release\HA.PMS.EasyMessage.pdb
 F:\git\Application\HA.PMS.EasyMessage\bin\Release\HA.PMS.BLLInterface.dll
 F:\git\Application\HA.PMS.EasyMessage\bin\Release\HA.PMS.BLLInterface.pdb
-F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.csprojAssemblyReference.cache
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.EasyMessAgebox.resources
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.LoginBox.resources
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.Properties.Resources.resources
@@ -64,3 +63,4 @@ F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.csproj.Core
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.csproj.CopyComplete
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.exe
 F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.pdb
+F:\git\Application\HA.PMS.EasyMessage\obj\Release\HA.PMS.EasyMessage.csprojAssemblyReference.cache
