@@ -744,6 +744,9 @@
     <Compile Include="View_PackageProduct.cs">
       <DependentUpon>HA.tt</DependentUpon>
     </Compile>
+    <Compile Include="View_QuotedSchedule.cs">
+      <DependentUpon>HA.tt</DependentUpon>
+    </Compile>
     <Compile Include="View_SSCustomer.cs">
       <DependentUpon>HA.tt</DependentUpon>
     </Compile>

@@ -1144,9 +1144,9 @@
           </Key>
           <Property Name="CostSumId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Name" Type="varchar" MaxLength="100" />
-          <Property Name="Content" Type="varchar" MaxLength="500" />
+          <Property Name="Content" Type="text" />
           <Property Name="Sumtotal" Type="decimal" Precision="18" Scale="2" />
-          <Property Name="CategoryName" Type="varchar" MaxLength="500" />
+          <Property Name="CategoryName" Type="text" />
           <Property Name="RowType" Type="int" />
           <Property Name="Evaluation" Type="int" />
           <Property Name="DispatchingID" Type="int" />
@@ -2239,14 +2239,15 @@
           <Property Name="ScheCustomerID" Type="int" />
           <Property Name="ScheOrderID" Type="int" />
           <Property Name="ScheQuotedID" Type="int" />
-          <Property Name="ScheGuardianID" Type="int" />
-          <Property Name="ScheGuardianPrice" Type="decimal" Precision="18" Scale="0" />
-          <Property Name="ScheGuardianType" Type="int" />
-          <Property Name="SchePayMent" Type="decimal" Precision="18" Scale="0" />
-          <Property Name="ScheCreateEmployee" Type="int" />
-          <Property Name="ScheState" Type="int" />
+          <Property Name="ScheType" Type="varchar" MaxLength="50" />
+          <Property Name="ScheName" Type="varchar" MaxLength="50" />
+          <Property Name="ScheOfferPrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheDepositPrice" Type="decimal" Precision="18" Scale="2" />
           <Property Name="ScheCreateDate" Type="datetime" />
           <Property Name="ScheReamrk" Type="text" />
+          <Property Name="ScheCreateEmployee" Type="int" />
+          <Property Name="ScheState" Type="int" />
         </EntityType>
         <EntityType Name="FL_Statement">
           <Key>
@@ -3655,10 +3656,10 @@
           <Property Name="QuotedID" Type="int" Nullable="false" />
           <Property Name="CreateDate" Type="date" Nullable="false" />
           <Property Name="ScheID" Type="int" />
-          <Property Name="ScheGuardianID" Type="int" />
-          <Property Name="ScheGuardianPrice" Type="decimal" Precision="18" Scale="0" />
-          <Property Name="ScheGuardianType" Type="int" />
-          <Property Name="SchePayMent" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="ScheType" Type="varchar" MaxLength="50" />
+          <Property Name="ScheName" Type="varchar" MaxLength="50" />
+          <Property Name="ScheOfferPrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="decimal" Precision="18" Scale="2" />
           <Property Name="ScheCreateEmployee" Type="int" />
           <Property Name="ScheState" Type="int" />
           <Property Name="ScheCreateDate" Type="datetime" />
@@ -4722,8 +4723,6 @@
 警告 6002: 表/视图“PMS_Wedding.dbo.View_GetDefrreSatisaction”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
         <EntityType Name="View_GetDefrreSatisaction">
           <Key>
-            <PropertyRef Name="DofContent" />
-            <PropertyRef Name="DofKey" />
             <PropertyRef Name="CustomerID" />
             <PropertyRef Name="Groom" />
             <PropertyRef Name="Bride" />
@@ -4741,6 +4740,8 @@
             <PropertyRef Name="WeddingServices" />
             <PropertyRef Name="ImportantProcess" />
             <PropertyRef Name="DesiredAppearance" />
+            <PropertyRef Name="DofContent" />
+            <PropertyRef Name="DofKey" />
           </Key>
           <Property Name="CustomerID" Type="int" Nullable="false" />
           <Property Name="Groom" Type="varchar" MaxLength="50" Nullable="false" />
@@ -4852,6 +4853,7 @@
           <Property Name="RealAmount" Type="decimal" Precision="18" Scale="2" />
           <Property Name="FinishAmount" Type="decimal" Precision="18" Scale="2" />
           <Property Name="IsDispatching" Type="int" />
+          <Property Name="QuotedEmployee" Type="int" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“PMS_Wedding.dbo.View_GetDegreeOfSatisfaction”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -5047,6 +5049,7 @@
           <Property Name="OrderEmployee" Type="int" />
           <Property Name="Expr1" Type="int" />
           <Property Name="QuotedEmployee" Type="int" />
+          <Property Name="ApplyType" Type="int" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“PMS_Wedding.dbo.View_GetMember”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -5956,6 +5959,52 @@
           <Property Name="Explain" Type="varchar(max)" />
           <Property Name="Count" Type="int" />
           <Property Name="SupplierName" Type="varchar(max)" />
+        </EntityType>
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“PMS_Wedding.dbo.View_QuotedSchedule”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="View_QuotedSchedule">
+          <Key>
+            <PropertyRef Name="CustomerID" />
+            <PropertyRef Name="Bride" />
+            <PropertyRef Name="BrideCellPhone" />
+            <PropertyRef Name="Groom" />
+            <PropertyRef Name="GroomCellPhone" />
+            <PropertyRef Name="ChannelType" />
+            <PropertyRef Name="QuotedID" />
+            <PropertyRef Name="CreateDate" />
+            <PropertyRef Name="ScheID" />
+          </Key>
+          <Property Name="CustomerID" Type="int" Nullable="false" />
+          <Property Name="Bride" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="BrideCellPhone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Groom" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="GroomCellPhone" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PartyDate" Type="datetime" />
+          <Property Name="FinishOver" Type="bit" />
+          <Property Name="State" Type="int" />
+          <Property Name="ContactMan" Type="varchar" MaxLength="50" />
+          <Property Name="ContactPhone" Type="varchar" MaxLength="50" />
+          <Property Name="CreateEmployee" Type="int" />
+          <Property Name="InviteEmployee" Type="int" />
+          <Property Name="OrderEmployee" Type="int" />
+          <Property Name="EmpLoyeeID" Type="int" />
+          <Property Name="QuotedEmployee" Type="int" />
+          <Property Name="Wineshop" Type="varchar" MaxLength="100" />
+          <Property Name="Channel" Type="varchar" MaxLength="50" />
+          <Property Name="ChannelType" Type="int" Nullable="false" />
+          <Property Name="OrderID" Type="int" />
+          <Property Name="QuotedID" Type="int" Nullable="false" />
+          <Property Name="CreateDate" Type="date" Nullable="false" />
+          <Property Name="ScheID" Type="int" Nullable="false" />
+          <Property Name="ScheType" Type="varchar" MaxLength="50" />
+          <Property Name="ScheName" Type="varchar" MaxLength="50" />
+          <Property Name="ScheOfferPrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCreateEmployee" Type="int" />
+          <Property Name="ScheState" Type="int" />
+          <Property Name="ScheCreateDate" Type="datetime" />
+          <Property Name="ScheDepositPrice" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="ScheReamrk" Type="text" />
         </EntityType>
         <!--生成过程中发现错误:
 警告 6002: 表/视图“PMS_Wedding.dbo.View_SSCustomer”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
@@ -7766,10 +7815,10 @@ FROM [dbo].[View_CustomerQuoted] AS [View_CustomerQuoted]</DefiningQuery>
 [View_CustomerQuotedSchedule].[QuotedID] AS [QuotedID], 
 [View_CustomerQuotedSchedule].[CreateDate] AS [CreateDate], 
 [View_CustomerQuotedSchedule].[ScheID] AS [ScheID], 
-[View_CustomerQuotedSchedule].[ScheGuardianID] AS [ScheGuardianID], 
-[View_CustomerQuotedSchedule].[ScheGuardianPrice] AS [ScheGuardianPrice], 
-[View_CustomerQuotedSchedule].[ScheGuardianType] AS [ScheGuardianType], 
-[View_CustomerQuotedSchedule].[SchePayMent] AS [SchePayMent], 
+[View_CustomerQuotedSchedule].[ScheType] AS [ScheType], 
+[View_CustomerQuotedSchedule].[ScheName] AS [ScheName], 
+[View_CustomerQuotedSchedule].[ScheOfferPrice] AS [ScheOfferPrice], 
+[View_CustomerQuotedSchedule].[ScheCooperatePrice] AS [ScheCooperatePrice], 
 [View_CustomerQuotedSchedule].[ScheCreateEmployee] AS [ScheCreateEmployee], 
 [View_CustomerQuotedSchedule].[ScheState] AS [ScheState], 
 [View_CustomerQuotedSchedule].[ScheCreateDate] AS [ScheCreateDate], 
@@ -8734,7 +8783,8 @@ FROM [dbo].[View_GetCostPlan] AS [View_GetCostPlan]</DefiningQuery>
 [View_GetDefrreSatisaction].[ChecksEmployee] AS [ChecksEmployee], 
 [View_GetDefrreSatisaction].[RealAmount] AS [RealAmount], 
 [View_GetDefrreSatisaction].[FinishAmount] AS [FinishAmount], 
-[View_GetDefrreSatisaction].[IsDispatching] AS [IsDispatching]
+[View_GetDefrreSatisaction].[IsDispatching] AS [IsDispatching], 
+[View_GetDefrreSatisaction].[QuotedEmployee] AS [QuotedEmployee]
 FROM [dbo].[View_GetDefrreSatisaction] AS [View_GetDefrreSatisaction]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="View_GetDegreeOfSatisfaction" EntityType="Self.View_GetDegreeOfSatisfaction" store:Type="Views" store:Schema="dbo">
@@ -8894,7 +8944,8 @@ FROM [dbo].[View_GetInviteCompletetoEnd] AS [View_GetInviteCompletetoEnd]</Defin
 [View_GetInviteCustomers].[InviteEmployee] AS [InviteEmployee], 
 [View_GetInviteCustomers].[OrderEmployee] AS [OrderEmployee], 
 [View_GetInviteCustomers].[Expr1] AS [Expr1], 
-[View_GetInviteCustomers].[QuotedEmployee] AS [QuotedEmployee]
+[View_GetInviteCustomers].[QuotedEmployee] AS [QuotedEmployee], 
+[View_GetInviteCustomers].[ApplyType] AS [ApplyType]
 FROM [dbo].[View_GetInviteCustomers] AS [View_GetInviteCustomers]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="View_GetMember" EntityType="Self.View_GetMember" store:Type="Views" store:Schema="dbo">
@@ -9642,6 +9693,41 @@ FROM [dbo].[View_MyGoalTargetType] AS [View_MyGoalTargetType]</DefiningQuery>
 [View_PackageProduct].[SupplierName] AS [SupplierName]
 FROM [dbo].[View_PackageProduct] AS [View_PackageProduct]</DefiningQuery>
           </EntitySet>
+          <EntitySet Name="View_QuotedSchedule" EntityType="Self.View_QuotedSchedule" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[View_QuotedSchedule].[CustomerID] AS [CustomerID], 
+[View_QuotedSchedule].[Bride] AS [Bride], 
+[View_QuotedSchedule].[BrideCellPhone] AS [BrideCellPhone], 
+[View_QuotedSchedule].[Groom] AS [Groom], 
+[View_QuotedSchedule].[GroomCellPhone] AS [GroomCellPhone], 
+[View_QuotedSchedule].[PartyDate] AS [PartyDate], 
+[View_QuotedSchedule].[FinishOver] AS [FinishOver], 
+[View_QuotedSchedule].[State] AS [State], 
+[View_QuotedSchedule].[ContactMan] AS [ContactMan], 
+[View_QuotedSchedule].[ContactPhone] AS [ContactPhone], 
+[View_QuotedSchedule].[CreateEmployee] AS [CreateEmployee], 
+[View_QuotedSchedule].[InviteEmployee] AS [InviteEmployee], 
+[View_QuotedSchedule].[OrderEmployee] AS [OrderEmployee], 
+[View_QuotedSchedule].[EmpLoyeeID] AS [EmpLoyeeID], 
+[View_QuotedSchedule].[QuotedEmployee] AS [QuotedEmployee], 
+[View_QuotedSchedule].[Wineshop] AS [Wineshop], 
+[View_QuotedSchedule].[Channel] AS [Channel], 
+[View_QuotedSchedule].[ChannelType] AS [ChannelType], 
+[View_QuotedSchedule].[OrderID] AS [OrderID], 
+[View_QuotedSchedule].[QuotedID] AS [QuotedID], 
+[View_QuotedSchedule].[CreateDate] AS [CreateDate], 
+[View_QuotedSchedule].[ScheID] AS [ScheID], 
+[View_QuotedSchedule].[ScheType] AS [ScheType], 
+[View_QuotedSchedule].[ScheName] AS [ScheName], 
+[View_QuotedSchedule].[ScheOfferPrice] AS [ScheOfferPrice], 
+[View_QuotedSchedule].[ScheCooperatePrice] AS [ScheCooperatePrice], 
+[View_QuotedSchedule].[ScheCreateEmployee] AS [ScheCreateEmployee], 
+[View_QuotedSchedule].[ScheState] AS [ScheState], 
+[View_QuotedSchedule].[ScheCreateDate] AS [ScheCreateDate], 
+[View_QuotedSchedule].[ScheDepositPrice] AS [ScheDepositPrice], 
+[View_QuotedSchedule].[ScheReamrk] AS [ScheReamrk]
+FROM [dbo].[View_QuotedSchedule] AS [View_QuotedSchedule]</DefiningQuery>
+          </EntitySet>
           <EntitySet Name="View_SSCustomer" EntityType="Self.View_SSCustomer" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
 [View_SSCustomer].[CustomerID] AS [CustomerID], 
@@ -10309,7 +10395,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <EntitySet Name="FL_CostforOrder" EntityType="PMS_WeddingModel.FL_CostforOrder" />
           <EntitySet Name="CS_Credit" EntityType="PMS_WeddingModel.CS_Credit" />
           <EntitySet Name="CS_CreditLog" EntityType="PMS_WeddingModel.CS_CreditLog" />
-          <EntitySet Name="View_GetInviteCustomers" EntityType="PMS_WeddingModel.View_GetInviteCustomers" />
           <EntitySet Name="View_GetTelmarketingCustomers" EntityType="PMS_WeddingModel.View_GetTelmarketingCustomers" />
           <EntitySet Name="SS_QuotedItemChange" EntityType="PMS_WeddingModel.SS_QuotedItemChange" />
           <EntitySet Name="SS_QuotedSourceItem" EntityType="PMS_WeddingModel.SS_QuotedSourceItem" />
@@ -10365,7 +10450,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <EntitySet Name="FL_Designclass" EntityType="PMS_WeddingModel.FL_Designclass" />
           <EntitySet Name="FL_DesignThemes" EntityType="PMS_WeddingModel.FL_DesignThemes" />
           <EntitySet Name="View_GetMinDateCollectionPlan" EntityType="PMS_WeddingModel.View_GetMinDateCollectionPlan" />
-          <EntitySet Name="FL_QuotedPriceSchedule" EntityType="PMS_WeddingModel.FL_QuotedPriceSchedule" />
           <EntitySet Name="FD_SupplierProductQuery" EntityType="PMS_WeddingModel.FD_SupplierProductQuery" />
           <EntitySet Name="View_CostSumEvaluation" EntityType="PMS_WeddingModel.View_CostSumEvaluation" />
           <EntitySet Name="View_GetOrderCustomers" EntityType="PMS_WeddingModel.View_GetOrderCustomers" />
@@ -10418,7 +10502,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
             <End Role="FL_Dispatching" EntitySet="FL_Dispatching" />
             <End Role="FL_ProductforDispatching" EntitySet="FL_ProductforDispatching" />
           </AssociationSet>
-          <EntitySet Name="View_CustomerQuotedSchedule" EntityType="PMS_WeddingModel.View_CustomerQuotedSchedule" />
           <EntitySet Name="FD_Supplier" EntityType="PMS_WeddingModel.FD_Supplier" />
           <AssociationSet Name="FK_FD_Product_FD_Supplier" Association="PMS_WeddingModel.FK_FD_Product_FD_Supplier">
             <End Role="FD_Supplier" EntitySet="FD_Supplier" />
@@ -10559,6 +10642,10 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <EntitySet Name="FL_QuotedPriceForType" EntityType="PMS_WeddingModel.FL_QuotedPriceForType" />
           <EntitySet Name="view_CustomerStatement" EntityType="PMS_WeddingModel.view_CustomerStatement" />
           <EntitySet Name="FD_ApplyType" EntityType="PMS_WeddingModel.FD_ApplyType" />
+          <EntitySet Name="FL_QuotedPriceSchedule" EntityType="PMS_WeddingModel.FL_QuotedPriceSchedule" />
+          <EntitySet Name="View_CustomerQuotedSchedule" EntityType="PMS_WeddingModel.View_CustomerQuotedSchedule" />
+          <EntitySet Name="View_QuotedSchedule" EntityType="PMS_WeddingModel.View_QuotedSchedule" />
+          <EntitySet Name="View_GetInviteCustomers" EntityType="PMS_WeddingModel.View_GetInviteCustomers" />
           </EntityContainer>
         <ComplexType Name="GetMissionSumByWhere_Result">
           <Property Type="Int32" Name="EmpLoyeeID" Nullable="false" />
@@ -13844,141 +13931,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <Property Type="Int32" Name="CustomerID" Nullable="false" />
           <Property Type="Int32" Name="EmployeeID" />
         </EntityType>
-        <EntityType Name="View_GetInviteCustomers">
-          <Key>
-            <PropertyRef Name="InviteID" />
-            <PropertyRef Name="CustomerID" />
-            <PropertyRef Name="Groom" />
-            <PropertyRef Name="Bride" />
-            <PropertyRef Name="GroomCellPhone" />
-            <PropertyRef Name="BrideCellPhone" />
-            <PropertyRef Name="Operator" />
-            <PropertyRef Name="OperatorPhone" />
-            <PropertyRef Name="PartyBudget" />
-            <PropertyRef Name="ChannelType" />
-            <PropertyRef Name="FormMarriage" />
-            <PropertyRef Name="LikeColor" />
-            <PropertyRef Name="ExpectedAtmosphere" />
-            <PropertyRef Name="Hobbies" />
-            <PropertyRef Name="NoTaboos" />
-            <PropertyRef Name="WeddingServices" />
-            <PropertyRef Name="ImportantProcess" />
-            <PropertyRef Name="DesiredAppearance" />
-          </Key>
-          <Property Type="Int32" Name="InviteID" Nullable="false" />
-          <Property Type="Int32" Name="EmpLoyeeID" />
-          <Property Type="DateTime" Name="ComeDate" Precision="3" />
-          <Property Type="Int32" Name="CustomerID" Nullable="false" />
-          <Property Type="String" Name="Groom" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="GroomBirthday" Precision="3" />
-          <Property Type="String" Name="Bride" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="BrideBirthday" Precision="3" />
-          <Property Type="String" Name="GroomCellPhone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideCellPhone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomEmail" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideEmail" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomtelPhone" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BridePhone" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomteWeixin" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideWeiXin" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomWeiBo" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideWeiBo" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomQQ" MaxLength="32" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="BrideQQ" MaxLength="32" FixedLength="false" Unicode="true" />
-          <Property Type="Boolean" Name="IsDelete" />
-          <Property Type="Boolean" Name="IsLose" />
-          <Property Type="Int32" Name="State" />
-          <Property Type="String" Name="GroomJob" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideJob" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="CustomersType" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomJobCompany" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideJobCompany" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Operator" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="OperatorRelationship" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="OperatorPhone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BanquetTypes" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Decimal" Name="PartyBudget" Nullable="false" Precision="18" Scale="0" />
-          <Property Type="String" Name="WeddingSponsors" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Type="DateTime" Name="PartyDate" Precision="3" />
-          <Property Type="String" Name="Address" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BanquetHall" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="TableNumber" />
-          <Property Type="Decimal" Name="BanquetAt" Precision="19" Scale="4" />
-          <Property Type="String" Name="DinnerTime" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BanquetSales" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="Recorder" />
-          <Property Type="String" Name="StoreAddress" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="ChannelType" Nullable="false" />
-          <Property Type="String" Name="Channel" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Referee" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GuestsStructure" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="FormMarriage" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="PreparationsWedding" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="LikeColor" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="ExpectedAtmosphere" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="LikeNumber" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Hobbies" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="NoTaboos" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="LikeFilm" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="LikeMusic" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="LikePerson" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="WeddingServices" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="ImportantProcess" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="VoidLink" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Experience" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="Memorable" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="TheProposal" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="MemorableGift" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Aspirations" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="WatchingExperience" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="ParentsWish" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="DesiredAppearance" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Other" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="ConvenientIinvitationTime" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="CustomerStatus" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Reasons" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="EmployeeSelfAnalysis" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="AnalysisManager" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="DocumentaryRecord" MaxLength="500" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="InterviewTime" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="Todate" Precision="3" />
-          <Property Type="String" Name="Wineshop" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="RecorderDate" Precision="3" />
-          <Property Type="String" Name="ReasonsExplain" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="ReasonsDate" Precision="0" />
-          <Property Type="String" Name="TimeSpans" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="CreateDate" Precision="0" />
-          <Property Type="Int32" Name="CreateEmployee" />
-          <Property Type="String" Name="CreateEmployeeName" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="FllowCount" />
-          <Property Type="DateTime" Name="AgainDate" Precision="3" />
-          <Property Type="DateTime" Name="LastFollowDate" Precision="3" />
-          <Property Type="Int32" Name="ToDepartMent" />
-          <Property Type="Int32" Name="ToEmpLoyee" />
-          <Property Type="Int32" Name="ContentID" />
-          <Property Type="String" Name="Title" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="OrderEmpLoyeeID" />
-          <Property Type="String" Name="OperatorEmail" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="OperatorWeiXin" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="OperatorWeiBo" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="ContactType" />
-          <Property Type="String" Name="ContactMan" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="ContactPhone" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="OrderCreateDate" Precision="3" />
-          <Property Type="DateTime" Name="OrderSucessDate" Precision="3" />
-          <Property Type="DateTime" Name="InviteCreateDate" Precision="3" />
-          <Property Type="DateTime" Name="OrderLoseDate" Precision="3" />
-          <Property Type="DateTime" Name="InviteSucessDate" Precision="3" />
-          <Property Type="DateTime" Name="InviteLoseDate" Precision="3" />
-          <Property Type="DateTime" Name="QuotedCreateDate" Precision="3" />
-          <Property Type="DateTime" Name="QuotedDateSucessDate" Precision="3" />
-          <Property Type="DateTime" Name="QuotedFileDate" Precision="3" />
-          <Property Type="DateTime" Name="WorkCreateDate" Precision="3" />
-          <Property Type="Int32" Name="InviteEmployee" />
-          <Property Type="Int32" Name="OrderEmployee" />
-          <Property Type="Int32" Name="Expr1" />
-          <Property Type="Int32" Name="QuotedEmployee" />
-        </EntityType>
         <EntityType Name="View_GetTelmarketingCustomers">
           <Key>
             <PropertyRef Name="MarkeID" />
@@ -15435,6 +15387,7 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <Property Type="Decimal" Name="RealAmount" Precision="18" Scale="2" />
           <Property Type="Decimal" Name="FinishAmount" Precision="18" Scale="2" />
           <Property Type="Int32" Name="IsDispatching" />
+          <Property Name="QuotedEmployee" Type="Int32" />
         </EntityType>
         <EntityType Name="FL_DesignUpload">
           <Key>
@@ -15543,23 +15496,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <Property Name="QuotedID" Type="Int32" Nullable="false" />
           <Property Name="OrderID" Type="Int32" />
           <Property Name="MinCollectionDate" Type="DateTime" Precision="3" />
-        </EntityType>
-        <EntityType Name="FL_QuotedPriceSchedule">
-          <Key>
-            <PropertyRef Name="ScheID" />
-          </Key>
-          <Property Name="ScheID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ScheCustomerID" Type="Int32" />
-          <Property Name="ScheOrderID" Type="Int32" />
-          <Property Name="ScheQuotedID" Type="Int32" />
-          <Property Name="ScheGuardianID" Type="Int32" />
-          <Property Name="ScheGuardianPrice" Type="Decimal" Precision="18" Scale="0" />
-          <Property Name="ScheGuardianType" Type="Int32" />
-          <Property Name="SchePayMent" Type="Decimal" Precision="18" Scale="0" />
-          <Property Name="ScheCreateEmployee" Type="Int32" />
-          <Property Name="ScheState" Type="Int32" />
-          <Property Name="ScheCreateDate" Type="DateTime" Precision="3" />
-          <Property Name="ScheReamrk" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="FD_SupplierProductQuery">
           <Key>
@@ -16286,48 +16222,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityType Name="View_CustomerQuotedSchedule">
-          <Key>
-            <PropertyRef Name="CustomerID" />
-            <PropertyRef Name="Bride" />
-            <PropertyRef Name="BrideCellPhone" />
-            <PropertyRef Name="Groom" />
-            <PropertyRef Name="GroomCellPhone" />
-            <PropertyRef Name="ChannelType" />
-            <PropertyRef Name="QuotedID" />
-            <PropertyRef Name="CreateDate" />
-          </Key>
-          <Property Type="Int32" Name="CustomerID" Nullable="false" />
-          <Property Type="String" Name="Bride" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="BrideCellPhone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Groom" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="GroomCellPhone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="DateTime" Name="PartyDate" Precision="3" />
-          <Property Type="Boolean" Name="FinishOver" />
-          <Property Type="Int32" Name="State" />
-          <Property Type="String" Name="ContactMan" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="ContactPhone" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="CreateEmployee" />
-          <Property Type="Int32" Name="InviteEmployee" />
-          <Property Type="Int32" Name="OrderEmployee" />
-          <Property Type="Int32" Name="EmpLoyeeID" />
-          <Property Type="Int32" Name="QuotedEmployee" />
-          <Property Type="String" Name="Wineshop" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Channel" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Type="Int32" Name="ChannelType" Nullable="false" />
-          <Property Type="Int32" Name="OrderID" />
-          <Property Type="Int32" Name="QuotedID" Nullable="false" />
-          <Property Type="DateTime" Name="CreateDate" Nullable="false" Precision="0" />
-          <Property Type="Int32" Name="ScheID" />
-          <Property Type="Int32" Name="ScheGuardianID" />
-          <Property Type="Decimal" Name="ScheGuardianPrice" Precision="18" Scale="0" />
-          <Property Type="Int32" Name="ScheGuardianType" />
-          <Property Type="Decimal" Name="SchePayMent" Precision="18" Scale="0" />
-          <Property Type="Int32" Name="ScheCreateEmployee" />
-          <Property Type="Int32" Name="ScheState" />
-          <Property Type="DateTime" Name="ScheCreateDate" Precision="3" />
-          <Property Type="String" Name="ScheReamrk" MaxLength="Max" FixedLength="false" Unicode="false" />
-        </EntityType>
         <EntityType Name="FD_Supplier">
           <Key>
             <PropertyRef Name="SupplierID" />
@@ -16589,9 +16483,9 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           </Key>
           <Property Type="Int32" Name="CostSumId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="String" Name="Name" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Type="String" Name="Content" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Content" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Type="Decimal" Name="Sumtotal" Precision="18" Scale="2" />
-          <Property Type="String" Name="CategoryName" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CategoryName" MaxLength="Max" FixedLength="false" Unicode="false" />
           <Property Type="Int32" Name="RowType" />
           <Property Type="Int32" Name="Evaluation" />
           <Property Type="Int32" Name="DispatchingID" />
@@ -17555,6 +17449,246 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <Property Name="ApplyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="CreateDate" Type="DateTime" Precision="3" />
           <Property Name="Status" Type="Int32" />
+        </EntityType>
+        <EntityType Name="FL_QuotedPriceSchedule">
+          <Key>
+            <PropertyRef Name="ScheID" />
+          </Key>
+          <Property Name="ScheID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ScheCustomerID" Type="Int32" />
+          <Property Name="ScheOrderID" Type="Int32" />
+          <Property Name="ScheQuotedID" Type="Int32" />
+          <Property Name="ScheType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheOfferPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheDepositPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ScheReamrk" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ScheCreateEmployee" Type="Int32" />
+          <Property Name="ScheState" Type="Int32" />
+        </EntityType>
+        <EntityType Name="View_CustomerQuotedSchedule">
+          <Key>
+            <PropertyRef Name="CustomerID" />
+            <PropertyRef Name="Bride" />
+            <PropertyRef Name="BrideCellPhone" />
+            <PropertyRef Name="Groom" />
+            <PropertyRef Name="GroomCellPhone" />
+            <PropertyRef Name="ChannelType" />
+            <PropertyRef Name="QuotedID" />
+            <PropertyRef Name="CreateDate" />
+          </Key>
+          <Property Name="CustomerID" Type="Int32" Nullable="false" />
+          <Property Name="Bride" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BrideCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Groom" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PartyDate" Type="DateTime" Precision="3" />
+          <Property Name="FinishOver" Type="Boolean" />
+          <Property Name="State" Type="Int32" />
+          <Property Name="ContactMan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateEmployee" Type="Int32" />
+          <Property Name="InviteEmployee" Type="Int32" />
+          <Property Name="OrderEmployee" Type="Int32" />
+          <Property Name="EmpLoyeeID" Type="Int32" />
+          <Property Name="QuotedEmployee" Type="Int32" />
+          <Property Name="Wineshop" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Channel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ChannelType" Type="Int32" Nullable="false" />
+          <Property Name="OrderID" Type="Int32" />
+          <Property Name="QuotedID" Type="Int32" Nullable="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ScheID" Type="Int32" />
+          <Property Name="ScheType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheOfferPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCreateEmployee" Type="Int32" />
+          <Property Name="ScheState" Type="Int32" />
+          <Property Name="ScheCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ScheReamrk" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="View_QuotedSchedule">
+          <Key>
+            <PropertyRef Name="CustomerID" />
+            <PropertyRef Name="Bride" />
+            <PropertyRef Name="BrideCellPhone" />
+            <PropertyRef Name="Groom" />
+            <PropertyRef Name="GroomCellPhone" />
+            <PropertyRef Name="ChannelType" />
+            <PropertyRef Name="QuotedID" />
+            <PropertyRef Name="CreateDate" />
+            <PropertyRef Name="ScheID" />
+          </Key>
+          <Property Name="CustomerID" Type="Int32" Nullable="false" />
+          <Property Name="Bride" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BrideCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Groom" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PartyDate" Type="DateTime" Precision="3" />
+          <Property Name="FinishOver" Type="Boolean" />
+          <Property Name="State" Type="Int32" />
+          <Property Name="ContactMan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateEmployee" Type="Int32" />
+          <Property Name="InviteEmployee" Type="Int32" />
+          <Property Name="OrderEmployee" Type="Int32" />
+          <Property Name="EmpLoyeeID" Type="Int32" />
+          <Property Name="QuotedEmployee" Type="Int32" />
+          <Property Name="Wineshop" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Channel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ChannelType" Type="Int32" Nullable="false" />
+          <Property Name="OrderID" Type="Int32" />
+          <Property Name="QuotedID" Type="Int32" Nullable="false" />
+          <Property Name="CreateDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ScheID" Type="Int32" Nullable="false" />
+          <Property Name="ScheType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScheOfferPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCooperatePrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheCreateEmployee" Type="Int32" />
+          <Property Name="ScheState" Type="Int32" />
+          <Property Name="ScheCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="ScheDepositPrice" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="ScheReamrk" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="View_GetInviteCustomers">
+          <Key>
+            <PropertyRef Name="InviteID" />
+            <PropertyRef Name="CustomerID" />
+            <PropertyRef Name="Groom" />
+            <PropertyRef Name="Bride" />
+            <PropertyRef Name="GroomCellPhone" />
+            <PropertyRef Name="BrideCellPhone" />
+            <PropertyRef Name="Operator" />
+            <PropertyRef Name="OperatorPhone" />
+            <PropertyRef Name="PartyBudget" />
+            <PropertyRef Name="ChannelType" />
+            <PropertyRef Name="FormMarriage" />
+            <PropertyRef Name="LikeColor" />
+            <PropertyRef Name="ExpectedAtmosphere" />
+            <PropertyRef Name="Hobbies" />
+            <PropertyRef Name="NoTaboos" />
+            <PropertyRef Name="WeddingServices" />
+            <PropertyRef Name="ImportantProcess" />
+            <PropertyRef Name="DesiredAppearance" />
+          </Key>
+          <Property Name="InviteID" Type="Int32" Nullable="false" />
+          <Property Name="EmpLoyeeID" Type="Int32" />
+          <Property Name="ComeDate" Type="DateTime" Precision="3" />
+          <Property Name="CustomerID" Type="Int32" Nullable="false" />
+          <Property Name="Groom" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomBirthday" Type="DateTime" Precision="3" />
+          <Property Name="Bride" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BrideBirthday" Type="DateTime" Precision="3" />
+          <Property Name="GroomCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BrideCellPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomEmail" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="BrideEmail" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="GroomtelPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BridePhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomteWeixin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BrideWeiXin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GroomWeiBo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="BrideWeiBo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="GroomQQ" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+          <Property Name="BrideQQ" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+          <Property Name="IsDelete" Type="Boolean" />
+          <Property Name="IsLose" Type="Boolean" />
+          <Property Name="State" Type="Int32" />
+          <Property Name="GroomJob" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="BrideJob" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="CustomersType" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="GroomJobCompany" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="BrideJobCompany" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="Operator" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OperatorRelationship" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OperatorPhone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BanquetTypes" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PartyBudget" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="WeddingSponsors" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="PartyDate" Type="DateTime" Precision="3" />
+          <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="BanquetHall" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="TableNumber" Type="Int32" />
+          <Property Name="BanquetAt" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="DinnerTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BanquetSales" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Recorder" Type="Int32" />
+          <Property Name="StoreAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ChannelType" Type="Int32" Nullable="false" />
+          <Property Name="Channel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Referee" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="GuestsStructure" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FormMarriage" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PreparationsWedding" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LikeColor" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ExpectedAtmosphere" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LikeNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Hobbies" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NoTaboos" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LikeFilm" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LikeMusic" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LikePerson" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WeddingServices" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ImportantProcess" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="VoidLink" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Experience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Memorable" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TheProposal" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MemorableGift" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Aspirations" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="WatchingExperience" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ParentsWish" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DesiredAppearance" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Other" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ConvenientIinvitationTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CustomerStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Reasons" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="EmployeeSelfAnalysis" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="AnalysisManager" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="DocumentaryRecord" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="InterviewTime" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Todate" Type="DateTime" Precision="3" />
+          <Property Name="Wineshop" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="RecorderDate" Type="DateTime" Precision="3" />
+          <Property Name="ReasonsExplain" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="ReasonsDate" Type="DateTime" Precision="0" />
+          <Property Name="TimeSpans" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreateDate" Type="DateTime" Precision="0" />
+          <Property Name="CreateEmployee" Type="Int32" />
+          <Property Name="CreateEmployeeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FllowCount" Type="Int32" />
+          <Property Name="AgainDate" Type="DateTime" Precision="3" />
+          <Property Name="LastFollowDate" Type="DateTime" Precision="3" />
+          <Property Name="ToDepartMent" Type="Int32" />
+          <Property Name="ToEmpLoyee" Type="Int32" />
+          <Property Name="ContentID" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OrderEmpLoyeeID" Type="Int32" />
+          <Property Name="OperatorEmail" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="OperatorWeiXin" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="OperatorWeiBo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="ContactType" Type="Int32" />
+          <Property Name="ContactMan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ContactPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="OrderCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="OrderSucessDate" Type="DateTime" Precision="3" />
+          <Property Name="InviteCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="OrderLoseDate" Type="DateTime" Precision="3" />
+          <Property Name="InviteSucessDate" Type="DateTime" Precision="3" />
+          <Property Name="InviteLoseDate" Type="DateTime" Precision="3" />
+          <Property Name="QuotedCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="QuotedDateSucessDate" Type="DateTime" Precision="3" />
+          <Property Name="QuotedFileDate" Type="DateTime" Precision="3" />
+          <Property Name="WorkCreateDate" Type="DateTime" Precision="3" />
+          <Property Name="InviteEmployee" Type="Int32" />
+          <Property Name="OrderEmployee" Type="Int32" />
+          <Property Name="Expr1" Type="Int32" />
+          <Property Name="QuotedEmployee" Type="Int32" />
+          <Property Name="ApplyType" Type="Int32" />
         </EntityType>
         </Schema>
     </edmx:ConceptualModels>
@@ -20478,125 +20612,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="View_GetInviteCustomers">
-            <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetInviteCustomers">
-              <MappingFragment StoreEntitySet="View_GetInviteCustomers">
-                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
-                <ScalarProperty Name="Expr1" ColumnName="Expr1" />
-                <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
-                <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
-                <ScalarProperty Name="WorkCreateDate" ColumnName="WorkCreateDate" />
-                <ScalarProperty Name="QuotedFileDate" ColumnName="QuotedFileDate" />
-                <ScalarProperty Name="QuotedDateSucessDate" ColumnName="QuotedDateSucessDate" />
-                <ScalarProperty Name="QuotedCreateDate" ColumnName="QuotedCreateDate" />
-                <ScalarProperty Name="InviteLoseDate" ColumnName="InviteLoseDate" />
-                <ScalarProperty Name="InviteSucessDate" ColumnName="InviteSucessDate" />
-                <ScalarProperty Name="OrderLoseDate" ColumnName="OrderLoseDate" />
-                <ScalarProperty Name="InviteCreateDate" ColumnName="InviteCreateDate" />
-                <ScalarProperty Name="OrderSucessDate" ColumnName="OrderSucessDate" />
-                <ScalarProperty Name="OrderCreateDate" ColumnName="OrderCreateDate" />
-                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
-                <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
-                <ScalarProperty Name="ContactType" ColumnName="ContactType" />
-                <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
-                <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
-                <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
-                <ScalarProperty Name="OrderEmpLoyeeID" ColumnName="OrderEmpLoyeeID" />
-                <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="ContentID" ColumnName="ContentID" />
-                <ScalarProperty Name="ToEmpLoyee" ColumnName="ToEmpLoyee" />
-                <ScalarProperty Name="ToDepartMent" ColumnName="ToDepartMent" />
-                <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
-                <ScalarProperty Name="AgainDate" ColumnName="AgainDate" />
-                <ScalarProperty Name="FllowCount" ColumnName="FllowCount" />
-                <ScalarProperty Name="CreateEmployeeName" ColumnName="CreateEmployeeName" />
-                <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-                <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
-                <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
-                <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
-                <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
-                <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
-                <ScalarProperty Name="Todate" ColumnName="Todate" />
-                <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
-                <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
-                <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
-                <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
-                <ScalarProperty Name="Reasons" ColumnName="Reasons" />
-                <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
-                <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
-                <ScalarProperty Name="Other" ColumnName="Other" />
-                <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
-                <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
-                <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
-                <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
-                <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
-                <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
-                <ScalarProperty Name="Memorable" ColumnName="Memorable" />
-                <ScalarProperty Name="Experience" ColumnName="Experience" />
-                <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
-                <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
-                <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
-                <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
-                <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
-                <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
-                <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
-                <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
-                <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
-                <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
-                <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
-                <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
-                <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
-                <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
-                <ScalarProperty Name="Referee" ColumnName="Referee" />
-                <ScalarProperty Name="Channel" ColumnName="Channel" />
-                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
-                <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
-                <ScalarProperty Name="Recorder" ColumnName="Recorder" />
-                <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
-                <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
-                <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
-                <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
-                <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
-                <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
-                <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
-                <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
-                <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
-                <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
-                <ScalarProperty Name="Operator" ColumnName="Operator" />
-                <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
-                <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
-                <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
-                <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
-                <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
-                <ScalarProperty Name="State" ColumnName="State" />
-                <ScalarProperty Name="IsLose" ColumnName="IsLose" />
-                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
-                <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
-                <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
-                <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
-                <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
-                <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
-                <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
-                <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
-                <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
-                <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
-                <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
-                <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
-                <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
-                <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
-                <ScalarProperty Name="Bride" ColumnName="Bride" />
-                <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
-                <ScalarProperty Name="Groom" ColumnName="Groom" />
-                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
-                <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
-                <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
-                <ScalarProperty Name="InviteID" ColumnName="InviteID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="View_GetTelmarketingCustomers">
             <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetTelmarketingCustomers">
               <MappingFragment StoreEntitySet="View_GetTelmarketingCustomers">
@@ -21714,6 +21729,7 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
           <EntitySetMapping Name="View_GetDefrreSatisaction">
             <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetDefrreSatisaction">
               <MappingFragment StoreEntitySet="View_GetDefrreSatisaction">
+                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
                 <ScalarProperty Name="IsDispatching" ColumnName="IsDispatching" />
                 <ScalarProperty Name="FinishAmount" ColumnName="FinishAmount" />
                 <ScalarProperty Name="RealAmount" ColumnName="RealAmount" />
@@ -21937,24 +21953,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
                 <ScalarProperty Name="OrderID" ColumnName="OrderID" />
                 <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
                 <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="FL_QuotedPriceSchedule">
-            <EntityTypeMapping TypeName="PMS_WeddingModel.FL_QuotedPriceSchedule">
-              <MappingFragment StoreEntitySet="FL_QuotedPriceSchedule">
-                <ScalarProperty Name="ScheReamrk" ColumnName="ScheReamrk" />
-                <ScalarProperty Name="ScheCreateDate" ColumnName="ScheCreateDate" />
-                <ScalarProperty Name="ScheState" ColumnName="ScheState" />
-                <ScalarProperty Name="ScheCreateEmployee" ColumnName="ScheCreateEmployee" />
-                <ScalarProperty Name="SchePayMent" ColumnName="SchePayMent" />
-                <ScalarProperty Name="ScheGuardianType" ColumnName="ScheGuardianType" />
-                <ScalarProperty Name="ScheGuardianPrice" ColumnName="ScheGuardianPrice" />
-                <ScalarProperty Name="ScheGuardianID" ColumnName="ScheGuardianID" />
-                <ScalarProperty Name="ScheQuotedID" ColumnName="ScheQuotedID" />
-                <ScalarProperty Name="ScheOrderID" ColumnName="ScheOrderID" />
-                <ScalarProperty Name="ScheCustomerID" ColumnName="ScheCustomerID" />
-                <ScalarProperty Name="ScheID" ColumnName="ScheID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -22649,42 +22647,6 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
                 <ScalarProperty Name="Specifications" ColumnName="Specifications" />
                 <ScalarProperty Name="Unit" ColumnName="Unit" />
                 <ScalarProperty Name="ProeuctKey" ColumnName="ProeuctKey" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="View_CustomerQuotedSchedule">
-            <EntityTypeMapping TypeName="PMS_WeddingModel.View_CustomerQuotedSchedule">
-              <MappingFragment StoreEntitySet="View_CustomerQuotedSchedule">
-                <ScalarProperty Name="ScheReamrk" ColumnName="ScheReamrk" />
-                <ScalarProperty Name="ScheCreateDate" ColumnName="ScheCreateDate" />
-                <ScalarProperty Name="ScheState" ColumnName="ScheState" />
-                <ScalarProperty Name="ScheCreateEmployee" ColumnName="ScheCreateEmployee" />
-                <ScalarProperty Name="SchePayMent" ColumnName="SchePayMent" />
-                <ScalarProperty Name="ScheGuardianType" ColumnName="ScheGuardianType" />
-                <ScalarProperty Name="ScheGuardianPrice" ColumnName="ScheGuardianPrice" />
-                <ScalarProperty Name="ScheGuardianID" ColumnName="ScheGuardianID" />
-                <ScalarProperty Name="ScheID" ColumnName="ScheID" />
-                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
-                <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
-                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
-                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
-                <ScalarProperty Name="Channel" ColumnName="Channel" />
-                <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
-                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
-                <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
-                <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
-                <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
-                <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
-                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
-                <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
-                <ScalarProperty Name="State" ColumnName="State" />
-                <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
-                <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
-                <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
-                <ScalarProperty Name="Groom" ColumnName="Groom" />
-                <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
-                <ScalarProperty Name="Bride" ColumnName="Bride" />
-                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -23534,6 +23496,218 @@ FROM [dbo].[View_WorkReport] AS [View_WorkReport]</DefiningQuery>
                 <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
                 <ScalarProperty Name="ApplyName" ColumnName="ApplyName" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FL_QuotedPriceSchedule">
+            <EntityTypeMapping TypeName="PMS_WeddingModel.FL_QuotedPriceSchedule">
+              <MappingFragment StoreEntitySet="FL_QuotedPriceSchedule">
+                <ScalarProperty Name="ScheState" ColumnName="ScheState" />
+                <ScalarProperty Name="ScheCreateEmployee" ColumnName="ScheCreateEmployee" />
+                <ScalarProperty Name="ScheReamrk" ColumnName="ScheReamrk" />
+                <ScalarProperty Name="ScheCreateDate" ColumnName="ScheCreateDate" />
+                <ScalarProperty Name="ScheDepositPrice" ColumnName="ScheDepositPrice" />
+                <ScalarProperty Name="ScheCooperatePrice" ColumnName="ScheCooperatePrice" />
+                <ScalarProperty Name="ScheOfferPrice" ColumnName="ScheOfferPrice" />
+                <ScalarProperty Name="ScheName" ColumnName="ScheName" />
+                <ScalarProperty Name="ScheType" ColumnName="ScheType" />
+                <ScalarProperty Name="ScheQuotedID" ColumnName="ScheQuotedID" />
+                <ScalarProperty Name="ScheOrderID" ColumnName="ScheOrderID" />
+                <ScalarProperty Name="ScheCustomerID" ColumnName="ScheCustomerID" />
+                <ScalarProperty Name="ScheID" ColumnName="ScheID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_CustomerQuotedSchedule">
+            <EntityTypeMapping TypeName="PMS_WeddingModel.View_CustomerQuotedSchedule">
+              <MappingFragment StoreEntitySet="View_CustomerQuotedSchedule">
+                <ScalarProperty Name="ScheReamrk" ColumnName="ScheReamrk" />
+                <ScalarProperty Name="ScheCreateDate" ColumnName="ScheCreateDate" />
+                <ScalarProperty Name="ScheState" ColumnName="ScheState" />
+                <ScalarProperty Name="ScheCreateEmployee" ColumnName="ScheCreateEmployee" />
+                <ScalarProperty Name="ScheCooperatePrice" ColumnName="ScheCooperatePrice" />
+                <ScalarProperty Name="ScheOfferPrice" ColumnName="ScheOfferPrice" />
+                <ScalarProperty Name="ScheName" ColumnName="ScheName" />
+                <ScalarProperty Name="ScheType" ColumnName="ScheType" />
+                <ScalarProperty Name="ScheID" ColumnName="ScheID" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+                <ScalarProperty Name="Channel" ColumnName="Channel" />
+                <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
+                <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+                <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
+                <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
+                <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+                <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+                <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+                <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+                <ScalarProperty Name="Groom" ColumnName="Groom" />
+                <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+                <ScalarProperty Name="Bride" ColumnName="Bride" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_QuotedSchedule">
+            <EntityTypeMapping TypeName="PMS_WeddingModel.View_QuotedSchedule">
+              <MappingFragment StoreEntitySet="View_QuotedSchedule">
+                <ScalarProperty Name="ScheReamrk" ColumnName="ScheReamrk" />
+                <ScalarProperty Name="ScheDepositPrice" ColumnName="ScheDepositPrice" />
+                <ScalarProperty Name="ScheCreateDate" ColumnName="ScheCreateDate" />
+                <ScalarProperty Name="ScheState" ColumnName="ScheState" />
+                <ScalarProperty Name="ScheCreateEmployee" ColumnName="ScheCreateEmployee" />
+                <ScalarProperty Name="ScheCooperatePrice" ColumnName="ScheCooperatePrice" />
+                <ScalarProperty Name="ScheOfferPrice" ColumnName="ScheOfferPrice" />
+                <ScalarProperty Name="ScheName" ColumnName="ScheName" />
+                <ScalarProperty Name="ScheType" ColumnName="ScheType" />
+                <ScalarProperty Name="ScheID" ColumnName="ScheID" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="QuotedID" ColumnName="QuotedID" />
+                <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+                <ScalarProperty Name="Channel" ColumnName="Channel" />
+                <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
+                <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+                <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
+                <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
+                <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+                <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="FinishOver" ColumnName="FinishOver" />
+                <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+                <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+                <ScalarProperty Name="Groom" ColumnName="Groom" />
+                <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+                <ScalarProperty Name="Bride" ColumnName="Bride" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="View_GetInviteCustomers">
+            <EntityTypeMapping TypeName="PMS_WeddingModel.View_GetInviteCustomers">
+              <MappingFragment StoreEntitySet="View_GetInviteCustomers">
+                <ScalarProperty Name="ApplyType" ColumnName="ApplyType" />
+                <ScalarProperty Name="QuotedEmployee" ColumnName="QuotedEmployee" />
+                <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+                <ScalarProperty Name="OrderEmployee" ColumnName="OrderEmployee" />
+                <ScalarProperty Name="InviteEmployee" ColumnName="InviteEmployee" />
+                <ScalarProperty Name="WorkCreateDate" ColumnName="WorkCreateDate" />
+                <ScalarProperty Name="QuotedFileDate" ColumnName="QuotedFileDate" />
+                <ScalarProperty Name="QuotedDateSucessDate" ColumnName="QuotedDateSucessDate" />
+                <ScalarProperty Name="QuotedCreateDate" ColumnName="QuotedCreateDate" />
+                <ScalarProperty Name="InviteLoseDate" ColumnName="InviteLoseDate" />
+                <ScalarProperty Name="InviteSucessDate" ColumnName="InviteSucessDate" />
+                <ScalarProperty Name="OrderLoseDate" ColumnName="OrderLoseDate" />
+                <ScalarProperty Name="InviteCreateDate" ColumnName="InviteCreateDate" />
+                <ScalarProperty Name="OrderSucessDate" ColumnName="OrderSucessDate" />
+                <ScalarProperty Name="OrderCreateDate" ColumnName="OrderCreateDate" />
+                <ScalarProperty Name="ContactPhone" ColumnName="ContactPhone" />
+                <ScalarProperty Name="ContactMan" ColumnName="ContactMan" />
+                <ScalarProperty Name="ContactType" ColumnName="ContactType" />
+                <ScalarProperty Name="OperatorWeiBo" ColumnName="OperatorWeiBo" />
+                <ScalarProperty Name="OperatorWeiXin" ColumnName="OperatorWeiXin" />
+                <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+                <ScalarProperty Name="OrderEmpLoyeeID" ColumnName="OrderEmpLoyeeID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="ContentID" ColumnName="ContentID" />
+                <ScalarProperty Name="ToEmpLoyee" ColumnName="ToEmpLoyee" />
+                <ScalarProperty Name="ToDepartMent" ColumnName="ToDepartMent" />
+                <ScalarProperty Name="LastFollowDate" ColumnName="LastFollowDate" />
+                <ScalarProperty Name="AgainDate" ColumnName="AgainDate" />
+                <ScalarProperty Name="FllowCount" ColumnName="FllowCount" />
+                <ScalarProperty Name="CreateEmployeeName" ColumnName="CreateEmployeeName" />
+                <ScalarProperty Name="CreateEmployee" ColumnName="CreateEmployee" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="TimeSpans" ColumnName="TimeSpans" />
+                <ScalarProperty Name="ReasonsDate" ColumnName="ReasonsDate" />
+                <ScalarProperty Name="ReasonsExplain" ColumnName="ReasonsExplain" />
+                <ScalarProperty Name="RecorderDate" ColumnName="RecorderDate" />
+                <ScalarProperty Name="Wineshop" ColumnName="Wineshop" />
+                <ScalarProperty Name="Todate" ColumnName="Todate" />
+                <ScalarProperty Name="InterviewTime" ColumnName="InterviewTime" />
+                <ScalarProperty Name="DocumentaryRecord" ColumnName="DocumentaryRecord" />
+                <ScalarProperty Name="AnalysisManager" ColumnName="AnalysisManager" />
+                <ScalarProperty Name="EmployeeSelfAnalysis" ColumnName="EmployeeSelfAnalysis" />
+                <ScalarProperty Name="Reasons" ColumnName="Reasons" />
+                <ScalarProperty Name="CustomerStatus" ColumnName="CustomerStatus" />
+                <ScalarProperty Name="ConvenientIinvitationTime" ColumnName="ConvenientIinvitationTime" />
+                <ScalarProperty Name="Other" ColumnName="Other" />
+                <ScalarProperty Name="DesiredAppearance" ColumnName="DesiredAppearance" />
+                <ScalarProperty Name="ParentsWish" ColumnName="ParentsWish" />
+                <ScalarProperty Name="WatchingExperience" ColumnName="WatchingExperience" />
+                <ScalarProperty Name="Aspirations" ColumnName="Aspirations" />
+                <ScalarProperty Name="MemorableGift" ColumnName="MemorableGift" />
+                <ScalarProperty Name="TheProposal" ColumnName="TheProposal" />
+                <ScalarProperty Name="Memorable" ColumnName="Memorable" />
+                <ScalarProperty Name="Experience" ColumnName="Experience" />
+                <ScalarProperty Name="VoidLink" ColumnName="VoidLink" />
+                <ScalarProperty Name="ImportantProcess" ColumnName="ImportantProcess" />
+                <ScalarProperty Name="WeddingServices" ColumnName="WeddingServices" />
+                <ScalarProperty Name="LikePerson" ColumnName="LikePerson" />
+                <ScalarProperty Name="LikeMusic" ColumnName="LikeMusic" />
+                <ScalarProperty Name="LikeFilm" ColumnName="LikeFilm" />
+                <ScalarProperty Name="NoTaboos" ColumnName="NoTaboos" />
+                <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+                <ScalarProperty Name="LikeNumber" ColumnName="LikeNumber" />
+                <ScalarProperty Name="ExpectedAtmosphere" ColumnName="ExpectedAtmosphere" />
+                <ScalarProperty Name="LikeColor" ColumnName="LikeColor" />
+                <ScalarProperty Name="PreparationsWedding" ColumnName="PreparationsWedding" />
+                <ScalarProperty Name="FormMarriage" ColumnName="FormMarriage" />
+                <ScalarProperty Name="GuestsStructure" ColumnName="GuestsStructure" />
+                <ScalarProperty Name="Referee" ColumnName="Referee" />
+                <ScalarProperty Name="Channel" ColumnName="Channel" />
+                <ScalarProperty Name="ChannelType" ColumnName="ChannelType" />
+                <ScalarProperty Name="StoreAddress" ColumnName="StoreAddress" />
+                <ScalarProperty Name="Recorder" ColumnName="Recorder" />
+                <ScalarProperty Name="BanquetSales" ColumnName="BanquetSales" />
+                <ScalarProperty Name="DinnerTime" ColumnName="DinnerTime" />
+                <ScalarProperty Name="BanquetAt" ColumnName="BanquetAt" />
+                <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+                <ScalarProperty Name="BanquetHall" ColumnName="BanquetHall" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="PartyDate" ColumnName="PartyDate" />
+                <ScalarProperty Name="WeddingSponsors" ColumnName="WeddingSponsors" />
+                <ScalarProperty Name="PartyBudget" ColumnName="PartyBudget" />
+                <ScalarProperty Name="BanquetTypes" ColumnName="BanquetTypes" />
+                <ScalarProperty Name="OperatorPhone" ColumnName="OperatorPhone" />
+                <ScalarProperty Name="OperatorRelationship" ColumnName="OperatorRelationship" />
+                <ScalarProperty Name="Operator" ColumnName="Operator" />
+                <ScalarProperty Name="BrideJobCompany" ColumnName="BrideJobCompany" />
+                <ScalarProperty Name="GroomJobCompany" ColumnName="GroomJobCompany" />
+                <ScalarProperty Name="CustomersType" ColumnName="CustomersType" />
+                <ScalarProperty Name="BrideJob" ColumnName="BrideJob" />
+                <ScalarProperty Name="GroomJob" ColumnName="GroomJob" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="IsLose" ColumnName="IsLose" />
+                <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+                <ScalarProperty Name="BrideQQ" ColumnName="BrideQQ" />
+                <ScalarProperty Name="GroomQQ" ColumnName="GroomQQ" />
+                <ScalarProperty Name="BrideWeiBo" ColumnName="BrideWeiBo" />
+                <ScalarProperty Name="GroomWeiBo" ColumnName="GroomWeiBo" />
+                <ScalarProperty Name="BrideWeiXin" ColumnName="BrideWeiXin" />
+                <ScalarProperty Name="GroomteWeixin" ColumnName="GroomteWeixin" />
+                <ScalarProperty Name="BridePhone" ColumnName="BridePhone" />
+                <ScalarProperty Name="GroomtelPhone" ColumnName="GroomtelPhone" />
+                <ScalarProperty Name="BrideEmail" ColumnName="BrideEmail" />
+                <ScalarProperty Name="GroomEmail" ColumnName="GroomEmail" />
+                <ScalarProperty Name="BrideCellPhone" ColumnName="BrideCellPhone" />
+                <ScalarProperty Name="GroomCellPhone" ColumnName="GroomCellPhone" />
+                <ScalarProperty Name="BrideBirthday" ColumnName="BrideBirthday" />
+                <ScalarProperty Name="Bride" ColumnName="Bride" />
+                <ScalarProperty Name="GroomBirthday" ColumnName="GroomBirthday" />
+                <ScalarProperty Name="Groom" ColumnName="Groom" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="ComeDate" ColumnName="ComeDate" />
+                <ScalarProperty Name="EmpLoyeeID" ColumnName="EmpLoyeeID" />
+                <ScalarProperty Name="InviteID" ColumnName="InviteID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

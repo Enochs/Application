@@ -124,5 +124,6 @@ namespace HA.PMS.DataAssmblly
         public Nullable<decimal> RealAmount { get; set; }
         public Nullable<decimal> FinishAmount { get; set; }
         public Nullable<int> IsDispatching { get; set; }
+        public Nullable<int> QuotedEmployee { get; set; }
     }
 }

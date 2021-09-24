@@ -161,7 +161,6 @@
         <EntityTypeShape EntityType="PMS_WeddingModel.FL_CostforOrder" Width="1.5" PointX="6.191850573845139" PointY="8.4468771854633822" />
         <EntityTypeShape EntityType="PMS_WeddingModel.CS_Credit" Width="1.5" PointX="2.1108342456216151" PointY="5.9146027443532843" />
         <EntityTypeShape EntityType="PMS_WeddingModel.CS_CreditLog" Width="1.5" PointX="5.3346061340228683" PointY="20.391328225094512" />
-        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetInviteCustomers" Width="1.5" PointX="3.1453157435847983" PointY="30.990174322850152" />
         <EntityTypeShape EntityType="PMS_WeddingModel.View_GetTelmarketingCustomers" Width="1.5" PointX="2.6069217448155033" PointY="27.47774873463332" />
         <EntityTypeShape EntityType="PMS_WeddingModel.SS_QuotedItemChange" Width="1.5" PointX="10.804465222547048" PointY="0.70227861437121342" />
         <EntityTypeShape EntityType="PMS_WeddingModel.SS_QuotedSourceItem" Width="1.5" PointX="5.0246532061252056" PointY="3.5730490701147586" />
@@ -196,7 +195,6 @@
         <EntityTypeShape EntityType="PMS_WeddingModel.FL_Designclass" Width="1.5" PointX="6.3399843230564077" PointY="0.079451844133181432" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FL_DesignThemes" Width="1.5" PointX="17.375" PointY="4.75" />
         <EntityTypeShape EntityType="PMS_WeddingModel.View_GetMinDateCollectionPlan" Width="1.5" PointX="18" PointY="8.75" />
-        <EntityTypeShape EntityType="PMS_WeddingModel.FL_QuotedPriceSchedule" Width="1.5" PointX="17.375" PointY="11.75" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FD_SupplierProductQuery" Width="1.5" PointX="21.375" PointY="0.75" />
         <EntityTypeShape EntityType="PMS_WeddingModel.View_CostSumEvaluation" Width="1.5" PointX="21.375" PointY="14.75" />
         <EntityTypeShape EntityType="PMS_WeddingModel.View_GetOrderCustomers" Width="1.5" PointX="21.375" PointY="20.75" />
@@ -227,7 +225,6 @@
         <EntityTypeShape EntityType="PMS_WeddingModel.CostSumDesign" Width="1.5" PointX="11.67005061715378" PointY="6.04452841265338" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FL_ProductforDispatching" Width="1.5" PointX="5.3275385523808829" PointY="31.03415603890743" />
         <AssociationConnector Association="PMS_WeddingModel.FK_FL_ProductForDispatching_FL_Dispatching1" />
-        <EntityTypeShape EntityType="PMS_WeddingModel.View_CustomerQuotedSchedule" Width="1.5" PointX="1.6065937753797481" PointY="15.746941409887253" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FD_Supplier" Width="1.5" PointX="6.07918151192329" PointY="26.833106336571792" />
         <AssociationConnector Association="PMS_WeddingModel.FK_FD_Product_FD_Supplier" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FD_FourGuardian" Width="1.5" PointX="0.4946543725648217" PointY="29.600935979560454" />
@@ -276,6 +273,10 @@
         <EntityTypeShape EntityType="PMS_WeddingModel.FL_QuotedPriceForType" Width="1.5" PointX="1.0715351594013791" PointY="20.9212981559901" />
         <EntityTypeShape EntityType="PMS_WeddingModel.view_CustomerStatement" Width="1.5" PointX="7.271750185299549" PointY="25.559368264656221" />
         <EntityTypeShape EntityType="PMS_WeddingModel.FD_ApplyType" Width="1.5" PointX="26.125" PointY="17.375" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.FL_QuotedPriceSchedule" Width="1.5" PointX="17.375" PointY="11.75" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_CustomerQuotedSchedule" Width="1.5" PointX="17.375" PointY="16.75" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_QuotedSchedule" Width="1.5" PointX="23.375" PointY="14.75" />
+        <EntityTypeShape EntityType="PMS_WeddingModel.View_GetInviteCustomers" Width="1.5" PointX="23.375" PointY="22.75" />
         </Diagram>
       <Diagram DiagramId="2b58e2febe2b4decbb180c37df0e2da0" Name="Flow" >
       </Diagram>

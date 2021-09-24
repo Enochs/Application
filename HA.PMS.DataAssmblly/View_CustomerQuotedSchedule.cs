@@ -36,10 +36,10 @@ namespace HA.PMS.DataAssmblly
         public int QuotedID { get; set; }
         public System.DateTime CreateDate { get; set; }
         public Nullable<int> ScheID { get; set; }
-        public Nullable<int> ScheGuardianID { get; set; }
-        public Nullable<decimal> ScheGuardianPrice { get; set; }
-        public Nullable<int> ScheGuardianType { get; set; }
-        public Nullable<decimal> SchePayMent { get; set; }
+        public string ScheType { get; set; }
+        public string ScheName { get; set; }
+        public Nullable<decimal> ScheOfferPrice { get; set; }
+        public Nullable<decimal> ScheCooperatePrice { get; set; }
         public Nullable<int> ScheCreateEmployee { get; set; }
         public Nullable<int> ScheState { get; set; }
         public Nullable<System.DateTime> ScheCreateDate { get; set; }

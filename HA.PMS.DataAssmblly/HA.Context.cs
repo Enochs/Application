@@ -166,7 +166,6 @@ namespace HA.PMS.DataAssmblly
         public DbSet<FL_CostforOrder> FL_CostforOrder { get; set; }
         public DbSet<CS_Credit> CS_Credit { get; set; }
         public DbSet<CS_CreditLog> CS_CreditLog { get; set; }
-        public DbSet<View_GetInviteCustomers> View_GetInviteCustomers { get; set; }
         public DbSet<View_GetTelmarketingCustomers> View_GetTelmarketingCustomers { get; set; }
         public DbSet<SS_QuotedItemChange> SS_QuotedItemChange { get; set; }
         public DbSet<SS_QuotedSourceItem> SS_QuotedSourceItem { get; set; }
@@ -196,7 +195,6 @@ namespace HA.PMS.DataAssmblly
         public DbSet<FL_Designclass> FL_Designclass { get; set; }
         public DbSet<FL_DesignThemes> FL_DesignThemes { get; set; }
         public DbSet<View_GetMinDateCollectionPlan> View_GetMinDateCollectionPlan { get; set; }
-        public DbSet<FL_QuotedPriceSchedule> FL_QuotedPriceSchedule { get; set; }
         public DbSet<FD_SupplierProductQuery> FD_SupplierProductQuery { get; set; }
         public DbSet<View_CostSumEvaluation> View_CostSumEvaluation { get; set; }
         public DbSet<View_GetOrderCustomers> View_GetOrderCustomers { get; set; }
@@ -226,7 +224,6 @@ namespace HA.PMS.DataAssmblly
         public DbSet<sys_BugSystem> sys_BugSystem { get; set; }
         public DbSet<CostSumDesign> CostSumDesign { get; set; }
         public DbSet<FL_ProductforDispatching> FL_ProductforDispatching { get; set; }
-        public DbSet<View_CustomerQuotedSchedule> View_CustomerQuotedSchedule { get; set; }
         public DbSet<FD_Supplier> FD_Supplier { get; set; }
         public DbSet<FD_FourGuardian> FD_FourGuardian { get; set; }
         public DbSet<FL_StatementPayFor> FL_StatementPayFor { get; set; }
@@ -246,6 +243,10 @@ namespace HA.PMS.DataAssmblly
         public DbSet<FL_QuotedPriceForType> FL_QuotedPriceForType { get; set; }
         public DbSet<view_CustomerStatement> view_CustomerStatement { get; set; }
         public DbSet<FD_ApplyType> FD_ApplyType { get; set; }
+        public DbSet<FL_QuotedPriceSchedule> FL_QuotedPriceSchedule { get; set; }
+        public DbSet<View_CustomerQuotedSchedule> View_CustomerQuotedSchedule { get; set; }
+        public DbSet<View_QuotedSchedule> View_QuotedSchedule { get; set; }
+        public DbSet<View_GetInviteCustomers> View_GetInviteCustomers { get; set; }
     
         public virtual ObjectResult<View_DepartmentTarget> GetDepartmentTargetinDepartmentKey(string departmentID, string getWhere)
         {

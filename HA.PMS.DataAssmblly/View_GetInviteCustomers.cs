@@ -127,5 +127,6 @@ namespace HA.PMS.DataAssmblly
         public Nullable<int> OrderEmployee { get; set; }
         public Nullable<int> Expr1 { get; set; }
         public Nullable<int> QuotedEmployee { get; set; }
+        public Nullable<int> ApplyType { get; set; }
     }
 }

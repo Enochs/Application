@@ -18,13 +18,14 @@ namespace HA.PMS.DataAssmblly
         public Nullable<int> ScheCustomerID { get; set; }
         public Nullable<int> ScheOrderID { get; set; }
         public Nullable<int> ScheQuotedID { get; set; }
-        public Nullable<int> ScheGuardianID { get; set; }
-        public Nullable<decimal> ScheGuardianPrice { get; set; }
-        public Nullable<int> ScheGuardianType { get; set; }
-        public Nullable<decimal> SchePayMent { get; set; }
-        public Nullable<int> ScheCreateEmployee { get; set; }
-        public Nullable<int> ScheState { get; set; }
+        public string ScheType { get; set; }
+        public string ScheName { get; set; }
+        public Nullable<decimal> ScheOfferPrice { get; set; }
+        public Nullable<decimal> ScheCooperatePrice { get; set; }
+        public Nullable<decimal> ScheDepositPrice { get; set; }
         public Nullable<System.DateTime> ScheCreateDate { get; set; }
         public string ScheReamrk { get; set; }
+        public Nullable<int> ScheCreateEmployee { get; set; }
+        public Nullable<int> ScheState { get; set; }
     }
 }
