@@ -76,15 +76,8 @@ namespace HA.PMS.BLLAssmblly.Flow
         {
             if (ObjectT != null)
             {
-                if (GetByCustomerIdName(ObjectT.ScheCustomerID.ToString().ToInt32(), ObjectT.ScheGuardianID.ToString().ToInt32()) != null)
-                {
-                    return -1;
-                }
-                else
-                {
-                    ObjEntity.FL_QuotedPriceSchedule.Add(ObjectT);
-                    return ObjEntity.SaveChanges();
-                }
+                ObjEntity.FL_QuotedPriceSchedule.Add(ObjectT);
+                return ObjEntity.SaveChanges();
             }
             return 0;
         }
@@ -121,10 +114,10 @@ namespace HA.PMS.BLLAssmblly.Flow
         /// <summary>
         /// 判断
         /// </summary>
-        public FL_QuotedPriceSchedule GetByCustomerIdName(int CustomerID, int GuardianId = 0)
-        {
-            return ObjEntity.FL_QuotedPriceSchedule.FirstOrDefault(C => C.ScheCustomerID == CustomerID && C.ScheGuardianID == GuardianId);
-        }
+        //public FL_QuotedPriceSchedule GetByCustomerIdName(int CustomerID, int GuardianId = 0)
+        //{
+        //    return ObjEntity.FL_QuotedPriceSchedule.FirstOrDefault(C => C.ScheCustomerID == CustomerID && C.ScheGuardianID == GuardianId);
+        //}
         #endregion
 
         #region 根据四大金刚ID查询
@@ -132,11 +125,55 @@ namespace HA.PMS.BLLAssmblly.Flow
         /// 查询
         /// </summary>
         /// <param name="GuardianId"></param>
-        public List<FL_QuotedPriceSchedule> GetByGuardianID(int GuardianId)
+        //public List<FL_QuotedPriceSchedule> GetByGuardianID(int GuardianId)
+        //{
+        //return ObjEntity.FL_QuotedPriceSchedule.Where(C => C.ScheGuardianID == GuardianId).ToList();
+        //}
+        #endregion
+
+
+
+        #region 分页查询预定信息
+        /// <summary>
+        /// @author:wp
+        /// @datetime:2019-08-31
+        /// @desc:分页查询 预定信息
+        /// </summary>
+        public List<View_QuotedSchedule> GetScheduleByParameter(List<PMSParameters> pars, string OrderByColumnName, int PageSize, int PageIndex, out int SourceCount)
         {
-            return ObjEntity.FL_QuotedPriceSchedule.Where(C => C.ScheGuardianID == GuardianId).ToList();
+            return PublicDataTools<View_QuotedSchedule>.GetDataByWhereParameter(pars, OrderByColumnName, PageSize, PageIndex, out SourceCount);
+
+            //List<View_CustomerQuotedSchedule> scheduleList = new List<View_CustomerQuotedSchedule>();
+            //var query = (from c in ObjEntity.FL_QuotedPriceSchedule
+            //             join d in ObjEntity.FL_Customers on c.ScheCustomerID equals d.CustomerID
+            //             select new View_CustomerQuotedSchedule()
+            //             {
+            //                 CustomerID = d.CustomerID,                       //客户ID
+            //                 PartyDate = d.PartyDate,                         //婚期
+            //                 Wineshop = d.Wineshop,                             //酒店
+            //                 Bride = d.Bride,                                 //新娘
+            //                 Groom = d.Groom,                                 //新郎
+            //                 ScheGuardianID = c.ScheGuardianID,               //商家ID
+            //                 ScheCreateDate = c.ScheCreateDate,               //预定时间
+            //                 ScheGuardianPrice = c.ScheGuardianPrice,         //预定价格
+            //                 SchePayMent = c.SchePayMent,                     //返佣金额
+            //                 ScheCollectionAmount = c.ScheCollectionAmount,    //收款金额
+            //                 ScheCreateEmployee = c.ScheCreateEmployee,          //推荐人
+            //                 ScheReamrk = c.ScheReamrk                           //备注
+            //             });
+
+            ////获取lis数据
+            //scheduleList = query.OrderByDescending(c => c.ScheCreateDate).Skip((PageIndex - 1) * PageSize).Take(PageSize).ToList();
+            //SourceCount = scheduleList.Count;            //数量
+            //return scheduleList;
         }
         #endregion
 
+    }
+
+    public class v_Schedule
+    {
+        public int CustomerID { get; set; }
+        public DateTime PartyDate { get; set; }
     }
 }

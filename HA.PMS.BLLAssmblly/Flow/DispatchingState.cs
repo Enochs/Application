@@ -6,11 +6,44 @@ using System.Threading.Tasks;
 using HA.PMS.BLLInterface;
 using HA.PMS.DataAssmblly;
 
+
 namespace HA.PMS.BLLAssmblly.Flow
 {
     public class DispatchingState : ICRUDInterface<FL_DispatchingState>
     {
         PMS_WeddingEntities objEntity = new PMS_WeddingEntities();
+
+        public void Handle()
+        {
+            List<FL_Celebration> celeList = objEntity.FL_Celebration.ToList(); ;
+            foreach (var item in celeList)
+            {
+                var m_dis = objEntity.FL_Dispatching.FirstOrDefault(c => c.CelebrationID == item.CelebrationID);
+
+                if (m_dis != null)
+                {
+                    var m_disState = objEntity.FL_DispatchingState.FirstOrDefault(c => c.DispatchingID == m_dis.DispatchingID);
+                    if (m_disState == null)
+                    {
+                        var m_quo = objEntity.FL_QuotedPrice.FirstOrDefault(c => c.CustomerID == item.CustomerID);
+
+                        FL_DispatchingState model = new FL_DispatchingState();
+                        model.DispatchingID = m_dis.DispatchingID;
+                        model.State = 1;
+                        model.IsUse = false;
+                        model.CreateDate = DateTime.Now;
+                        if (m_quo != null)
+                        {
+                            model.CreateEmpLoyee = Convert.ToInt32(m_quo.EmpLoyeeID.ToString());
+                            model.StateEmpLoyee = Convert.ToInt32(m_quo.EmpLoyeeID.ToString());
+                        }
+
+                        objEntity.FL_DispatchingState.Add(model);
+                        objEntity.SaveChanges();
+                    }
+                }
+            }
+        }
 
         public void CheckState(int DispatchingID, int keyID, int EmpLoyeeID)
         {

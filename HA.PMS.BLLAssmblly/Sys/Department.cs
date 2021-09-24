@@ -78,6 +78,14 @@ namespace HA.PMS.BLLAssmblly.Sys
             {
                 List<int> ObjKeyList = new List<int>();
                 ObjectContext ObjDataContext = new ObjectContext(ObjEntityconn);
+
+                var permission = new SysConfig().AdvancePermission;
+                var m_emp = ObjEntity.Sys_Employee.FirstOrDefault(c => c.EmployeeID == EmployeeID);     //当前登录人
+                if (m_emp.EmployeeTypeID == permission)
+                {
+                    EmployeeID = new SysConfig().SaleEmployeeId;
+                }
+
                 var MyDepartmentList = ObjEntity.Sys_Department.Where(C => C.DepartmentManager == EmployeeID);
                 List<Sys_Department> ObjDepartmentList = new List<Sys_Department>();
                 foreach (var ObjDepartment in MyDepartmentList)

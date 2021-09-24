@@ -15,6 +15,25 @@ namespace HA.PMS.BLLAssmblly.Sys
         /// </summary>
         PMS_WeddingEntities ObjEntity = new PMS_WeddingEntities();
 
+        /// <summary>
+        /// 最高权限
+        /// </summary>
+        public int ManangerEmployeeId = 2;       //吴斌
+
+        /// <summary>
+        /// 财务方
+        /// </summary>
+        public int FinanceEmployeeId = 4;      //黄英 财务
+
+        /// <summary>
+        /// 营销管理
+        /// </summary>
+        public int SaleEmployeeId = 5;          //李倩  营销 策划
+
+        /// <summary>
+        /// 高级权限
+        /// </summary>
+        public int AdvancePermission = 13;      //高级权限
 
         /// <summary>
         /// 获取所有信息

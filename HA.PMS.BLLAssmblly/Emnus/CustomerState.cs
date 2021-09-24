@@ -85,7 +85,7 @@ namespace HA.PMS.BLLAssmblly.Emnus
         DoingCarrytask = 19,
         [Description("退单")]
         BackOrder = 20,
-        [Description("新订单")]
+        [Description("已签约")]
         NewCarrytask = 24,
         [Description("流失")]
         Lose = 29,
@@ -97,7 +97,7 @@ namespace HA.PMS.BLLAssmblly.Emnus
         FirePoint = 205,
         [Description("已完成")]
         Finish = 208,
-        [Description("已评价")]
+        [Description("已回访")]
         Evaulation = 207,
         [Description("已完结")]
         CompleteEnd = 206,

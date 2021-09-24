@@ -50,7 +50,6 @@ namespace HA.PMS.BLLAssmblly.Sys
         public List<Sys_Employee> GetMyManagerEmpLoyee(int? EmpLoyeeID)
         {
             var m_emp = ObjEntity.Sys_Employee.FirstOrDefault(c => c.EmployeeID == EmpLoyeeID);
-
             PMS_WeddingEntities ObjWeddingDataContext = new PMS_WeddingEntities();
             using (EntityConnection ObjEntityconn = new EntityConnection("name=PMS_WeddingEntities"))
             {
@@ -58,8 +57,12 @@ namespace HA.PMS.BLLAssmblly.Sys
                 ObjectContext ObjDataContext = new ObjectContext(ObjEntityconn);
                 var MyDepartmentList = ObjWeddingDataContext.Sys_Department.Where(C => C.DepartmentManager == EmpLoyeeID);
                 List<Sys_Department> ObjDepartmentList = new List<Sys_Department>();
-                if (MyDepartmentList.Count() > 0)           //是部门主管
+
+                var permission = new SysConfig().AdvancePermission;
+                if (MyDepartmentList.Count() > 0 || m_emp.EmployeeTypeID == permission)           //是部门主管或者高级权限
                 {
+                    var managerId = new SysConfig().SaleEmployeeId;
+                    MyDepartmentList = ObjWeddingDataContext.Sys_Department.Where(C => C.DepartmentManager == managerId);
                     //只要是部门主管  都可以看见和自己平级的所有员工名称
                     foreach (var ObjDepartment in MyDepartmentList)
                     {
@@ -111,6 +114,14 @@ namespace HA.PMS.BLLAssmblly.Sys
             {
                 List<int> ObjKeyList = new List<int>();
                 ObjectContext ObjDataContext = new ObjectContext(ObjEntityconn);
+
+                var permission = new SysConfig().AdvancePermission;
+                var m_emp = ObjEntity.Sys_Employee.FirstOrDefault(c => c.EmployeeID == EmpLoyeeID);     //当前登录人
+                if (m_emp.EmployeeTypeID == permission)
+                {
+                    EmpLoyeeID = new SysConfig().SaleEmployeeId;
+                }
+
                 var MyDepartmentList = ObjWeddingDataContext.Sys_Department.Where(C => C.DepartmentManager == EmpLoyeeID);
                 List<Sys_Department> ObjDepartmentList = new List<Sys_Department>();
                 foreach (var ObjDepartment in MyDepartmentList)
@@ -141,12 +152,18 @@ namespace HA.PMS.BLLAssmblly.Sys
         /// <returns></returns>
         public static string GetMyManagerEmpLoyee(int? EmpLoyeeID, string KeyList, bool IsTrue = false)
         {
-
-            PMS_WeddingEntities ObjWeddingDataContext = new PMS_WeddingEntities();
             using (EntityConnection ObjEntityconn = new EntityConnection("name=PMS_WeddingEntities"))
             {
+                PMS_WeddingEntities ObjWeddingDataContext = new PMS_WeddingEntities();
                 List<int> ObjKeyList = new List<int>();
                 ObjectContext ObjDataContext = new ObjectContext(ObjEntityconn);
+
+                var permission = new SysConfig().AdvancePermission;
+                var m_emp = ObjWeddingDataContext.Sys_Employee.FirstOrDefault(c => c.EmployeeID == EmpLoyeeID);     //当前登录人
+                if (m_emp.EmployeeTypeID == permission)
+                {
+                    EmpLoyeeID = new SysConfig().SaleEmployeeId;
+                }
                 var MyDepartmentList = ObjWeddingDataContext.Sys_Department.Where(C => C.DepartmentManager == EmpLoyeeID && C.IsDelete == false);
                 List<Sys_Department> ObjDepartmentList = new List<Sys_Department>();
                 foreach (var ObjDepartment in MyDepartmentList)
@@ -186,6 +203,13 @@ namespace HA.PMS.BLLAssmblly.Sys
             {
                 List<int> ObjKeyList = new List<int>();
                 ObjectContext ObjDataContext = new ObjectContext(ObjEntityconn);
+
+                var permission = new SysConfig().AdvancePermission;
+                var m_emp = ObjWeddingDataContext.Sys_Employee.FirstOrDefault(c => c.EmployeeID == EmpLoyeeID);     //当前登录人
+                if (m_emp.EmployeeTypeID == permission)
+                {
+                    EmpLoyeeID = new SysConfig().SaleEmployeeId;
+                }
 
                 //我主管的部门
                 var MyDepartmentList = ObjWeddingDataContext.Sys_Department.Where(C => C.DepartmentManager == EmpLoyeeID);
@@ -579,7 +603,7 @@ namespace HA.PMS.BLLAssmblly.Sys
             SourceCount = ObjEntity.Sys_Employee.Count();
 
             List<Sys_Employee> resultList = ObjEntity.Sys_Employee
-                //进行排序功能操作，不然系统会抛出异常
+                   //进行排序功能操作，不然系统会抛出异常
                    .OrderByDescending(C => C.EmployeeID)
                    .Skip(PageSize * PageIndex).Take(PageSize).ToList();
 
