@@ -80,11 +80,13 @@
                         <th style="white-space: nowrap;">酒店</th>
 
                         <th style="white-space: nowrap;">渠道名称</th>
+                        <th style="white-space: nowrap;">邀约类型</th>
                         <th style="white-space: nowrap;">预计到店时间</th>
                         <th style="white-space: nowrap;">实际到店时间</th>
                         <th style="white-space: nowrap;">录入人</th>
                         <th style="white-space: nowrap;">电销</th>
                         <th style="white-space: nowrap;">婚礼顾问</th>
+                        <th style="white-space: nowrap;">订单状态</th>
                         <th style="white-space: nowrap;">沟通记录</th>
                     </tr>
                 </thead>
@@ -102,11 +104,13 @@
                                 <td><%#Eval("WineShop") %></td>
 
                                 <td><%#Eval("Channel") %></td>
+                                <td><%#GetApplyName(Eval("ApplyType")) %></td>
                                 <td><%#GetPlanComeDateByCustomerID(Eval("CustomerID")) %></td>
                                 <td><%#Eval("OrderCreateDate") %></td>
                                 <td><%#GetEmployeeName(Eval("Recorder")) %></td>
                                 <td><%#GetEmployeeName(Eval("InviteEmployee")) %></td>
                                 <td><%#GetEmployeeName(Eval("ToEmployee")) %></td>
+                                <td><%#GetCustomerStateStr(Eval("State")) %></td>
                                 <%--<td><%#GetOrderEmpLoyeeNameByCustomerID(Eval("CustomerID")) %></td>--%>
                                 <td>
                                     <%--<a href="#" class="btn btn-primary" onclick="ShowInviteCommunicationContent(<%#Eval("CustomerID") %>,this);">记录/查看</a>--%>

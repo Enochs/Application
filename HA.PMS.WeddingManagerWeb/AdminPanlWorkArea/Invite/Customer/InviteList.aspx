@@ -76,6 +76,7 @@
                 <thead>
                     <tr>
                         <th>渠道名称</th>
+                        <th>邀约类型</th>
                         <th>新人</th>
                         <th>联系电话</th>
                         <th>婚期</th>
@@ -96,7 +97,7 @@
                         <ItemTemplate>
                             <tr>
                                 <td><span style="cursor: default" title="<%#Eval("Channel") %>"><%#ToInLine(Eval("Channel"),8) %></span></td>
-
+                                <td><%#GetApplyName(Eval("ApplyType")) %></td>
                                 <td><a target="_blank" href="/AdminPanlWorkArea/CS/Member/CustomerDetails.aspx?Sucess=1&OnlyView=1&CustomerID=<%#Eval("CustomerID") %>"><%#Eval("ContactMan") %></a>
                                     <asp:Image runat="server" ID="ImgIcon" ImageUrl="~/Images/vipIcon.jpg" />
                                     <asp:HiddenField runat="server" ID="HideCustomerID" Value='<%#Eval("CustomerID") %>' />

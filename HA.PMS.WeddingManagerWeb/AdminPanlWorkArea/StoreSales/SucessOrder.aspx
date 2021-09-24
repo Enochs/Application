@@ -64,6 +64,9 @@
                         <th>订单时间</th>
                         <th>婚礼顾问</th>
                         <th>定金</th>
+                        <th>已收款</th>
+                        <th>订单总金额</th>
+                        <th>订单状态</th>
                         <th>提案时间</th>
                         <th>策划师</th>
                         <th>操作</th>
@@ -83,13 +86,17 @@
                                 <td><%#ShowShortDate(Eval("LastFollowDate")) %></td>
                                 <td><%#GetEmployeeName(Eval("EmpLoyeeID")) %></td>
                                 <td><%#GetRealityAmount(Eval("OrderID")) %></td>
+                                <td><%#GetAggregateAmount(Eval("CustomerID")) %></td>
+                                <td><%#GetFinishMoney(Eval("CustomerID")) %></td>
+                                <td><%#GetCustomerStateStr(Eval("State")) %></td>
                                 <td><%#Eval("NextFlowDate","{0:yyyy-MM-dd}") %></td>
                                 <td>
                                     <asp:Label runat="server" ID="lblQuotedEmployee" Text='<%#GetQuotedEmpLoyeeName(Eval("OrderID")) %>' />
                                 </td>
                                 <td>
                                     <%-- <a href="FollowOrderDetails.aspx?CustomerID=<%#Eval("CustomerID") %>&OrderID=<%#Eval("OrderID") %>&FlowOrder=1" class="btn btn-primary btnSaveSubmit<%#Eval("EmployeeID")%> btnSumbmit">记录/跟踪</a>--%>
-                                    <a target="_blank" class="btn btn-primary " href="/AdminPanlWorkArea/StoreSales/FollowOrderDetails.aspx?CustomerID=<%#Eval("CustomerID") %>&OnlyView=1">查看跟踪</a></td>
+                                    <a target="_blank" href='/AdminPanlWorkArea/QuotedPrice/CreateSchedule.aspx?CustomerID=<%#Eval("CustomerID") %>&OrderID=<%#Eval("OrderID") %>&QuotedID=0 %>&Type=Edit' class="btn btn-primary btn-mini">预定</a>
+                                    <a target="_blank" href="/AdminPanlWorkArea/StoreSales/FollowOrderDetails.aspx?CustomerID=<%#Eval("CustomerID") %>&OnlyView=1" class="btn btn-primary btn-mini">查看跟踪</a></td>
                                 </td>
                             </tr>
                         </ItemTemplate>

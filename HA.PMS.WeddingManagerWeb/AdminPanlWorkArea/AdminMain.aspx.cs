@@ -42,6 +42,10 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea
         /// </summary>
         DegreeOfSatisfaction ObjDegreeBLL = new DegreeOfSatisfaction();
 
+        Celebration ObjCelebrationBll = new Celebration();
+
+        DispatchingState ObjStateBLL = new DispatchingState();
+
         /// <summary>
         /// 收款
         /// </summary>
@@ -60,6 +64,9 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea
         {
             string ABCD = Request.Cookies["HAEmployeeID"].Value;
 
+            //自动完成
+            IsFinish();
+
             #region 登录日志文件
 
             LoginLog ObjLoginLogBLL = new LoginLog();
@@ -71,8 +78,6 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea
 
             #endregion
 
-            //自动完成
-            IsFinish();
             //新增日报表
             CreateWorkReport();     //昨天
             //数据备份
@@ -93,6 +98,8 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea
                 item.FinishOver = true;
                 ObjCustomerBLL.UpdateCustomer(item);
             }
+
+            //ObjStateBLL.Handle();
         }
 
         #endregion
@@ -174,7 +181,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea
         public void BackUp()
         {
             SqlConnection conn = new SqlConnection();
-           
+
             try
             {
                 string ip = HttpContext.Current.Request.UserHostAddress;

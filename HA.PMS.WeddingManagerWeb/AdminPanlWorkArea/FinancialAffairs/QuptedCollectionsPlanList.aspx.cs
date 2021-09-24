@@ -14,7 +14,7 @@ using System.Data.Objects;
 using HA.PMS.BLLAssmblly.Sys;
 using HA.PMS.BLLAssmblly.FD;
 using HA.PMS.BLLAssmblly.FinancialAffairsbll;
-using Insus.NET;
+//using Insus.NET;
 using System.IO;
 using System.Text;
 using System.Web.UI.HtmlControls;

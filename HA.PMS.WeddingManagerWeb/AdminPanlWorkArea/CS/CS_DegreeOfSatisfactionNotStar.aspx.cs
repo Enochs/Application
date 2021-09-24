@@ -95,6 +95,11 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.CS
             //按婚期查询
             ObjParameterList.Add(DateRanger.IsNotBothEmpty, "PartyDate", DateRanger.StartoEnd, NSqlTypes.DateBetween);
 
+            if (MyManager.SelectedValue.ToInt32() > 0)
+            {
+                ObjParameterList.Add("QuotedEmployee", MyManager.SelectedValue, NSqlTypes.Equal);
+            }
+
             #region 分页页码
             int startIndex = DegreePager.StartRecordIndex;
             int resourceCount = 0;

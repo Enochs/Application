@@ -58,6 +58,7 @@
                         <th>婚期</th>
                         <th>酒店</th>
                         <th>来源渠道</th>
+                        <th>邀约类型</th>
                         <th>推荐人</th>
                         <th>录入时间</th>
                         <th>录入人</th>
@@ -78,6 +79,7 @@
                                 <td><%#ShowPartyDate(Eval("PartyDate")) %></td>
                                 <td><%#Eval("WineShop") %></td>
                                 <td><%#Eval("Channel") %></td>
+                                <td><%#GetApplyName(Eval("ApplyType")) %></td>
                                 <td><%#Eval("Referee") %></td>
                                 <td><%#ShowShortDate(Eval("CreateDate")) %></td>
                                 <td><%#GetEmployeeName(Eval("CreateEmpLoyee")) %></td>

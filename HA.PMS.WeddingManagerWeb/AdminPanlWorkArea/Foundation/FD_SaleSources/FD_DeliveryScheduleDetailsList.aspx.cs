@@ -298,16 +298,16 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Foundation.FD_SaleSources
         /// </summary>
         public string IsShowOrHide(object Source)
         {
-            int GuardianId = Source.ToString().ToInt32();
-            var DataList = ObjScheduleBLL.GetByGuardianID(GuardianId);
-            if (DataList.Count > 0)
-            {
-                return "style='display:block;width:72px;height:20px;'";
-            }
-            else
-            {
+            //int GuardianId = Source.ToString().ToInt32();
+            //var DataList = ObjScheduleBLL.GetByGuardianID(GuardianId);
+            //if (DataList.Count > 0)
+            //{
+            //    return "style='display:block;width:72px;height:20px;'";
+            //}
+            //else
+            //{
                 return "style='display:none'";
-            }
+            //}
         }
         #endregion
 

@@ -44,7 +44,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         public void DataBinder()
         {
             List<PMSParameters> pars = new List<PMSParameters>();
-            pars.Add("State", "15, 19, 24, 204", NSqlTypes.IN);           //审核中 新订单 执行中 确认
+            pars.Add("State", "13,15, 19, 24, 204", NSqlTypes.IN);           //审核中 新订单 执行中 确认
             if (ddlPreSchedule.SelectedValue.ToInt32() == 1)        // 已预订
             {
                 pars.Add("ScheState", 0, NSqlTypes.Equal);
@@ -58,7 +58,29 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 pars.Add("ScheState", 0, NSqlTypes.OrInt);
                 pars.Add("ScheState", null, NSqlTypes.OrInt);
             }
-            MyManager.GetEmployeePar(pars);         //按策划师查询
+
+            if (User.Identity.Name == "112" || User.Identity.Name == "120")
+            {
+                if (MyManager.SelectedValue.ToInt32() > 0)
+                {
+                    MyManager.GetEmployeePar(pars);
+                }
+            }
+            else
+            {
+                if (MyManager.SelectedValue.ToInt32() == 0)
+                {
+                    pars.Add("EmployeeID", User.Identity.Name.ToInt32(), NSqlTypes.IN, true);
+                }
+                else
+                {
+                    pars.Add("EmployeeID", MyManager.SelectedValue, NSqlTypes.Equal);
+                }
+            }
+
+
+
+
             CstmNameSelector.AppandTo(pars);        //按新人姓名查询
             pars.Add(ddlHotel1.SelectedValue.ToInt32() > 0, "WineShop", ddlHotel1.SelectedValue.ToInt32(), NSqlTypes.Equal);   //酒店
             CellphoneSelector.AppandTo(pars);       //按新人联系电话查询
@@ -90,16 +112,16 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         /// </summary> 
         protected void rptSchedule_ItemDataBound(object sender, RepeaterItemEventArgs e)
         {
-            int ScheId = (e.Item.FindControl("HideScheID") as HiddenField).Value.ToInt32();
-            if (ScheId > 0)
-            {
-                FL_QuotedPriceSchedule ObjScheduleModel = ObjScheduleBLL.GetByID(ScheId);
-                Label lblGuardianName = e.Item.FindControl("lblGuardianName") as Label;
-                Label lblGuardianType = e.Item.FindControl("lblGuardianType") as Label;
+            //int ScheId = (e.Item.FindControl("HideScheID") as HiddenField).Value.ToInt32();
+            //if (ScheId > 0)
+            //{
+            //    FL_QuotedPriceSchedule ObjScheduleModel = ObjScheduleBLL.GetByID(ScheId);
+            //    Label lblGuardianName = e.Item.FindControl("lblGuardianName") as Label;
+            //    Label lblGuardianType = e.Item.FindControl("lblGuardianType") as Label;
 
-                lblGuardianName.Text = ObjGuardianBLL.GetByID(ObjScheduleModel.ScheGuardianID.ToString().ToInt32()).GuardianName.ToString();
-                lblGuardianType.Text = ObjGuardianTypeBLL.GetByID(ObjScheduleModel.ScheGuardianType.ToString().ToInt32()).TypeName.ToString();
-            }
+            //    lblGuardianName.Text = ObjGuardianBLL.GetByID(ObjScheduleModel.ScheGuardianID.ToString().ToInt32()).GuardianName.ToString();
+            //    lblGuardianType.Text = ObjGuardianTypeBLL.GetByID(ObjScheduleModel.ScheGuardianType.ToString().ToInt32()).TypeName.ToString();
+            //}
         }
         #endregion
 

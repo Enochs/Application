@@ -125,6 +125,7 @@
                         <th style="white-space: nowrap;">婚期</th>
                         <th style="white-space: nowrap;">酒店</th>
                         <th style="white-space: nowrap;">来源渠道</th>
+                        <th style="white-space: nowrap;">邀约类型</th>
                         <th style="white-space: nowrap;">邀约人</th>
                         <th style="white-space: nowrap;">接受日期</th>
                         <th>流失时间</th>
@@ -143,6 +144,7 @@
                                 <td><%#ShowPartyDate(Eval("PartyDate")) %></td>
                                 <td><%#Eval("Wineshop") %></td>
                                 <td><%#GetChannelTypeName(Eval("ChannelType")) %></td>
+                                 <td><%#GetApplyName(Eval("ApplyType")) %></td>
                                 <td><%#GetEmployeeName(Eval("InviteEmployee")) %></td>
                                 <td><%#ShowShortDate(Eval("CreateDate")) %></td>
                                 <td><%#ShowShortDate(Eval("LastFollowDate")) %></td>

@@ -91,6 +91,7 @@
                         <th>酒店</th>
                         <th>分派日期</th>
                         <th>来源渠道</th>
+                        <th>邀约类型</th>
                         <%--<th>推荐人</th>--%>
                         <th>邀约次数</th>
                         <th>上次沟通时间</th>
@@ -112,6 +113,7 @@
                                 <td><%#Eval("WineShop") %></td>
                                 <td><%#ShowShortDate(Eval("CreateDate")) %></td>
                                 <td><%#Eval("Channel") %></td>
+                                <td><%#GetApplyName(Eval("ApplyType")) %></td>
                                 <%--<td><%#Eval("Referee") %></td>--%>
                                 <td><%#Eval("FllowCount") %></td>
                                 <td><%#GetShortDateString(Eval("LastFollowDate")) %></td>

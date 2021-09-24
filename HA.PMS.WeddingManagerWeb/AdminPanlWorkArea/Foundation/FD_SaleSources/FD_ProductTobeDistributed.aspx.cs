@@ -14,7 +14,7 @@ using HA.PMS.BLLAssmblly.Sys;
 using HA.PMS.BLLAssmblly.Emnus;
 using System.Data.Objects;
 using System.IO;
-using Ionic.Zip;
+//using Ionic.Zip;
 using System.Text;
 
 

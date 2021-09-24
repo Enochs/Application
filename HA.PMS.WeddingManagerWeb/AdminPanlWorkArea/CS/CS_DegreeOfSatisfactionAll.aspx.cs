@@ -96,7 +96,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.CS
             //写入参数
             List<PMSParameters> ObjParameterList = new List<PMSParameters>();
             ObjParameterList.Add("CdState", 2);     //已经评价满意度的
-            ObjParameterList.Add("State", 206 + "," + 208, NSqlTypes.IN);
+            //ObjParameterList.Add("State", 206 + "," + 208, NSqlTypes.IN);
             ObjParameterList.Add("IsDelete", false, NSqlTypes.Bit);
             //ObjParameterList.Add("FinishOver", true, NSqlTypes.Bit);
             //ObjParameterList.Add("ParentQuotedID", 0, NSqlTypes.Equal);
@@ -120,7 +120,11 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.CS
             ObjParameterList.Add("PartyDate", DateRanger.StartoEnd, NSqlTypes.DateBetween);
             // ObjParameterList.Add(new ObjectParameter("BrideCellPhone", txtGroomCellPhone.Text));
 
-
+            if (MyManager.SelectedValue.ToInt32() > 0)
+            {
+                ObjParameterList.Add("QuotedEmployee", MyManager.SelectedValue, NSqlTypes.Equal);
+            }
+            
 
             #region 分页页码
             int startIndex = DegreePager.StartRecordIndex;

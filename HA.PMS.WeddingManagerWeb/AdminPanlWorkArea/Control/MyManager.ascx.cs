@@ -35,9 +35,14 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.Control
         protected void Page_Load(object sender, EventArgs e)
         {
             Employee ObjEmployeeBLL = new Employee();
-            if (!ObjEmployeeBLL.IsManager(int.Parse(Request.Cookies["HAEmployeeID"].Value)))
+            int loginEmployeeId = Request.Cookies["HAEmployeeID"].Value.ToInt32();
+            if (!ObjEmployeeBLL.IsManager(loginEmployeeId))
             {
                 this.Visible = false;
+                if (loginEmployeeId == 175)
+                {
+                    this.Visible = true;
+                }
             }
 
 

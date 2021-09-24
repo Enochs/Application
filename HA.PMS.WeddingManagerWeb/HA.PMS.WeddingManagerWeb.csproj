@@ -750,6 +750,7 @@
     <Content Include="AdminPanlWorkArea\LoginOut.aspx" />
     <Content Include="AdminPanlWorkArea\MenuTree.aspx" />
     <Content Include="AdminPanlWorkArea\QuotedPrice\PraiseUpload.aspx" />
+    <Content Include="AdminPanlWorkArea\QuotedPrice\Schedule\QuotedPriceScheduleList.aspx" />
     <Content Include="AdminPanlWorkArea\SetOfBasicInformationAdminPanel.aspx" />
     <Content Include="AdminPanlWorkArea\Music\后会无期.mp3" />
     <Content Include="AdminPanlWorkArea\Music\喜欢你.mp3" />
@@ -7701,6 +7702,13 @@
     </Compile>
     <Compile Include="AdminPanlWorkArea\QuotedPrice\QuotedPriceEmployeeManager.aspx.designer.cs">
       <DependentUpon>QuotedPriceEmployeeManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanlWorkArea\QuotedPrice\Schedule\QuotedPriceScheduleList.aspx.cs">
+      <DependentUpon>QuotedPriceScheduleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanlWorkArea\QuotedPrice\Schedule\QuotedPriceScheduleList.aspx.designer.cs">
+      <DependentUpon>QuotedPriceScheduleList.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanlWorkArea\SetOfBasicInformationAdminPanel.aspx.cs">
       <DependentUpon>SetOfBasicInformationAdminPanel.aspx</DependentUpon>

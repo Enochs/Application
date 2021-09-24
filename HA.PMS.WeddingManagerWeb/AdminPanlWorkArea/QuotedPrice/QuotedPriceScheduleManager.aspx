@@ -57,11 +57,6 @@
                     <th>婚期</th>
                     <th>酒店</th>
                     <th>状态</th>
-                    <th>预定人员</th>
-                    <th>类型</th>
-                    <th>订金</th>
-                    <th>预定时间</th>
-                    <th>备注</th>
                     <th>操作</th>
                 </tr>
             </thead>
@@ -74,16 +69,7 @@
                             <td><%#Eval("PartyDate","{0:yyyy-MM-dd}") %></td>
                             <td><%#Eval("WineShop") %></td>
                             <td><%#GetCustomerStateStr(Eval("State")) %></td>
-                            <td>
-                                <asp:Label runat="server" ID="lblGuardianName" />
-                                <asp:HiddenField runat="server" ID="HideScheID" Value='<%#Eval("ScheID") %>' />
-                            </td>
-                            <td>
-                                <asp:Label runat="server" ID="lblGuardianType" /></td>
-                            <td><%#Eval("SchePayMent") %></td>
-                            <td><%#Eval("ScheCreateDate") %></td>
-                            <td>
-                                <asp:Label runat="server" ID="lblRemark" Text='<%#Eval("ScheReamrk") %>' Style="width: 150px" /></td>
+<%--                            <td><%#GetGuardianName(Eval("CustomerID")) %></td>--%>
                             <td>
                                 <a target="_blank" href='CreateSchedule.aspx?CustomerID=<%#Eval("CustomerID") %>&OrderID=<%#Eval("OrderID") %>&QuotedID=<%#Eval("QuotedID") %>&Type=Edit' class="btn btn-primary btn-mini">预定</a>
                             </td>

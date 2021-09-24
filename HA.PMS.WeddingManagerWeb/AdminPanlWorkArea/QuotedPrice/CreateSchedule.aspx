@@ -8,7 +8,7 @@
     <script type="text/javascript">
         //指定四大金刚
         function ChangeFourGuardian(Parent, CallBack) {
-            var Url = "/AdminPanlWorkArea/ControlPage/SelectFourGuardian.aspx?Callback=" + CallBack + "&ALL=true&ControlKey=hideGuardianID&SetEmployeeName=txtGuardianName&ParentControl=" + $(Parent).parent().attr("id");
+            var Url = "/AdminPanlWorkArea/ControlPage/SelectSupplierBythis.aspx?Callback=" + CallBack + "&ALL=true&ControlKey=hideGuardianID&SetEmployeeName=txtGuardianName&ParentControl=" + $(Parent).parent().attr("id");
             showPopuWindows(Url, 700, 300, "#SelectEmpLoyeeBythis");
             $("#SelectEmpLoyeeBythis").click();
         }
@@ -16,7 +16,7 @@
 
         //改派四大金刚
         function ChangeFourGuardians(Parent, CallBack) {
-            var Url = "/AdminPanlWorkArea/ControlPage/SelectFourGuardian.aspx?Callback=" + CallBack + "&ALL=true&ControlKey=HideGuardID&SetEmployeeName=txtGuardianNames&ParentControl=" + $(Parent).parent().attr("id");
+            var Url = "/AdminPanlWorkArea/ControlPage/SelectSupplierBythis.aspx?Callback=" + CallBack + "&ALL=true&ControlKey=HideGuardID&SetEmployeeName=txtGuardianNames&ParentControl=" + $(Parent).parent().attr("id");
             showPopuWindows(Url, 700, 300, "#SelectEmpLoyeeBythis");
             $("#SelectEmpLoyeeBythis").click();
         }
@@ -35,25 +35,22 @@
         <div runat="server" id="div_insert">
             <table class="table table-bordered" style="width: 98%;">
                 <tr>
-                    <td>四大金刚:</td>
-                    <td style="text-align: left;" id="<%=Guid.NewGuid().ToString()+"1" %>">
-                        <lable style="display: none;">
-                            <asp:Button ID="btnFourGuardianSave" CommandName="SaveItem" ClientIDMode="Static" runat="server" Text="四大金刚保存" CssClass="btn btn-success" OnClick="btnFourGuardianSave_Click" />
-                        </lable>
-                        <asp:HiddenField ID="hideGuardianID" runat="server" ClientIDMode="Static" />
 
-                        <asp:TextBox runat="server" ID="txtGuardianName" ReadOnly="true" />
-                        <input id="btnSetjingang" class="btn btn-primary" type="button" value="指定四大金刚" onclick="ChangeFourGuardian(this, 'btnFourGuardianSave')" />
-                    </td>
                     <td>类型:</td>
                     <td>
-                        <asp:TextBox runat="server" ID="txtGuardianType" /></td>
-                    <td>价格:</td>
+                        <asp:TextBox runat="server" ID="txtType" /></td>
+                    <td>名称:</td>
                     <td>
-                        <asp:TextBox runat="server" ID="txtPrice" /></td>
-                    <td>订金:</td>
+                        <asp:TextBox runat="server" ID="txtName" /></td>
+                    <td>报价:</td>
                     <td>
-                        <asp:TextBox runat="server" ID="txtPayMents" /></td>
+                        <asp:TextBox runat="server" ID="txtOfferPrice" /></td>
+                    <td>合作价:</td>
+                    <td>
+                        <asp:TextBox runat="server" ID="txtCooperatePrice" /></td>
+                    <td>定金:</td>
+                    <td>
+                        <asp:TextBox runat="server" ID="txtDepositPrice" /></td>
                     <td>备注</td>
                     <td>
                         <asp:TextBox runat="server" ID="txtReamrk" TextMode="MultiLine" /></td>
@@ -70,11 +67,12 @@
         <table class="table table-bordered table_list" style="width: 98%;">
             <thead>
                 <tr>
-                    <th style="width: 15%;">四大金刚</th>
                     <th style="width: 10%;">类型</th>
-                    <th style="width: 10%;">价格</th>
-                    <th style="width: 10%;">订金</th>
-                    <th style="width: 10%;">预定时间</th>
+                    <th style="width: 15%;">名称</th>
+                    <th style="width: 10%;">报价</th>
+                    <th style="width: 10%;">合作价</th>
+                    <th style="width: 10%;">定金</th>
+                    <th style="width: 10%;">创建时间</th>
                     <th style="width: 20%;">备注</th>
                     <th style="width: 10%;">操作</th>
                 </tr>
@@ -82,19 +80,19 @@
             <asp:Repeater runat="server" ID="rptScheduleList" OnItemDataBound="rptScheduleList_ItemDataBound" OnItemCommand="rptScheduleList_ItemCommand">
                 <ItemTemplate>
                     <tr>
-                        <td id="<%=Guid.NewGuid().ToString() %>">
-                            <asp:HiddenField runat="server" ID="HideGuardID" ClientIDMode="Static" />
-                            <asp:TextBox runat="server" ID="txtGuardianNames" Enabled="false" Style="width: 70px;" />
-                            <input id="btnSetjingang" class="btn btn-primary btn-mini" type="button" value="改派" onclick="ChangeFourGuardians(this, 'btnChangeFourGuardianSave')" />
 
+                        <td>
+                            <asp:Label runat="server" ID="lblScheType"><%#Eval("ScheType") %></asp:Label>
                         </td>
                         <td>
-                            <asp:Label runat="server" ID="lblGuardianType" />
+                            <asp:Label runat="server" ID="lblScheName"><%#Eval("ScheName") %></asp:Label>
                         </td>
                         <td>
-                            <asp:Label runat="server" ID="lblGuardianPrice" Text='<%#Eval("ScheGuardianPrice") %>' /></td>
+                            <asp:TextBox runat="server" ID="txtScheOfferPrice" Text='<%#Eval("ScheOfferPrice") %>' /></td>
                         <td>
-                            <asp:TextBox runat="server" ID="txtPayMent" Text='<%#Eval("SchePayMent") %>' /></td>
+                            <asp:TextBox runat="server" ID="txtScheCollperatePrice" Text='<%#Eval("ScheCooperatePrice") %>' /></td>
+                        <td>
+                            <asp:TextBox runat="server" ID="txtScheDepositPrice" Text='<%#Eval("ScheDepositPrice") %>' /></td>
                         <td><%#Eval("ScheCreateDate") %></td>
                         <td>
                             <asp:Label runat="server" ID="lblRemark" Text='<%#Eval("ScheReamrk") %>' Style="width: 150px" /></td>

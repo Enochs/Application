@@ -151,18 +151,22 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 }
             }
 
+
+
+            int EmployeeId = 0;
+            CustomerID = Request["CustomerID"].ToInt32();
+
             int OrderID = Request["OrderID"].ToInt32();
             var PlanList = ObjQuotedCollectionsPlanBLL.GetByOrderID(OrderID);
-            int EmployeeId = 0;
             if (PlanList.Count > 0)
             {
+
                 if (Request["Type"] == "Loss")       //退款   退款金额就该订单的从最后一个收款人的现金流中减掉
                 {
                     int PlanId = PlanList.Max(C => C.PlanID).ToString().ToInt32();
                     EmployeeId = ObjQuotedCollectionsPlanBLL.GetByID(PlanId).CreateEmpLoyee.ToString().ToInt32();
 
                     //修改状态为 退单
-                    CustomerID = Request["CustomerID"].ToInt32();
                     var Model = ObjCustomerBLL.GetByID(CustomerID);
                     if (rdoNodes.SelectedValue.ToInt32() == 5)          //退订 需要改变状态
                     {
@@ -181,6 +185,13 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 EmployeeId = User.Identity.Name.ToInt32();
             }
 
+            //策划报价数据
+            var m_quotedPrice = ObjQuotedPriceBLL.GetByCustomerID(CustomerID);
+            if (m_quotedPrice != null)
+            {
+                EmployeeId = m_quotedPrice.EmpLoyeeID.ToString().ToInt32();
+            }
+
 
             int result = ObjQuotedCollectionsPlanBLL.Insert(new DataAssmblly.FL_QuotedCollectionsPlan()
             {
@@ -188,7 +199,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 QuotedID = Request["QuotedID"].ToInt32(),
                 RealityAmount = txtAmount.Text.ToDecimal(),
                 CollectionTime = txtTimer.Text.ToDateTime().ToShortDateString().ToDateTime(),
-                CreateEmpLoyee = User.Identity.Name.ToInt32(),
+                CreateEmpLoyee = EmployeeId,
                 AmountEmployee = EmployeeId,
                 FinancialEmployee = EmployeeId,
                 CreateDate = txtTimer.Text.ToDateTime().ToShortDateString().ToDateTime(),
@@ -204,10 +215,10 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
 
             if (txtTimer.Text.ToDateTime().ToShortDateString().ToDateTime().Year == DateTime.Now.Year)
             {
-                GetRealitySumMoney();
+                GetRealitySumMoney(EmployeeId);
             }
 
-            //操作日志  收款
+            ////操作日志  收款
             CreateHandle(1);
             JavaScriptTools.AlertWindowAndLocation("保存成功", Request.Url.ToString(), Page);
 

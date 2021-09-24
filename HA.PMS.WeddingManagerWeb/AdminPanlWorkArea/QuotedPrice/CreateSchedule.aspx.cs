@@ -75,21 +75,6 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         }
         #endregion
 
-        #region 选择四大金刚
-        /// <summary>
-        /// 选择四大金刚 进行绑定
-        /// </summary>
-        /// <param name="Type"></param>
-        protected void btnFourGuardianSave_Click(object sender, EventArgs e)
-        {
-            int GuardianID = hideGuardianID.Value.ToInt32();
-            FD_FourGuardian ObjGuardianModel = ObjGuardianBLL.GetByID(GuardianID);
-            txtGuardianName.Text = ObjGuardianModel.GuardianName;       //四大金刚名称
-            txtPrice.Text = ObjGuardianModel.CooperationPrice.ToString();       //价格
-            txtGuardianType.Text = ObjGuardianTypeBLL.GetByID(ObjGuardianModel.GuardianTypeId.ToString().ToInt32()).TypeName;       //四大金刚类型
-        }
-        #endregion
-
         #region 点击添加
         /// <summary>
         /// 添加事件 添加功能
@@ -101,10 +86,11 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
             ObjScheduleModel.ScheCustomerID = CustomerID;
             ObjScheduleModel.ScheOrderID = OrderID;
             ObjScheduleModel.ScheQuotedID = QuotedID;
-            ObjScheduleModel.ScheGuardianID = hideGuardianID.Value.ToInt32();
-            ObjScheduleModel.ScheGuardianType = ObjGuardianBLL.GetByID(hideGuardianID.Value.ToInt32()).GuardianTypeId;
-            ObjScheduleModel.ScheGuardianPrice = txtPrice.Text.ToString().ToDecimal();
-            ObjScheduleModel.SchePayMent = txtPayMents.Text.ToString().ToDecimal();
+            ObjScheduleModel.ScheType = txtType.Text.ToString().Trim();
+            ObjScheduleModel.ScheName = txtName.Text.ToString().Trim();
+            ObjScheduleModel.ScheOfferPrice = txtOfferPrice.Text.ToString().ToDecimal();          //报价
+            ObjScheduleModel.ScheCooperatePrice = txtCooperatePrice.Text.ToString().ToDecimal();             //合作价
+            ObjScheduleModel.ScheDepositPrice = txtDepositPrice.Text.ToString().ToDecimal();   //定金
 
             ObjScheduleModel.ScheState = 0;     //第一次添加
             var DataList = ObjScheduleBLL.GetByCustomerID(CustomerID);      //第n次添加
@@ -135,23 +121,6 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         }
         #endregion
 
-        #region 数据绑定完成时间 ItemDataBound
-        /// <summary>
-        /// 绑定
-        /// </summary> 
-        protected void rptScheduleList_ItemDataBound(object sender, RepeaterItemEventArgs e)
-        {
-            int ScheId = (e.Item.FindControl("HideScheID") as HiddenField).Value.ToInt32();
-            FL_QuotedPriceSchedule ObjScheduleModel = ObjScheduleBLL.GetByID(ScheId);
-            TextBox txtGuardianName = e.Item.FindControl("txtGuardianNames") as TextBox;
-            Label lblGuardianType = e.Item.FindControl("lblGuardianType") as Label;
-
-            txtGuardianName.Text = ObjGuardianBLL.GetByID(ObjScheduleModel.ScheGuardianID.ToString().ToInt32()).GuardianName.ToString();
-            txtGuardianName.ToolTip = ObjGuardianBLL.GetByID(ObjScheduleModel.ScheGuardianID.ToString().ToInt32()).GuardianName.ToString();
-            lblGuardianType.Text = ObjGuardianTypeBLL.GetByID(ObjScheduleModel.ScheGuardianType.ToString().ToInt32()).TypeName.ToString();
-        }
-        #endregion
-
         #region 绑定事件 修改 删除
         /// <summary>
         /// 执行删除
@@ -167,7 +136,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 var ObjScheModel = ObjScheduleBLL.GetByID(ScheID);
                 if (ObjScheModel != null)
                 {
-                    string name = ObjGuardianBLL.GetByID((ObjScheModel.ScheGuardianID)).GuardianName;
+                    string name = ObjScheModel.ScheName;
                     var costModel = ObjCostSumBLL.GetByDispatchingIDName(DispatchingID, name + "(预定)");
                     var stateModel = ObjStatementBLL.GetByDispatchingID(DispatchingID, name + "(预定)");
                     if (costModel != null)
@@ -191,20 +160,15 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
             }
             else if (e.CommandName == "Save")       //修改 保存
             {
-                Label lblGuardianPrice = e.Item.FindControl("lblGuardianPrice") as Label;
-                TextBox txtPayMent = e.Item.FindControl("txtPayMent") as TextBox;
-                HiddenField HideGuard = e.Item.FindControl("HideGuardID") as HiddenField;
+                TextBox txtScheOfferPrice = e.Item.FindControl("txtScheOfferPrice") as TextBox;             //合作价
+                TextBox txtScheCollperatePrice = e.Item.FindControl("txtScheCollperatePrice") as TextBox;   //定金
+                TextBox txtScheDepositPrice = e.Item.FindControl("txtScheDepositPrice") as TextBox;         //保证金
+
                 var Model = ObjScheduleBLL.GetByID(ScheID);
 
-                if (HideGuard.Value != "")
-                {
-                    Model.ScheGuardianID = HideGuard.Value.ToInt32();
-                    Model.ScheGuardianType = ObjGuardianBLL.GetByID(HideGuard.Value.ToInt32()).GuardianTypeId;
-                }
-                Model.ScheGuardianPrice = lblGuardianPrice.Text.Trim().ToString().ToDecimal();
-                Model.SchePayMent = txtPayMent.Text.Trim().ToString().ToDecimal();
-                Model.ScheCreateDate = DateTime.Now;
-                Model.ScheCreateEmployee = User.Identity.Name.ToInt32();
+                Model.ScheOfferPrice = txtScheOfferPrice.Text.Trim().ToString().ToDecimal();
+                Model.ScheCooperatePrice = txtScheCollperatePrice.Text.Trim().ToString().ToDecimal();
+                Model.ScheDepositPrice = txtScheDepositPrice.Text.Trim().ToString().ToDecimal();
 
                 int result = ObjScheduleBLL.Update(Model);
                 if (result > 0)
@@ -233,6 +197,19 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         }
         #endregion
 
+        #region 数据绑定完成时间 ItemDataBound
+        /// <summary>
+        /// 绑定
+        /// </summary> 
+        protected void rptScheduleList_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            int ScheId = (e.Item.FindControl("HideScheID") as HiddenField).Value.ToInt32();
+            FL_QuotedPriceSchedule ObjScheduleModel = ObjScheduleBLL.GetByID(ScheId);
+            TextBox txtGuardianName = e.Item.FindControl("txtGuardianNames") as TextBox;
+            Label lblGuardianType = e.Item.FindControl("lblGuardianType") as Label;
+        }
+        #endregion
+
         #region 算出总成本
         /// <summary>
         /// 计算成本
@@ -242,22 +219,23 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
         public void InsertCostSum(FL_QuotedPriceSchedule item)
         {
             int DispatchingID = GetDispatchingID();
-            string Name = ObjGuardianBLL.GetByID(item.ScheGuardianID).GuardianName.ToString() + "(预定)";
+            //string Name = ObjSupplierBLL.GetByID(item.ScheGuardianID).Name.ToString() + "(预定)";
+            string Name = item.ScheName + "(预定)";
             var CostModel = ObjCostSumBLL.GetByDispatchingIDName(DispatchingID, Name);
             if (CostModel == null)
             {
                 FL_CostSum cost = new FL_CostSum();
                 cost.RowType = 4;
                 cost.Name = Name;
-                cost.Sumtotal = item.SchePayMent.ToString().ToDecimal();
-                cost.ActualSumTotal = item.SchePayMent.ToString().ToDecimal();
+                cost.Sumtotal = item.ScheDepositPrice.ToString().ToDecimal();
+                cost.ActualSumTotal = item.ScheDepositPrice.ToString().ToDecimal();
                 cost.DispatchingID = DispatchingID.ToString().ToInt32();
                 cost.CustomerId = Request["CustomerID"].ToInt32();
                 cost.OrderID = Request["OrderID"].ToInt32();
                 cost.QuotedID = Request["QuotedID"].ToInt32();
                 cost.EmployeeID = User.Identity.Name.ToInt32();
-                cost.CategoryName = "预定" + Name;        //类型名称
-                cost.Content = "预定" + Name;             //内容
+                cost.CategoryName = Name;        //类型名称
+                cost.Content = Name;             //内容
                 cost.Evaluation = 6;
                 cost.CreateDate = DateTime.Now.ToString().ToDateTime();
                 cost.Advance = "";
@@ -337,12 +315,15 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
 
                     FL_Statement ObjStatementModel = new FL_Statement();
                     GuardianType ObjGuardTypeBLL = new GuardianType();
-                    var ObjFourGuardianModel = ObjGuardianBLL.GetByName(item.Name.Replace("(预定)", ""));
+                    var ObjSupplerModel = ObjSupplierBLL.GetByName(item.Name.Replace("(预定)", ""));
 
                     ObjStatementModel.Name = item.Name;
-                    ObjStatementModel.SupplierID = hideGuardianID.Value.ToInt32();
-                    ObjStatementModel.TypeID = ObjFourGuardianModel.GuardianTypeId.ToString().ToInt32();
-                    ObjStatementModel.TypeName = ObjGuardTypeBLL.GetByID(ObjFourGuardianModel.GuardianTypeId).TypeName;
+                    //ObjStatementModel.SupplierID = hideGuardianID.Value.ToInt32();
+                    if (ObjSupplerModel != null)
+                    {
+                        ObjStatementModel.TypeID = ObjSupplerModel.CategoryID.ToString().ToInt32();
+                        ObjStatementModel.TypeName = ObjSuplierTypeBLL.GetByID(ObjSupplerModel.CategoryID).TypeName;
+                    }
                     ObjStatementModel.RowType = 4;
 
                     ObjStatementModel.CustomerID = Request["CustomerID"].ToInt32();
@@ -353,8 +334,8 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                     ObjStatementModel.QuotedId = Request["QuotedID"].ToInt32();
                     ObjStatementModel.Remark = "";
                     ObjStatementModel.Finishtation = "";
-                    ObjStatementModel.SumTotal = txtPrice.Text.Trim().ToString().ToDecimal();
-                    ObjStatementModel.PayMent = txtPayMents.Text.Trim().ToDecimal();
+                    ObjStatementModel.SumTotal = txtOfferPrice.Text.Trim().ToString().ToDecimal();
+                    ObjStatementModel.PayMent = txtDepositPrice.Text.Trim().ToDecimal();
                     ObjStatementModel.NoPayMent = ObjStatementModel.SumTotal - ObjStatementModel.PayMent;
                     FL_Statement StatementModel = ObjStatementBLL.GetByDispatchingID(DispatchingID, item.Name);
                     if (StatementModel != null)    //已经存在
@@ -396,10 +377,10 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
                 int GuardianID = HideGuardID.Value.ToInt32();
                 if (GuardianID != 0)
                 {
-                    FD_FourGuardian ObjGuardianModel = ObjGuardianBLL.GetByID(GuardianID);
-                    txtGuardianNames.Text = ObjGuardianModel.GuardianName;       //四大金刚名称
-                    lblGuardianType.Text = ObjGuardianTypeBLL.GetByID(ObjGuardianModel.GuardianTypeId).TypeName;
-                    lblGuardianPrice.Text = ObjGuardianModel.CooperationPrice.ToString();
+                    FD_Supplier objSupplierModel = ObjSupplierBLL.GetByID(GuardianID);
+                    txtGuardianNames.Text = objSupplierModel.Name;       //四大金刚名称
+                    lblGuardianType.Text = ObjSuplierTypeBLL.GetByID(objSupplierModel.CategoryID).TypeName;
+                    lblGuardianPrice.Text = "0";
                     txtPayMent.Text = "0";
                 }
             }

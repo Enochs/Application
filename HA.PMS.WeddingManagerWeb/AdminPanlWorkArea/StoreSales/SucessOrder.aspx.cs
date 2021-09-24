@@ -66,7 +66,7 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.StoreSales
         {
             var objParmList = new List<PMSParameters>();
             //状态
-            objParmList.Add("State", (int)CustomerStates.SucessOrder + "," + (int)CustomerStates.DoingChecksQuotedPrice + "," + (int)CustomerStates.DoingCarrytask, NSqlTypes.IN);
+            //objParmList.Add("State", (int)CustomerStates.SucessOrder + "," + (int)CustomerStates.DoingChecksQuotedPrice + "," + (int)CustomerStates.DoingCarrytask, NSqlTypes.IN);
             //objParmList.Add("State", (int)CustomerStates.SucessOrder + "," + (int)CustomerStates.DoingQuotedPrice, NSqlTypes.IN);
             //顾问
             MyManager.GetEmployeePar(objParmList);
@@ -94,6 +94,10 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.StoreSales
             int startIndex = CtrPageIndex.StartRecordIndex;
             int SourceCount = 0;
             var DataList = ObjOrderBLL.GetByWhereParameter(objParmList, "LastFollowDate", CtrPageIndex.PageSize, CtrPageIndex.CurrentPageIndex, out SourceCount);
+             foreach (var item in DataList)
+            {
+                item.NextFlowDate = item.QuotedCreateDate.Value.AddDays(15);
+            }
 
             //合计
             var ObjDataList = ObjOrderBLL.GetByWhereParameter(objParmList, "LastFollowDate", 1000000, 1, out SourceCount);

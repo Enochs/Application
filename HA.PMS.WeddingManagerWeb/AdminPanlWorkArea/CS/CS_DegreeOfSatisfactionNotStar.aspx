@@ -5,6 +5,7 @@
 <%@ Register Assembly="HA.PMS.ToolsLibrary" Namespace="HA.PMS.ToolsLibrary" TagPrefix="cc1" %>
 <%@ Register Src="~/AdminPanlWorkArea/Control/MessageBoard.ascx" TagPrefix="HA" TagName="MessageBoard" %>
 <%@ Register Src="~/AdminPanlWorkArea/Control/MessageBoardforall.ascx" TagPrefix="HA" TagName="MessageBoardforall" %>
+<%@ Register Src="../Control/MyManager.ascx" TagName="MyManager" TagPrefix="uc1" %>
 
 
 <%@ Register Src="../Control/DateRanger.ascx" TagName="DateRanger" TagPrefix="uc1" %>
@@ -100,6 +101,9 @@
                                         <uc1:DateRanger ID="DateRanger" runat="server" Title="婚期" />
                                     </td>
                                     <td>&nbsp;</td>
+                                    <td>
+                                        <uc1:MyManager ID="MyManager" runat="server" Title="策划师" />
+                                    </td>
                                     <td>
                                         <asp:Button CssClass="btn btn-primary" Height="27" ID="btnCustomerQuery" OnClick="btnCustomerQuery_Click" runat="server" Text="查找" />
                                         <cc2:btnReload runat="server" ID="btnReload" />

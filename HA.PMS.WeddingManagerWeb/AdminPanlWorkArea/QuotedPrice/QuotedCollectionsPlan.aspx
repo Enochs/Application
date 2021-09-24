@@ -75,6 +75,7 @@
                                 <td><%#GetCustomerStateStr(Eval("State")) %></td>
                                 <td><%#Eval("FinishAmount") %></td>
                                 <td><%#GetFinishMoney(Eval("CustomerID")) %></td>
+
                                 <td><%#GetOverFinishMoney(Eval("CustomerID")) %></td>
                                 <td><a target="_blank" class="btn btn-primary btn-mini"
                                     href="QuotedCollectionsPlanCreate.aspx?OrderID=<%#Eval("OrderID") %>&QuotedID=<%#Eval("QuotedID") %>&CustomerID=<%#Eval("CustomerID") %>&NeedPopu=1">收款

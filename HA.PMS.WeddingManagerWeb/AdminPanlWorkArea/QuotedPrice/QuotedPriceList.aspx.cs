@@ -138,6 +138,10 @@ namespace HA.PMS.WeddingManagerWeb.AdminPanlWorkArea.QuotedPrice
             int startIndex = CtrPageIndex.StartRecordIndex;
             int SourceCount = 0;
             var DataList = ObjQuotedPriceBLL.GetByWhereParameter(objParmList, SortName, CtrPageIndex.PageSize, CtrPageIndex.CurrentPageIndex, out SourceCount);
+            foreach (var item in DataList)
+            {
+                item.OrderNextFollowDate = item.QuotedCreateDate.Value.AddDays(15);
+            }
 
             //将状态为未跟单或者到店的客户状态修改为成功预定
             var StateList = ObjQuotedPriceBLL.GetByWhereParameter(objParmList, SortName, 2000, CtrPageIndex.CurrentPageIndex, out SourceCount).Where(C => C.State == 8 || C.State == 9).ToList();
