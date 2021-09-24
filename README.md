@@ -12,3 +12,6 @@
 8.财务统计
 9.新人回访
 10.新人取件
+
+推送大小的限制： git config --global http.postBuffer 524288000
+token: git remote set-url origin https://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@github.com/Enochs/Application.git
