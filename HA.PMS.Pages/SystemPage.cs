@@ -43,6 +43,9 @@ namespace HA.PMS.Pages
 
         CelebrationPackage ObjCeleBrationBLL = new CelebrationPackage();
 
+        //预定人员
+        QuotedPriceSchedule ObjShceduleBLL = new QuotedPriceSchedule();
+
 
         /// <summary>
         /// 订单操作
@@ -61,6 +64,8 @@ namespace HA.PMS.Pages
         /// 服务类型
         /// </summary>
         Member ObjMemberBLL = new Member();
+
+        Supplier ObjSupplierBLL = new Supplier();
 
 
 
@@ -1876,6 +1881,31 @@ namespace HA.PMS.Pages
             return name;
         }
         #endregion
+
+
+        /// <summary>
+        /// @author:wp
+        /// @datetime:2019-09-28
+        /// @desc:获取预定的供应商 人员  
+        /// </summary>
+        /// <returns></returns>
+        public string GetGuardianName(object Source)
+        {
+            string guardianName = string.Empty;
+            int CustomerID = Source.ToString().ToInt32();
+
+            var shceduleList = ObjShceduleBLL.GetByCustomerID(CustomerID);
+            foreach (var item in shceduleList)
+            {
+                guardianName = item.ScheName+",";
+            }
+            if (!string.IsNullOrEmpty(guardianName))
+            {
+                guardianName = guardianName.Substring(0, guardianName.Length - 1);
+            }
+            return guardianName;
+
+        }
 
     }
 }

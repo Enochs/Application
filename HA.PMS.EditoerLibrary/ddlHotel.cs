@@ -15,7 +15,7 @@ namespace HA.PMS.EditoerLibrary
         {
             this.Width = 75;
             Hotel objHotelBLL = new Hotel();
-            this.DataSource = objHotelBLL.GetByAll().OrderBy(C => C.Letter);
+            this.DataSource = objHotelBLL.GetByAll().OrderBy(C => C.HotelName.Trim());
             this.DataTextField = "HotelName";
             this.DataValueField = "HotelID";
             this.DataBind();
